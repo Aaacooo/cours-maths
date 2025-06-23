@@ -1,0 +1,205 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Algèbre linéaire}{7}{}%
+\contentsline {chapter}{\numberline {1}Structure d'espace vectoriel sur un corps $\mathbb {K}$}{9}{}%
+\contentsline {section}{\numberline {1.1}Présentation}{10}{}%
+\contentsline {subsection}{\numberline {1.1.1}Exemple prélimminaire}{10}{}%
+\contentsline {subsection}{\numberline {1.1.2}Définition générale}{10}{}%
+\contentsline {subsection}{\numberline {1.1.3}Propriétés élémentaires}{10}{}%
+\contentsline {subsection}{\numberline {1.1.4}Exemples}{10}{}%
+\contentsline {subsubsection}{Usuels}{10}{}%
+\contentsline {subsubsection}{Théoriques}{10}{}%
+\contentsline {section}{\numberline {1.2}Sous-espaces vectoriels}{10}{}%
+\contentsline {subsection}{\numberline {1.2.1}Définition}{10}{}%
+\contentsline {subsection}{\numberline {1.2.2}Caractérisation}{10}{}%
+\contentsline {subsection}{\numberline {1.2.3}Exemples}{10}{}%
+\contentsline {subsubsection}{Dans $\mathbb {C}$ : $\mathbb {R}$ev}{10}{}%
+\contentsline {subsubsection}{Dans $\mathbb {R}^2{}$, $\mathbb {R}$ev}{10}{}%
+\contentsline {subsubsection}{...}{10}{}%
+\contentsline {subsection}{\numberline {1.2.4}Intersection de sous-espaces vectoriels}{10}{}%
+\contentsline {subsubsection}{Démonstration}{10}{}%
+\contentsline {subsubsection}{Remarque}{10}{}%
+\contentsline {section}{\numberline {1.3}Familles libres ou liées}{10}{}%
+\contentsline {subsection}{\numberline {1.3.1}Définitions}{10}{}%
+\contentsline {subsubsection}{Partie libre}{10}{}%
+\contentsline {subsubsection}{Partie liée}{10}{}%
+\contentsline {subsection}{\numberline {1.3.2}Propriétés immédiates}{10}{}%
+\contentsline {subsection}{\numberline {1.3.3}Deux résultats}{10}{}%
+\contentsline {section}{\numberline {1.4}Sous-espace engendré par une partie}{10}{}%
+\contentsline {subsection}{\numberline {1.4.1}Présentation générale}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Description}{10}{}%
+\contentsline {subsubsection}{Cas d'une partie génératrice $\Omega $ finie}{10}{}%
+\contentsline {subsection}{\numberline {1.4.2}Somme de sous-$\mathbb {K}$ev}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Propriété}{10}{}%
+\contentsline {subsection}{\numberline {1.4.3}Sommes directes}{10}{}%
+\contentsline {subsubsection}{Pour deux sous-$\mathbb {K}$ev de $E$}{10}{}%
+\contentsline {subsubsection}{Généralisation à $n$ sous-$\mathbb {K}$ev de $E$}{10}{}%
+\contentsline {subsection}{\numberline {1.4.4}Sous-espaces supplémentaires}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Caractérisation}{10}{}%
+\contentsline {subsubsection}{Exemple usuelle}{10}{}%
+\contentsline {subsubsection}{Contre-exemple usuel}{10}{}%
+\contentsline {chapter}{\numberline {2}$\mathbb {K}$-espaces vectoriels de dimension finie}{11}{}%
+\contentsline {section}{\numberline {2.1}Présentation}{12}{}%
+\contentsline {subsection}{\numberline {2.1.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Comparaison des cardinaux d'une partie libre et d'une partie génératrice}{12}{}%
+\contentsline {subsubsection}{Démonstration}{12}{}%
+\contentsline {subsubsection}{Illustration}{12}{}%
+\contentsline {subsection}{\numberline {2.1.3}Bases}{12}{}%
+\contentsline {subsubsection}{Définition}{12}{}%
+\contentsline {subsubsection}{Caractérisation}{12}{}%
+\contentsline {subsubsection}{Exemples usuels}{12}{}%
+\contentsline {subsubsection}{Existence de bases}{12}{}%
+\contentsline {subsubsection}{Théorèmes de la base incomplète et de la base extraite}{12}{}%
+\contentsline {section}{\numberline {2.2}Dimension d'un $\mathbb {K}$ev de dimension finie}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}Exemples usuels}{12}{}%
+\contentsline {subsection}{\numberline {2.2.3}Caractérisation d'une base quand on connaît la dimension}{12}{}%
+\contentsline {subsubsection}{Énoncé}{12}{}%
+\contentsline {subsubsection}{Démonstration}{12}{}%
+\contentsline {subsubsection}{Illustration}{12}{}%
+\contentsline {subsection}{\numberline {2.2.4}Formules de dimensions}{12}{}%
+\contentsline {subsubsection}{Inclusion, égalité}{12}{}%
+\contentsline {subsubsection}{Somme}{12}{}%
+\contentsline {subsubsection}{Produit cartésien}{12}{}%
+\contentsline {subsubsection}{Supplémentaire}{12}{}%
+\contentsline {section}{\numberline {2.3}Rang d'un système de vecteurs}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {2.3.2}Deux résultats pratiques}{12}{}%
+\contentsline {subsubsection}{Système triangulaire}{12}{}%
+\contentsline {subsubsection}{Théorème d'invariance}{12}{}%
+\contentsline {subsection}{\numberline {2.3.3}Méthode}{12}{}%
+\contentsline {chapter}{\numberline {3}Applications linéaires}{13}{}%
+\contentsline {section}{\numberline {3.1}Présentation}{14}{}%
+\contentsline {subsection}{\numberline {3.1.1}Définitions}{14}{}%
+\contentsline {subsubsection}{Générale}{14}{}%
+\contentsline {subsubsection}{Précisions}{14}{}%
+\contentsline {subsubsection}{Compléments}{14}{}%
+\contentsline {subsection}{\numberline {3.1.2}Exemples usuels}{14}{}%
+\contentsline {subsection}{\numberline {3.1.3}Propriétés simples}{14}{}%
+\contentsline {subsubsection}{Sous-$\mathbb {K}$evs}{14}{}%
+\contentsline {subsubsection}{Caractérisation de l'injectivité}{14}{}%
+\contentsline {subsubsection}{Composée}{14}{}%
+\contentsline {subsubsection}{Réciproque}{14}{}%
+\contentsline {subsection}{\numberline {3.1.4}Structures}{14}{}%
+\contentsline {section}{\numberline {3.2}Précisions quand $E$ est de dimension finie}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Concernant Im$(f)$}{14}{}%
+\contentsline {subsection}{\numberline {3.2.2}Si de plus $(e_1,...,e_n)$ est une base de $E$}{14}{}%
+\contentsline {subsection}{\numberline {3.2.3}Étude analytique quand $E$ et $F$ sont de dimension finie}{14}{}%
+\contentsline {subsubsection}{Données}{14}{}%
+\contentsline {subsubsection}{But}{14}{}%
+\contentsline {subsubsection}{Résolution}{14}{}%
+\contentsline {subsubsection}{Conclusion}{14}{}%
+\contentsline {section}{\numberline {3.3}Rang d'une AL}{14}{}%
+\contentsline {subsection}{\numberline {3.3.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.3.2}Théorème du rang}{14}{}%
+\contentsline {subsection}{\numberline {3.3.3}Conséquence lorsque dim$(E)$ = dim$(F)$}{14}{}%
+\contentsline {subsection}{\numberline {3.3.4}Isomorphismes}{14}{}%
+\contentsline {subsubsection}{Caractérisation de la bijectivité d'une AL}{14}{}%
+\contentsline {subsubsection}{Première conséquence}{14}{}%
+\contentsline {subsubsection}{Conséquence générale}{14}{}%
+\contentsline {subsubsection}{Invariance du rang par composition par isomorphisme}{14}{}%
+\contentsline {section}{\numberline {3.4}Projecteurs et symétries}{14}{}%
+\contentsline {subsection}{\numberline {3.4.1}Définitions}{14}{}%
+\contentsline {subsection}{\numberline {3.4.2}Propriétés}{14}{}%
+\contentsline {subsubsection}{Relation}{14}{}%
+\contentsline {subsubsection}{Linéarité}{14}{}%
+\contentsline {subsubsection}{Composée}{14}{}%
+\contentsline {subsubsection}{Noyau, image}{14}{}%
+\contentsline {subsection}{\numberline {3.4.3}Caractérisation}{14}{}%
+\contentsline {subsubsection}{Pour un projecteur}{14}{}%
+\contentsline {subsubsection}{Pour une symétrie}{14}{}%
+\contentsline {subsubsection}{Pratique}{14}{}%
+\contentsline {subsubsection}{Contre-exemple}{14}{}%
+\contentsline {section}{\numberline {3.5}Formes linéaires et hyperplans}{14}{}%
+\contentsline {subsection}{\numberline {3.5.1}Formes linéaires}{14}{}%
+\contentsline {subsubsection}{Définition}{14}{}%
+\contentsline {subsubsection}{Exemple usuel}{14}{}%
+\contentsline {subsubsection}{Étude analytique}{14}{}%
+\contentsline {subsection}{\numberline {3.5.2}Hyperplans en dimension quelconque}{14}{}%
+\contentsline {subsubsection}{Définition générale}{14}{}%
+\contentsline {subsubsection}{Propriété générale}{14}{}%
+\contentsline {subsection}{\numberline {3.5.3}Hyerplan en dimension finie}{14}{}%
+\contentsline {subsubsection}{Caractérisation}{14}{}%
+\contentsline {subsubsection}{Équation}{14}{}%
+\contentsline {subsubsection}{Intersection d'hyperplans, sens direct}{14}{}%
+\contentsline {subsubsection}{Sens réciproque}{14}{}%
+\contentsline {chapter}{\numberline {4}Matrices (structures)}{15}{}%
+\contentsline {section}{\numberline {4.1}Définitions}{16}{}%
+\contentsline {subsection}{\numberline {4.1.1}Générale}{16}{}%
+\contentsline {subsection}{\numberline {4.1.2}Matrice carrée}{16}{}%
+\contentsline {section}{\numberline {4.2}Opérations}{16}{}%
+\contentsline {subsection}{\numberline {4.2.1}Combinaison linéaire}{16}{}%
+\contentsline {subsection}{\numberline {4.2.2}Produit}{16}{}%
+\contentsline {subsubsection}{Condition nécessaire d'existence}{16}{}%
+\contentsline {subsubsection}{Pratique}{16}{}%
+\contentsline {subsubsection}{Expression générale}{16}{}%
+\contentsline {subsubsection}{Exemple}{16}{}%
+\contentsline {subsubsection}{Exemple générale de $AX$}{16}{}%
+\contentsline {subsubsection}{Propriétés diverses du produit de matrices}{16}{}%
+\contentsline {subsubsection}{Transposée d'un produit}{16}{}%
+\contentsline {section}{\numberline {4.3}Structures}{16}{}%
+\contentsline {subsection}{\numberline {4.3.1}Structure de groupe abélien pour $(M_{np}(\mathbb {K}),+)$}{16}{}%
+\contentsline {subsubsection}{Élément neutre}{16}{}%
+\contentsline {subsubsection}{Symétrique}{16}{}%
+\contentsline {subsection}{\numberline {4.3.2}Structure d'anneau pour $(M_{n}(\mathbb {K}),+,\times )$}{16}{}%
+\contentsline {subsubsection}{Explication}{16}{}%
+\contentsline {subsubsection}{Compléments}{16}{}%
+\contentsline {subsubsection}{Sous-anneau}{16}{}%
+\contentsline {subsection}{\numberline {4.3.3}Structure de groupe pour $(GL_{n}(\mathbb {K}),\times )$}{16}{}%
+\contentsline {subsubsection}{Définition}{16}{}%
+\contentsline {subsubsection}{Structure}{16}{}%
+\contentsline {subsubsection}{Condition suffisante}{16}{}%
+\contentsline {subsubsection}{Inverse d'une transposée}{16}{}%
+\contentsline {subsubsection}{Pratique}{16}{}%
+\contentsline {subsubsection}{Condition nécessaire et suffisante d'inversibilité d'une matrice triangulaire}{16}{}%
+\contentsline {subsubsection}{Sous-structure}{16}{}%
+\contentsline {chapter}{\numberline {5}Matrices et applications linéaires}{17}{}%
+\contentsline {section}{\numberline {5.1}Définitions}{18}{}%
+\contentsline {subsection}{\numberline {5.1.1}Matrice d'un système de vecteurs}{18}{}%
+\contentsline {subsection}{\numberline {5.1.2}Matrice d'une application linéaire}{18}{}%
+\contentsline {subsection}{\numberline {5.1.3}Cas d'un endomorphisme}{18}{}%
+\contentsline {subsection}{\numberline {5.1.4}Étude analytique}{18}{}%
+\contentsline {section}{\numberline {5.2}Isomorphismes}{18}{}%
+\contentsline {subsection}{\numberline {5.2.1}Résultat général}{18}{}%
+\contentsline {subsection}{\numberline {5.2.2}Conséquence}{18}{}%
+\contentsline {subsection}{\numberline {5.2.3}Isomorphisme transposition}{18}{}%
+\contentsline {section}{\numberline {5.3}Produit matriciel et composition d'AL}{18}{}%
+\contentsline {subsection}{\numberline {5.3.1}Correspondance}{18}{}%
+\contentsline {subsection}{\numberline {5.3.2}Isomorphisme d'anneaux}{18}{}%
+\contentsline {subsection}{\numberline {5.3.3}Conséquence}{18}{}%
+\contentsline {section}{\numberline {5.4}Changements de base}{18}{}%
+\contentsline {subsection}{\numberline {5.4.1}Matrices de changement de base}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Caractérisation}{18}{}%
+\contentsline {subsubsection}{Étude analytique}{18}{}%
+\contentsline {subsection}{\numberline {5.4.2}Effet sur une AL}{18}{}%
+\contentsline {subsubsection}{Données}{18}{}%
+\contentsline {subsubsection}{Calculs}{18}{}%
+\contentsline {subsubsection}{Conclusion}{18}{}%
+\contentsline {subsection}{\numberline {5.4.3}Cas d'un endomorphisme}{18}{}%
+\contentsline {subsection}{\numberline {5.4.4}Matrices équivalentes}{18}{}%
+\contentsline {subsection}{\numberline {5.4.5}Matrices semblables}{18}{}%
+\contentsline {section}{\numberline {5.5}Rang d'une matrice}{18}{}%
+\contentsline {subsection}{\numberline {5.5.1}Définition}{18}{}%
+\contentsline {subsection}{\numberline {5.5.2}Caractérisation}{18}{}%
+\contentsline {subsection}{\numberline {5.5.3}Application}{18}{}%
+\contentsline {section}{\numberline {5.6}Trace de matrice carrée}{18}{}%
+\contentsline {subsection}{\numberline {5.6.1}Définition}{18}{}%
+\contentsline {subsection}{\numberline {5.6.2}Propriétés}{18}{}%
+\contentsline {chapter}{\numberline {6}Applications multilinéaires}{19}{}%
+\contentsline {section}{\numberline {6.1}Présentation}{19}{}%
+\contentsline {subsection}{\numberline {6.1.1}Définition}{19}{}%
+\contentsline {subsection}{\numberline {6.1.2}Exemples usuels}{19}{}%
+\contentsline {subsection}{\numberline {6.1.3}Compléments de définition}{19}{}%
+\contentsline {subsection}{\numberline {6.1.4}Propriétés simples des formes $n$-linéaires antisymétriques (ou alternées)}{19}{}%
+\contentsline {section}{\numberline {6.2}Cas des formes $n$-linéaires antisymétriques sur $E_n$}{19}{}%
+\contentsline {subsection}{\numberline {6.2.1}Étude analytique}{19}{}%
+\contentsline {subsection}{\numberline {6.2.2}Rappel}{19}{}%
+\contentsline {subsection}{\numberline {6.2.3}Conséquence de structure}{19}{}%
+\contentsline {subsection}{\numberline {6.2.4}Condition nécessaire et suffisante d'indépendance linéaire}{19}{}%
+\contentsline {chapter}{\numberline {7}Déterminants}{21}{}%
+\contentsline {section}{\numberline {7.1}Présentation}{21}{}%
+\contentsline {subsection}{\numberline {7.1.1}Déterminant de $n$ vecteurs dans un $\mathbb {K}$ev de dimension $n$}{21}{}%
+\contentsline {chapter}{\numberline {8}}{23}{}%

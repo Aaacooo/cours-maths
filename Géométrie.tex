@@ -1,0 +1,223 @@
+\documentclass[12pt,a4paper,french]{book}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{multirow}
+\usepackage[frenchb]{babel}
+\usepackage{fancybox,framed}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{array}
+\title{Cours}
+\author{C. LACOUTURE}
+\date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
+\begin{document}
+\maketitle
+\part{Géométrie}
+\chapter{Produit scalaire}
+\chapter{(Sous) espaces affines}
+	\section{Présentation théorique}
+		\subsection{Définition}
+		\subsection{Notations}
+		\subsection{Propriétés simples}
+		\subsection{Translations}
+	\section{Sous-espaces affines}
+		\subsection{Définition}
+		\subsection{Remarque}
+		\subsection{Dimension}
+		\subsection{Exemples usuels}
+			\subsubsection{Ensembles des solutions d'un système d'équations linéaires}
+				Qui s'écrit (lorsqu'il est $\neq \emptyset$)
+				\[S = X_0 + \ker(A)\] Solution particulière (origine) + noyau de la matrice associée (direction)
+			\subsubsection{L'ensemble des solutions d'une équation différentielle linéaire}
+				Qui s'écrit :
+				\begin{itemize}
+					\item Pour une équation d'ordre 1
+					\[y_0 + \left\lbrace \lambda Y_0(x) \mbox{ où } \lambda \in \mathbb{R}\right\rbrace \]
+					Solution particulière de l'équation complète (origine) + Vect($Y_0)$
+					\item Pour une équation d'ordre 2
+				\end{itemize}
+		\subsection{Parallélisme}
+			\subsubsection{Définition}
+				Soient $\mathcal{E}_1 = A_1 + F_1$, $\mathcal{E}_2 = A_2 + F_2$ deux sous-espaces affines de $\epsilon$.
+				\begin{itemize}
+					\item $\mathcal{E}_1$ est parallèle à $\mathcal{E}_2$ ($\mathcal{E}_1 \parallel $ à $ \mathcal{E}_2$) ssi $F_1 \subset F_2$
+					\item $\mathcal{E}_1$ et $\mathcal{E}_2$ sont parallèles ($\mathcal{E}_1 \parallel \mathcal{E}_2$) ssi $F_1 = F_2$
+				\end{itemize}
+			\subsubsection{Propriétés}
+				\begin{itemize}
+					\item Théorème d'Euclide
+					
+					Soit $\mathcal{V}$ un sous-espace affine (d'origine $A$), de direction $F$. Soit $\Omega$ un point de $\mathcal{E}$. Il existe un unique sous-espace affine de $\mathcal{E}$ passant par $\Omega$, parallèle à $\mathcal{V}$.
+					
+					C'est : $\mathcal{V}' = \Omega + F$ ($\Omega \in \mathcal{V}' \mbox{ donc } \Omega \mbox{ sert d'origine à } \mathcal{V}'. \mathcal{V}'\parallel \mathcal{V} \mbox{ donc } \mathcal{V}' \mbox{ a pour direction } F$
+					
+					et : un point origine et la direction définissent entièrement et de manière unique $\mathcal{V}'$)
+					\item Soient $\mathcal{V}_1,\mathcal{V}_2$ 2 sous-espaces affines de $\mathcal{E}$
+					
+					$\mathcal{V}_1\parallel \mbox{ à } \mathcal{V}_2 \Rightarrow \mathcal{V}_1  = \emptyset \mbox{ ou }\mathcal{V}_1 \subset \mathcal{V}_2 $
+					
+					Démonstration : 
+					
+					On a : $\mathcal{V}_1,\mathcal{V}_2$ de directions $F_1,F_2$ tel que $F_1 \subset F_2$
+					
+					Dès lors : montrons que si $\mathcal{V}_1 \cap\mathcal{V}_2 \neq\emptyset$ alors  $\mathcal{V}_1 \subset \mathcal{V}_2$ 
+					en effet : soit $\Omega \in \mathcal{V}_1 \cap\mathcal{V}_2$. On a donc $\mathcal{V}_1  = \Omega + F_1, \mathcal{V}_1  = \Omega + F_2 $.
+					Puis : $M \in \mathcal{V}_1 \Leftrightarrow OM \in F_1 \Rightarrow OM \in F_2 \Leftrightarrow M \in \mathcal{V}_2$ d'où $\mathcal{V}_1 \subset \mathcal{V}_2$.
+					\item Ainsi : \[\mathcal{V}_1\parallel  \mathcal{V}_2 \Rightarrow \mathcal{V}_1 \cap\mathcal{V}_2 \neq\emptyset \mbox{ ou } \mathcal{V}_1 = \mathcal{V}_2\]
+				\end{itemize}	
+		\subsection{Intersection}
+			On a 2 sous-espaces affines : $\mathcal{V}_1  = A_1 + F_1, \mathcal{V}_1  = A_2 + F_2 $
+			\subsubsection{CNS d'existence}
+				 $\mathcal{V}_1 \cap\mathcal{V}_2 \neq\emptyset \Leftrightarrow \overrightarrow{A_1 A_2} \in F_1 + F_2$
+				 
+				 Démonstration : 
+				 
+				 $\Rightarrow$
+				 
+				 On a : $\Omega \in \mathcal{V}_1 \cap\mathcal{V}_2$
+				 
+				 Dès lors $\overrightarrow{A_1 A_2} = \overrightarrow{A_1 \Omega} + \overrightarrow{\Omega A_2}$ donc $\overrightarrow{A_1 A_2} \in F_2 + F_2$
+				 
+				 $\Leftarrow$
+				 
+				 On a : $\overrightarrow{A_1 A_2} = \overrightarrow{u_1} +\overrightarrow{u_2}$ où $ \overrightarrow{u_1} \in F_1, \overrightarrow{u_2} \in F_2$
+				 
+				 Dès lors $\exists M_1 \in \mathcal{E}$ tel que  $\overrightarrow{A_1M_1} = \overrightarrow{u_1}$, $\exists M_2 \in \mathcal{E}$ tel que $\overrightarrow{A_2M_2} = -\overrightarrow{u_2}$
+				 
+				 donc $M_1 = A_1 + \overrightarrow{u_1} \in A_1 + F_1 = \mathcal{V}_1, M_2 = A_2 - \overrightarrow{u_2} \in A_2 + F_2 = \mathcal{V}_2$
+				 
+				 donc $\overrightarrow{A_1 A_1} = \overrightarrow{A_1M_1} - \overrightarrow{A_2M_2} = \overrightarrow{A_1M_1} +\overrightarrow{M_2A_2}$ donc $\overrightarrow{A_1M_1} + \overrightarrow{M_1A_2} = \overrightarrow{A_1M_1} +\overrightarrow{M_2A_2}$ c-à-d $\overrightarrow{M_1A_2} = \overrightarrow{M_2A_2}$ c-à-d $M_1 = M_2$ donc $M_1 = M_2 \in \mathcal{V}_1 \cap \mathcal{V}_2$ donc $\mathcal{V}_1 \cap \mathcal{V}_2$ non vide.
+			
+			\subsubsection{Conséquence}
+				Si $E = F_1 + F_2$ alors $\mathcal{V}_1 \cap\mathcal{V}_2 \neq\emptyset$
+			\subsubsection{Structure de $\mathcal{V}_1 \cap\mathcal{V}_2$ quand $\neq\emptyset$}
+				 $\mathcal{V}_1 \cap\mathcal{V}_2$ est un sous-espace affine de $\mathcal{E}$, de direction $F_1 \cap F_2$.
+				 
+				 On a : $\Omega \in \mathcal{V}_1 \cap\mathcal{V}_2$ donc $\mathcal{V}_1 = \Omega + F1, \mathcal{V}_2 = \Omega + F2 $
+				 
+				Dès lors : $M \in \mathcal{V}_1 \cap\mathcal{V}_2 \Leftrightarrow M \in \mathcal{V}_1 \mbox{ et } M \in \mathcal{V}_2 \Leftrightarrow \overrightarrow{\Omega M} \in F_1 \mbox{ et } \overrightarrow{\Omega M} \in F_2 \Leftrightarrow \overrightarrow{\Omega M} \in F_1 \cup F_2 \Leftrightarrow M \in \Omega + F_1 \cup F_2$ 
+				
+				Donc $\mathcal{V}_1 \cap\mathcal{V}_2 = \Omega + F_1 \cup F_2$ est un sous-espace affine de $\mathcal{E}$ de direction $ F_1 \cup F_2$.
+			\subsubsection{Conséquence immédiate}
+				Si $E = F_1 \oplus F_2 $ alors $\mathcal{V}_1 \cap\mathcal{V}_2 = \left\lbrace \mbox{un point}\right\rbrace $
+				
+				Car : on a $E = F_1 + F_2$ donc $\mathcal{V}_1 \cap\mathcal{V}_2 \neq \emptyset$
+				
+				Soit $\Omega \in \mathcal{V}_1 \cap\mathcal{V}_2$
+				
+				On a alors $\mathcal{V}_1 \cap\mathcal{V}_2 = \Omega + F_1 \cup F_2 = \Omega + \left\lbrace O_E \right\rbrace = \left\lbrace \Omega \right\rbrace $
+		\subsection{Pratique : positions relatives de droites et plans}
+			\subsubsection{En dimension 2 (dans un plan affine)}
+				Deux droites sont parallèles ou sécantes en un point.
+			\subsubsection{En dimension 3 (dans un "véritable" espace affine)}
+				\begin{itemize}
+					\item Pour deux plans affines
+					
+					Deux plans $\mathcal{P}_1$,$\mathcal{P}_2$ sont parallèles ou sécants selon une droite
+					
+					Démonstration : $\mathcal{P}_1 = A_1 + P_1, \mathcal{P}_2 = A_2 + P_2$ où $P_2, P_2$ plans vectoriels de $E = E_3$
+					\begin{itemize}
+						\item Soit $P_1 = P_2$ c-à-d $\mathcal{P}_2 \parallel \mathcal{P}_2$
+						\item Soit $P_1 \neq P_2$
+						
+						$\exists \overrightarrow{u_2} \in P_2$ tel que $\overrightarrow{u_2} \notin P_1$
+						On sait alors que $P_1 \oplus \mbox{Vect}(\overrightarrow{u_2}) = E_3$ (cf cours sur les hyperplans, $P_1$ en étant un) avec $\mbox{Vect}(\overrightarrow{u_2}) \subset P_2$
+						puis $E_3 = P_1+\mbox{Vect}(\overrightarrow{u_2}) \subset P_1 + P_2$ donc $P_1 + P_2 = E_3$
+						donc $\mathcal{P}_1 \cap \mathcal{P}_2 \neq \emptyset$ donc $\mathcal{P}_1 \cap \mathcal{P}_2$ est un espace affine de direction $P_1 \cap P_2$
+						avec $\dim P_1 \cap P_2 = \dim P_1 + \dim P_2 - \dim P_1+P_2 = 2+2-3 = 1$ donc $P_1 \cap P_2$ est une droite vectorielle bref $\mathcal{P}_1$ et $\mathcal{P}_2$ sont sécants selon une droite affine.
+						
+					\item Pour une droite et un plan
+					
+					$\mathcal{D}$ et $\mathcal{P}$ sont tels que $\mathcal{P} \parallel $ à $ \mathcal{P}$ ou $\mathcal{D} \cap \mathcal{P} = \left\lbrace \mbox{1 point} \right\rbrace $
+					
+					Démonstration : $\mathcal{D}= A + D$, $\mathcal{P} = B + P$
+						\begin{itemize}
+							\item Soit $D \subset P$ c-à-d $\mathcal{D} \parallel$ à $\mathcal{P}$
+							\item Soit $D \not\subset P$
+							
+							Alors $P \oplus D = E_3$ (cf cours sur les hyperplans)
+							donc $\mathcal{P} \cap \mathcal{D} = {1 point}$
+						\end{itemize} 
+					\item  Pour deux droites : $\mathcal{D}_1 = A_1 + D_1$, $\mathcal{D}_2 = A_2 + D_2$
+						\begin{itemize}
+							\item Définition de la coplanarité
+								$\mathcal{D}_1$ et $\mathcal{D}_2$ sont coplanaires ssi $\mathcal{D}_1 parr \mathcal{D}_2 ou \mathcal{D}_1 inter \mathcal{D}_2 = \left\lbrace \mbox{un point}\right\rbrace $
+							\item En notant $\mathcal{D}_1 = A_1 + \mbox{Vect}(\overrightarrow{u_1}), \mathcal{D}_2 = A_2 + \mbox{Vect}(\overrightarrow{u_2})$
+							
+							On a : $\mathcal{D}_1$ et $\mathcal{D}_2$ coplanaires $\Leftrightarrow (\overrightarrow{A_1 A_2},\overrightarrow{u_1},\overrightarrow{u_2})$ lié.
+							
+							Démonstration : (A1A2,u1,u2) lié signifie : 
+							\begin{itemize}
+								\item $\overrightarrow{u_1}$ et $\overrightarrow{u_2}$ sont colinéaires, c-à-d $D_1 = \mbox{Vect}(\overrightarrow{u_1}) = D_2 = \mbox{Vect}(\overrightarrow{u_2})$ c-à-d $\mathcal{D}_1 \parallel \mathcal{D}_2$
+								\item $\overrightarrow{u_1}$ et $\overrightarrow{u_2}$ non colinéaires, avec $\overrightarrow{A_1 A_2} \in \mbox{Vect}(\overrightarrow{u_1},\overrightarrow{u_2})$ c-à-d $\overrightarrow{A_1 A_2} \in D_1+D_2$ c-à-d $\mathcal{D}_1 \cap \mathcal{D}_2 \neq \emptyset$ c-à-d $\mathcal{D}_1 \cap \mathcal{D}_2 = \left\lbrace \mbox{un point}\right\rbrace$ car $D_1 \cap D_2 = \mbox{Vect}(\overrightarrow{u_1}) \cap \mbox{Vect}(\overrightarrow{u_2}) = \left\lbrace O_E\right\rbrace $
+							\end{itemize}
+						\end{itemize}
+					\end{itemize}
+				\end{itemize}
+	\section{Étude analytique}
+		\subsection{Définitions générales}
+			\subsubsection{Repère cartésien (ou affine)}
+				Un repère cartésien d'un espace affine $\mathcal{E}$ (de direction $E$) est: $\mathcal{R} = (O,e_1,e_2,...,e_n)$ où:
+				\begin{itemize}
+					\item $O \in \mathcal{E}$ (origine du repère)
+					\item $(e1,...,en)$ base de $E$
+				\end{itemize}
+			\subsubsection{Coordonnées cartésiennes}
+				$\forall M \in \mathcal{E}, \exists! (x_1,...,x_n) \in \mathbb{R}^{n}$ tel que \[\overrightarrow{OM} = x_1\overrightarrow{e_1} + ... + x_n\overrightarrow{e_n}\] car $\overrightarrow{OM} \in E$ et $(e_1,...,e_n)$ base de $E$.
+				
+				$(x_1,...,x_n)$ ou $\begin{pmatrix}
+					x_1 \\ \vdots \\x_n
+				\end{pmatrix}$ sont les coordonnées cartésiennes du point $M$, dans le repère cartésien $(O,e_1,...,e_n)$.
+			\subsubsection{Équation cartésienne}
+				Soit $\mathcal{F} \subset \mathcal{E}$ ($\mathcal{F}$ : partie de $ \mathcal{E}$).
+				On appelle équation cartésienne de $\mathcal{F}$, toute relation entre les coordonnées cartésiennes $x_1,...,x_n$ d'un point $M$ de $\mathcal{E}$. Cette relation exprime une CNS pour que $M \in \mathcal{F}$.
+			\subsubsection{Repère orthonormé}
+				Dans le cas où $E$ est un $\mathbb{R}$ev euclidien et $(e_1,...,e_n)$ est une BON de $E$
+				
+				$(O,e_1,...,e_n)$ est un RON (repère orthonormé) de $\mathcal{E}$
+		\subsection{Exemples en dimension 2}
+			$\mathcal{E}_2$ a pour repère cartésien $(O,i,j)$. Les droites $\mathcal{D}$ de $\mathcal{E}_2$ sont les parties de $\mathcal{E}_2$ d'équation cartésienne $ax+by+c=0$ où $(a,b) \neq (0,0)$
+			
+			Démonstration : 
+			
+			\ovalbox{sens direct} Soit $\mathcal{D}$ une droite de $\mathcal{E}_2$, passant par $\Omega \begin{pmatrix} x_0\\y_0 \end{pmatrix}$ dans $(O,i,j)$, dirigée par $\overrightarrow{v} \left| \begin{array}{ll} \alpha \\ \beta \end{array}\right.$ dans$(i,j)$ où $(\alpha,\beta) \neq (0,0)$.
+			On a alors :
+			\begin{equation} 
+				\begin{split}
+					M\begin{pmatrix} x\\y \end{pmatrix} \in \mathcal{D} & \Leftrightarrow \overrightarrow{\Omega M} \in \mathcal{D} = \mbox{Vect}(\overrightarrow{v}) \\ & \Leftrightarrow \overrightarrow{\Omega M} et \overrightarrow{v} \mbox{ sont liés} \\ & \Leftrightarrow \det(\overrightarrow{\Omega M},\overrightarrow{v})=0 \\ & \Leftrightarrow \beta(x-x_0) - \alpha(y-y_0) = 0 \\ & \Leftrightarrow \beta x- \alpha y+\alpha y_0- \beta x_0 = 0 \end{split} 
+			\end{equation}
+			
+			On a bien une équation de la forme : $ax + by + c = 0$ où $(a,b) = (\beta,-\alpha) \neq (0,0)$
+			
+			\ovalbox{sens réciproque} Soit $\mathcal{D} \subset \mathcal{E}_2$ d'équation cartésienne : $ax + by+c = 0$ (où $(a,b) \neq (0,0)$) vu que $(a,b) \neq (0,0)$ : l'équation ci-dessus a des solutions (par exemple : si $a \neq 0$, $(\frac{-c}{a}, 0)$ est solution). Notons $(x_0,y_0)$ une de ces solutions. On a alors \begin{equation} \begin{split}
+					M\begin{pmatrix} x\\ y \end{pmatrix} \in \mathcal{D} & \Leftrightarrow ax +by+c = ax_0 + by_0 + c \\ & \Leftrightarrow a(x-x_0) + b(y-y_0) = 0 \\ & \Leftrightarrow \begin{vmatrix}
+						x-x0 & -b\\ y-y0 & a\\
+					\end{vmatrix} = 0 \\ & \Leftrightarrow \overrightarrow{\Omega M} \mbox{ et } \overrightarrow{u}\mbox{ sont liés (où }\Omega \mbox{ est le point de coordonnées }\begin{pmatrix} x_0\\y_0 \end{pmatrix} \\ & \mbox{ dans }(O,i,j)\mbox{ et }\overrightarrow{u} \mbox{ est le vecteur de coordonnées }\left| \begin{array}{ll} -b\\a \end{array}\right. \\ & \mbox{ dans }(i,j)\mbox{ donc }\overrightarrow{u} \neq \overrightarrow{0}) \\ & \Leftrightarrow \overrightarrow{\Omega M} \subset D = \mbox{Vect}(\overrightarrow{u}) \\ & \Leftrightarrow M \in \Omega + D
+				\end{split}
+			\end{equation} donc $\mathcal{D}$ est bien une droite affine, de direction $D=Vect(-b a)$
+			
+			Remarques:
+			\subsubsection{Pour $\mathcal{D}$ d'équation cartésienne $ax+by+c=0$ dans $(O,i,j)$.}
+				 Un vecteur de base de $D$ est $\overrightarrow{u} \left| \begin{array}{ll} -b\\a \end{array}\right.$ dans $(i,j)$.
+			\subsubsection{Une équation de $D$ est : $ax+by=0$}
+				Vérifiée par $\left| \begin{array}{ll} -b\\a \end{array}\right.$ et passant par $O_{E_2}$ de coordonnées $(0 0)$ dans $(i,j)$.
+			\subsubsection{Dans le cas d'un espace euclidien et d'un RON $(O,i,j)$}
+				$D^{\perp} = \mbox{Vect}(\left| \begin{array}{ll} a\\b \end{array}\right.)$ car $D^{\perp}$ est de dimension 1 et $\left| \begin{array}{ll} a\\b \end{array}\right. \cdot \left| \begin{array}{ll} -b\\a \end{array}\right.  = 0$ donc $\left| \begin{array}{ll} a\\b \end{array}\right. \in  D^{\perp}$
+		\subsection{Exemples en dimension 3}
+			\subsubsection{Les plans affines de $\mathcal{E}_3$}
+				Sont les parties de $\mathcal{E}_3$ d'équation cartésienne: $ax+by+cz+d=0$ où $(a,b,c) \neq (0,0,0)$
+				
+				Remarques :
+				\begin{itemize}
+					\item L'équation de la direction $P$ dans $(i,j,k)$ est alors $ax + by + cz = 0$
+					\item Dans le cas d'un RON : $P^{\perp} = \mbox{Vect}(\left| \begin{array}{ll} a\\b\\c \end{array}\right.)$
+				\end{itemize}
+			\subsubsection{Les droites affines de $\mathcal{E}_3$}
+				Sont les intersections de deux plans de $\mathcal{E}_3$ non parallèles c-à-d les parties de $\mathcal{E}_3$ définies par deux équations cartésiennes de la forme $\left\lbrace \begin{array}{ll}
+					 ax+by+cz+d&=0 \\a'x+b'y+c'z+d' &= 0
+				\end{array}\right.$
+				
+				où ($a,b,c),(a',b',c') \neq (0,0,0)$ et sont non colinéaires (pour ne pas donner la même équation directionnelle)
+				
+				
+				
+\end{document}
