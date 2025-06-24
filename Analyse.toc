@@ -442,5 +442,46 @@
 \contentsline {subsubsection}{Plus précisément}{36}{}%
 \contentsline {subsubsection}{Démonstration par Analyse-Synthèse}{36}{}%
 \contentsline {chapter}{\numberline {13}Séries numériques}{37}{}%
+\contentsline {section}{\numberline {13.1}Présentation générale}{38}{}%
+\contentsline {subsection}{\numberline {13.1.1}Définitions}{38}{}%
+\contentsline {subsubsection}{Notations}{38}{}%
+\contentsline {subsubsection}{Convergence}{38}{}%
+\contentsline {subsubsection}{Divergence}{38}{}%
+\contentsline {subsubsection}{Remarques}{38}{}%
+\contentsline {subsection}{\numberline {13.1.2}Premières propriétés}{38}{}%
+\contentsline {subsubsection}{Linéarité}{38}{}%
+\contentsline {subsubsection}{Condition nécessaire}{38}{}%
+\contentsline {subsubsection}{Relation suite-série}{38}{}%
+\contentsline {subsection}{\numberline {13.1.3}Exemple usuel : série géométrique}{38}{}%
+\contentsline {section}{\numberline {13.2}Séries à termes positifs}{38}{}%
+\contentsline {subsection}{\numberline {13.2.1}Remarque générale}{38}{}%
+\contentsline {subsection}{\numberline {13.2.2}Théorème de comparaison par majoration}{38}{}%
+\contentsline {subsection}{\numberline {13.2.3}Théorème de comparaison par équivalence}{38}{}%
+\contentsline {subsection}{\numberline {13.2.4}Comparaison série-intégrale}{38}{}%
+\contentsline {subsubsection}{Résultat}{38}{}%
+\contentsline {subsubsection}{Exemple usuel des séries de Riemann}{38}{}%
+\contentsline {section}{\numberline {13.3}Séries à termes quelconque}{38}{}%
+\contentsline {subsection}{\numberline {13.3.1}Cas des séries alternées}{38}{}%
+\contentsline {subsection}{\numberline {13.3.2}Séries à termes réels quelconques}{38}{}%
+\contentsline {subsubsection}{Convergence absolue}{38}{}%
+\contentsline {subsubsection}{Implication}{38}{}%
+\contentsline {subsection}{\numberline {13.3.3}Séries à termes complexes}{38}{}%
+\contentsline {subsubsection}{Définition}{38}{}%
+\contentsline {subsubsection}{Condition suffisante (et pratique)}{38}{}%
+\contentsline {subsubsection}{Exemple usuel de la série exponentielle}{38}{}%
 \contentsline {chapter}{\numberline {14}Familles sommables}{39}{}%
+\contentsline {section}{\numberline {14.1}Dans le cas d'une famille de réels $\geqslant 0$}{39}{}%
+\contentsline {subsection}{\numberline {14.1.1}Définition}{39}{}%
+\contentsline {subsection}{\numberline {14.1.2}Remarques}{39}{}%
+\contentsline {subsection}{\numberline {14.1.3}Propriétés}{39}{}%
+\contentsline {subsection}{\numberline {14.1.4}À savoir en pratique}{39}{}%
+\contentsline {section}{\numberline {14.2}Pour une famille de réels quelconques}{39}{}%
+\contentsline {subsection}{\numberline {14.2.1}Définition}{39}{}%
+\contentsline {subsection}{\numberline {14.2.2}Caractérisation}{39}{}%
+\contentsline {subsection}{\numberline {14.2.3}À savoir en pratique}{39}{}%
+\contentsline {subsection}{\numberline {14.2.4}Contre-exemple}{39}{}%
+\contentsline {section}{\numberline {14.3}Pour une famille de termes complexes}{39}{}%
+\contentsline {subsection}{\numberline {14.3.1}Définition}{39}{}%
+\contentsline {subsection}{\numberline {14.3.2}Caractérisation}{39}{}%
+\contentsline {subsection}{\numberline {14.3.3}À savoir}{39}{}%
 \contentsline {chapter}{\numberline {15}Fonctions de deux variables}{41}{}%

@@ -1,0 +1,76 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Géométrie}{5}{}%
+\contentsline {chapter}{\numberline {1}Produit scalaire}{7}{}%
+\contentsline {section}{\numberline {1.1}Généralités en dimensions quelconque}{8}{}%
+\contentsline {subsection}{\numberline {1.1.1}Définition}{8}{}%
+\contentsline {subsection}{\numberline {1.1.2}Exemples usuels}{8}{}%
+\contentsline {subsection}{\numberline {1.1.3}Inégalité de Cauchy Schwarz}{8}{}%
+\contentsline {subsubsection}{Énoncé}{8}{}%
+\contentsline {subsubsection}{Cas d'égalité}{8}{}%
+\contentsline {subsubsection}{Illustrations}{8}{}%
+\contentsline {subsection}{\numberline {1.1.4}Norme associée à un produit scalaire}{8}{}%
+\contentsline {subsubsection}{Définition}{8}{}%
+\contentsline {subsubsection}{Propriétés caractéristiques}{8}{}%
+\contentsline {subsubsection}{Autres propriétés}{8}{}%
+\contentsline {subsection}{\numberline {1.1.5}Orthogonalité de vecteurs}{8}{}%
+\contentsline {subsubsection}{Définitions}{8}{}%
+\contentsline {subsubsection}{Propriétés}{8}{}%
+\contentsline {subsection}{\numberline {1.1.6}Orthogonalité de sous-espaces}{8}{}%
+\contentsline {subsubsection}{Définitions}{8}{}%
+\contentsline {subsubsection}{Structure}{8}{}%
+\contentsline {subsubsection}{Formules}{8}{}%
+\contentsline {subsection}{\numberline {1.1.7}Procédé d'orthogonalisation de Schmidt}{8}{}%
+\contentsline {subsubsection}{Données du problème}{8}{}%
+\contentsline {subsubsection}{Principe}{8}{}%
+\contentsline {subsubsection}{Calculs}{8}{}%
+\contentsline {subsubsection}{Conclusion}{8}{}%
+\contentsline {section}{\numberline {1.2}Compléments dans un espace vectoriel euclidien}{8}{}%
+\contentsline {subsection}{\numberline {1.2.1}Existence de base orthonormée}{8}{}%
+\contentsline {subsubsection}{Démonstration}{8}{}%
+\contentsline {subsubsection}{Intérêt}{8}{}%
+\contentsline {subsection}{\numberline {1.2.2}Supplémentaire orthogonal}{8}{}%
+\contentsline {subsubsection}{Résultat général}{8}{}%
+\contentsline {subsubsection}{Conséquences}{8}{}%
+\contentsline {subsection}{\numberline {1.2.3}Projecteur orthogonal}{8}{}%
+\contentsline {subsubsection}{Définition}{8}{}%
+\contentsline {subsubsection}{Distance à un sous-espace}{8}{}%
+\contentsline {subsection}{\numberline {1.2.4}À savoir en pratique}{8}{}%
+\contentsline {subsubsection}{Hyperplans}{8}{}%
+\contentsline {subsubsection}{Projeté orthogonal}{8}{}%
+\contentsline {chapter}{\numberline {2}(Sous) espaces affines}{9}{}%
+\contentsline {section}{\numberline {2.1}Présentation théorique}{9}{}%
+\contentsline {subsection}{\numberline {2.1.1}Définition}{9}{}%
+\contentsline {subsection}{\numberline {2.1.2}Notations}{9}{}%
+\contentsline {subsection}{\numberline {2.1.3}Propriétés simples}{9}{}%
+\contentsline {subsection}{\numberline {2.1.4}Translations}{9}{}%
+\contentsline {section}{\numberline {2.2}Sous-espaces affines}{9}{}%
+\contentsline {subsection}{\numberline {2.2.1}Définition}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Remarque}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Dimension}{9}{}%
+\contentsline {subsection}{\numberline {2.2.4}Exemples usuels}{9}{}%
+\contentsline {subsubsection}{Ensembles des solutions d'un système d'équations linéaires}{9}{}%
+\contentsline {subsubsection}{L'ensemble des solutions d'une équation différentielle linéaire}{9}{}%
+\contentsline {subsection}{\numberline {2.2.5}Parallélisme}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Propriétés}{10}{}%
+\contentsline {subsection}{\numberline {2.2.6}Intersection}{10}{}%
+\contentsline {subsubsection}{CNS d'existence}{10}{}%
+\contentsline {subsubsection}{Conséquence}{11}{}%
+\contentsline {subsubsection}{Structure de $\mathcal {V}_1 \cap \mathcal {V}_2$ quand $\neq \emptyset $}{11}{}%
+\contentsline {subsubsection}{Conséquence immédiate}{11}{}%
+\contentsline {subsection}{\numberline {2.2.7}Pratique : positions relatives de droites et plans}{11}{}%
+\contentsline {subsubsection}{En dimension 2 (dans un plan affine)}{11}{}%
+\contentsline {subsubsection}{En dimension 3 (dans un "véritable" espace affine)}{11}{}%
+\contentsline {section}{\numberline {2.3}Étude analytique}{12}{}%
+\contentsline {subsection}{\numberline {2.3.1}Définitions générales}{12}{}%
+\contentsline {subsubsection}{Repère cartésien (ou affine)}{12}{}%
+\contentsline {subsubsection}{Coordonnées cartésiennes}{13}{}%
+\contentsline {subsubsection}{Équation cartésienne}{13}{}%
+\contentsline {subsubsection}{Repère orthonormé}{13}{}%
+\contentsline {subsection}{\numberline {2.3.2}Exemples en dimension 2}{13}{}%
+\contentsline {subsubsection}{Pour $\mathcal {D}$ d'équation cartésienne $ax+by+c=0$ dans $(O,i,j)$.}{14}{}%
+\contentsline {subsubsection}{Une équation de $D$ est : $ax+by=0$}{14}{}%
+\contentsline {subsubsection}{Dans le cas d'un espace euclidien et d'un RON $(O,i,j)$}{14}{}%
+\contentsline {subsection}{\numberline {2.3.3}Exemples en dimension 3}{15}{}%
+\contentsline {subsubsection}{Les plans affines de $\mathcal {E}_3$}{15}{}%
+\contentsline {subsubsection}{Les droites affines de $\mathcal {E}_3$}{15}{}%

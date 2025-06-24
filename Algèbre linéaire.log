@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 14:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -401,7 +401,7 @@ Chapitre 7.
 ]
 Chapitre 8.
 
-Overfull \hbox (95.84938pt too wide) in paragraph at lines 230--233
+Overfull \hbox (95.84938pt too wide) in paragraph at lines 236--239
 []\OT1/cmr/m/n/12 Un syst^^Reme d'^^Sequations lin^^Seaire dans $\U/msb/m/n/12 
 K\OT1/cmr/m/n/12 (\U/msb/m/n/12 R[]C\OT1/cmr/m/n/12 )$ est de la forme : $[]$ 
  []
@@ -444,7 +444,7 @@ C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
 /amsfonts/cm/cmsy10.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Algèbre linéaire.pdf" (25 pages, 179847 bytes).
+Output written on "Algèbre linéaire.pdf" (25 pages, 179982 bytes).
 PDF statistics:
  153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

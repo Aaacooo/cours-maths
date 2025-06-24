@@ -202,6 +202,12 @@
 \contentsline {chapter}{\numberline {7}Déterminants}{21}{}%
 \contentsline {section}{\numberline {7.1}Présentation}{21}{}%
 \contentsline {subsection}{\numberline {7.1.1}Déterminant de $n$ vecteurs dans un $\mathbb {K}$ev de dimension $n$}{21}{}%
+\contentsline {subsubsection}{Définition}{21}{}%
+\contentsline {subsubsection}{Pratique}{21}{}%
+\contentsline {subsubsection}{Critère d'indépendance linéaire}{21}{}%
+\contentsline {subsubsection}{Effet d'un changement de base}{21}{}%
+\contentsline {subsection}{\numberline {7.1.2}Déterminant d'une matrice carrée}{21}{}%
+\contentsline {subsubsection}{Définition}{21}{}%
 \contentsline {chapter}{\numberline {8}Systèmes d'équations linéaires}{23}{}%
 \contentsline {section}{\numberline {8.1}Présentation}{23}{}%
 \contentsline {subsection}{\numberline {8.1.1}Définition}{23}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -305,16 +305,34 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/mrano/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-[3] [4]
-Chapitre 1.
-[5
+(Géométrie.toc [3])
+\tf@toc=\write4
+\openout4 = `Géométrie.toc'.
 
-] [6
+ [4] [5
+
+] [6]
+Chapitre 1.
+
+Overfull \hbox (4.3538pt too wide) in paragraph at lines 40--40
+[]\OT1/cmr/bx/n/17.28 Compl^^Sements dans un es-pace vec-to-riel eu-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7
 
 ]
+Overfull \vbox (474.7667pt too high) has occurred while \output is active []
+
+
+[8]
 Chapitre 2.
-[7]
-Overfull \hbox (107.57036pt too wide) in paragraph at lines 51--52
+[9
+
+]
+Overfull \hbox (107.57036pt too wide) in paragraph at lines 89--90
 []\OT1/cmr/m/n/12 C'est : $\OMS/cmsy/m/n/12 V[] \OT1/cmr/m/n/12 = 
  + \OML/cmm/m/it/12 F$ \OT1/cmr/m/n/12 ($
  \OMS/cmsy/m/n/12 2 V[][]\OT1/cmr/m/n/12 
@@ -322,8 +340,8 @@ Overfull \hbox (107.57036pt too wide) in paragraph at lines 51--52
 /m/it/12 F$ 
  []
 
-[8] [9]
-Overfull \hbox (93.99146pt too wide) in paragraph at lines 142--144
+[10] [11]
+Overfull \hbox (93.99146pt too wide) in paragraph at lines 180--182
 []\OT1/cmr/m/n/12 D^^Sefinition de la co-pla-na-rit^^Se $\OMS/cmsy/m/n/12 D[]$ 
 \OT1/cmr/m/n/12 et $\OMS/cmsy/m/n/12 D[]$ \OT1/cmr/m/n/12 sont co-pla-naires ss
 i $\OMS/cmsy/m/n/12 D[]\OML/cmm/m/it/12 parr\OMS/cmsy/m/n/12 D[]\OML/cmm/m/it/1
@@ -331,23 +349,23 @@ i $\OMS/cmsy/m/n/12 D[]\OML/cmm/m/it/12 parr\OMS/cmsy/m/n/12 D[]\OML/cmm/m/it/1
 /12 =
  []
 
-[10] [11] [12]
-Overfull \hbox (28.42609pt too wide) in paragraph at lines 215--218
+[12] [13] [14]
+Overfull \hbox (28.42609pt too wide) in paragraph at lines 253--256
 \OMS/cmsy/m/n/12 E[]$ \OT1/cmr/m/n/12 d^^Sefinies par deux ^^Sequations cart^^S
 esiennes de la forme $[]$ 
  []
 
-[13] (Géométrie.aux)
+[15] (Géométrie.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4925 strings out of 474486
- 80886 string characters out of 5743755
+ 4934 strings out of 474486
+ 81056 string characters out of 5743755
  1949542 words of memory out of 5000000
- 27169 multiletter control sequences out of 15000+600000
+ 27175 multiletter control sequences out of 15000+600000
  567790 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,27n,65p,579b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -366,9 +384,9 @@ ano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:
 /cm/cmsy8.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/latxfont/lcircle1.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Géométrie.pdf (13 pages, 166747 bytes).
+Output written on Géométrie.pdf (15 pages, 172477 bytes).
 PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
