@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  22 JUN 2025 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 17:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,7 +347,7 @@ Overfull \vbox (296.73242pt too high) has occurred while \output is active []
 [14]
 Chapitre 4.
 
-Overfull \hbox (21.03122pt too wide) in paragraph at lines 129--129
+Overfull \hbox (21.03122pt too wide) in paragraph at lines 133--133
 []\OT1/cmr/bx/n/14.4 Relations entre forme alg^^Sebrique et tri-go-nom^^Setriqu
 e 
  []
@@ -358,13 +358,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [15
 
 ]
-Overfull \vbox (1311.97253pt too high) has occurred while \output is active []
+Overfull \vbox (1019.83919pt too high) has occurred while \output is active []
 
 
 [16]
 Chapitre 5.
 
-Overfull \hbox (33.21956pt too wide) in paragraph at lines 246--246
+Overfull \hbox (33.21956pt too wide) in paragraph at lines 249--249
 []\OT1/cmr/bx/n/14.4 Pratique de la d^^Secomposition en fac-teurs irr^^Seductib
 les
  []
@@ -387,7 +387,7 @@ r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
 [18]
 Chapitre 6.
 
-Overfull \hbox (7.40347pt too wide) in paragraph at lines 267--267
+Overfull \hbox (7.40347pt too wide) in paragraph at lines 270--270
 []\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/m
 /it/17.28 F \OT1/cmr/m/n/17.28 =
  []
@@ -398,20 +398,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [19
 
 ]
-Overfull \vbox (458.61577pt too high) has occurred while \output is active []
+Overfull \vbox (471.33147pt too high) has occurred while \output is active []
 
 
 [20]
-Overfull \hbox (136.80873pt too wide) has occurred while \output is active
-\OT1/cmr/m/sl/12 6.5.  APPLICATION PRINCIPALE : CALCULS DE PRIMITIVE DE FONCTIO
-NS RATIONELLES \OT1/cmr/m/n/12 21
- []
+Chapitre 7.
 
-[21] [22
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21
 
 ]
-Chapitre 7.
-[23] (Algèbre.aux)
+Overfull \vbox (145.90004pt too high) has occurred while \output is active []
+
+
+[22] (Algèbre.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -419,7 +420,7 @@ L3 programming layer <2024-01-04>
  ) 
 Here is how much of TeX's memory you used:
  4943 strings out of 474486
- 80934 string characters out of 5743755
+ 80967 string characters out of 5743755
  1941542 words of memory out of 5000000
  27182 multiletter control sequences out of 15000+600000
  572180 words of font info for 90 fonts, out of 8000000 for 9000
@@ -443,9 +444,9 @@ blic/amsfonts/cm/cmsl12.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mrano/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mrano/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Algèbre.pdf (23 pages, 197235 bytes).
+Output written on Algèbre.pdf (22 pages, 199325 bytes).
 PDF statistics:
- 156 PDF objects out of 1000 (max. 8388607)
+ 153 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

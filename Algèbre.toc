@@ -85,10 +85,10 @@
 \contentsline {subsubsection}{Concernant $\mathbb {Q}$}{14}{}%
 \contentsline {subsubsection}{Concernant$\bar {\mathbb {Q}}$ (complément de $\mathbb {Q}$ dans $\mathbb {R}$)}{14}{}%
 \contentsline {chapter}{\numberline {4}Corps des nombres complexes}{15}{}%
-\contentsline {section}{\numberline {4.1}Conjugaison}{16}{}%
-\contentsline {subsection}{\numberline {4.1.1}Définition}{16}{}%
-\contentsline {subsection}{\numberline {4.1.2}Propriétés}{16}{}%
-\contentsline {subsubsection}{Formules}{16}{}%
+\contentsline {section}{\numberline {4.1}Conjugaison}{15}{}%
+\contentsline {subsection}{\numberline {4.1.1}Définition}{15}{}%
+\contentsline {subsection}{\numberline {4.1.2}Propriétés}{15}{}%
+\contentsline {subsubsection}{Formules}{15}{}%
 \contentsline {subsubsection}{Caractérisation}{16}{}%
 \contentsline {subsubsection}{Pratique}{16}{}%
 \contentsline {section}{\numberline {4.2}Module}{16}{}%
@@ -270,5 +270,27 @@
 \contentsline {subsection}{\numberline {6.4.3}Exemple usuel}{20}{}%
 \contentsline {section}{\numberline {6.5}Application principale : calculs de primitive de fonctions rationelles}{20}{}%
 \contentsline {subsection}{\numberline {6.5.1}Définition}{20}{}%
-\contentsline {subsection}{\numberline {6.5.2}Méthode pour primitiver $f(x)=\frac {P(x)}{Q(x)} \in \mathbb {R}(x)$}{21}{}%
-\contentsline {chapter}{\numberline {7}Groupe symétrique}{23}{}%
+\contentsline {subsection}{\numberline {6.5.2}Méthode pour primitiver $f(x)=\frac {P(x)}{Q(x)} \in \mathbb {R}(x)$}{20}{}%
+\contentsline {chapter}{\numberline {7}Groupe symétrique}{21}{}%
+\contentsline {section}{\numberline {7.1}Présentation}{22}{}%
+\contentsline {subsection}{\numberline {7.1.1}Définitions}{22}{}%
+\contentsline {subsubsection}{Permutation}{22}{}%
+\contentsline {subsubsection}{Groupe symétrique}{22}{}%
+\contentsline {subsubsection}{Cardinal}{22}{}%
+\contentsline {subsection}{\numberline {7.1.2}Exemples}{22}{}%
+\contentsline {subsubsection}{Généraux}{22}{}%
+\contentsline {subsubsection}{Particulier}{22}{}%
+\contentsline {section}{\numberline {7.2}Éléments générateurs}{22}{}%
+\contentsline {subsection}{\numberline {7.2.1}Transpositions}{22}{}%
+\contentsline {subsubsection}{Énoncé}{22}{}%
+\contentsline {subsubsection}{Exemples}{22}{}%
+\contentsline {subsection}{\numberline {7.2.2}Cycles à supports disjoints}{22}{}%
+\contentsline {subsubsection}{Résultat admis}{22}{}%
+\contentsline {subsubsection}{Exemple}{22}{}%
+\contentsline {subsubsection}{Pratique}{22}{}%
+\contentsline {section}{\numberline {7.3}Signature d'une permutation}{22}{}%
+\contentsline {subsection}{\numberline {7.3.1}Inversions}{22}{}%
+\contentsline {subsection}{\numberline {7.3.2}Définitions}{22}{}%
+\contentsline {subsection}{\numberline {7.3.3}Cas d'une transposition}{22}{}%
+\contentsline {subsection}{\numberline {7.3.4}Cas d'un cycle}{22}{}%
+\contentsline {subsection}{\numberline {7.3.5}Morphisme signature}{22}{}%

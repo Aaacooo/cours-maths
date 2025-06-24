@@ -200,33 +200,89 @@
 \chapter{Fonctions trigonométriques}
 	\section{Rappel et compléments sur les fonctions sinus et cosinus}
 		\subsection{Valeurs usuelles}
+			\[\sin\left( \frac{\pi}{3}\right) =\frac{\sqrt{3}}{2},\cos\left( \frac{\pi}{6}\right) =\frac{\sqrt{3}}{2},\sin\left( \frac{3\pi}{4}\right) =\frac{\sqrt{2}}{2}...\]
 		\subsection{Formules élémentaires}
+			\begin{equation} \begin{split}
+				\cos\left(x+\pi\right) = -\cos(x)\\ \sin\left(x-\pi\right) = -\sin(x)\\ \cos\left(x+\frac{\pi}{2}\right) = -\sin(x)\\ \cos\left(x-\pi\right) = \sin(x) \\ \sin\left(x+\frac{\pi}{2}\right) = \cos(x) \end{split}
+			\end{equation}
 		\subsection{Parité, périodicité}
+			$\cos$ est paire, $\sin$ est impaire, elles sont $2\pi$-périodiques.
 		\subsection{Égalités}
 			\subsubsection{De cosinus}
+				\begin{equation*}
+					\cos(a)=\cos(b) \Leftrightarrow \left\lbrace \begin{array}{ll} a = b \ (2\pi) \\ \mbox{\ovalbox{ou}} \\ a = -b  \ (2\pi) \end{array} \right.
+				\end{equation*}
 			\subsubsection{De sinus}
+			\begin{equation*}
+				\cos(a)=\cos(b) \Leftrightarrow \left\lbrace \begin{array}{ll} a = b \ (2\pi) \\ \mbox{\ovalbox{ou}}\\ a = \pi -b  \ (2\pi) \end{array} \right.
+			\end{equation*}
 		\subsection{cosinus et sinus de sommes}
 			\subsubsection{Formules}
+				\begin{align*}
+					\cos(a+b) &= \cos(a)\cos(b) - \sin(a)\sin(b)	\\
+					\cos(a-b) &= \cos(a)\cos(b) + \sin(a)\sin(b)	\\
+					\sin(a+b) &=\sin(a)\cos(b) + \sin(b)\cos(a)	\\
+					\sin(a-b) &=\sin(a)\cos(b) - \sin(a)\cos(b)	\\
+				\end{align*}
 			\subsubsection{Conséquences}
+				\begin{equation*}
+					\begin{split} \cos(2x) &= \cos^{2}(x) - \sin^{2} \\
+						&= 2\cos^{2}(x) - 1 \\ &= 1 - 2\sin^{2}(x)
+				\end{split}
+				\end{equation*}
+				\[	\sin(2x) = 2\cos(x)\sin(x)\]
+				\[\cos(3x) = 4\cos^{3}(x)-3\cos(x) \]
+				\[\sin(3x) = -4\sin^{3}(x)+3\sin(x)\]
 			\subsubsection{Écriture}
+			\[1-\cos(x) = 2\sin^{2}(\frac{x}{2})\]
+			\[1+\cos(x) = 2\cos^{2}(\frac{x}{2})\]
 		\subsection{Produit de cosinus, sinus}
+			\begin{align*}
+				\cos(a)\cos(b) = \frac{1}{2}(\cos(a+b)+\cos(a-b))\\
+				\sin(a)\sin(b) = \frac{1}{2}(\cos(a-b)-\cos(a+b)) \\
+				\sin(a)\cos(b) = \frac{1}{2}(\sin(a+b)+\sin(a-b))
+			\end{align*}
 		\subsection{Sommes de cosinus, sinus}
+			\begin{align*}
+				\cos(p)+\cos(q) &= 2\cos\left( \frac{p+q}{2}\right) \cos\left( \frac{p-q}{2}\right)\\
+				\cos(p)-\cos(q) &= -2\sin\left( \frac{p+q}{2}\right) \sin\left( \frac{p-q}{2}\right)\\
+				\sin(p)+\sin(q) &= 2\sin\left( \frac{p+q}{2}\right) \cos\left( \frac{p-q}{2}\right)\\
+				\sin(p)+\sin(q) &= 2\sin\left( \frac{p-q}{2}\right) \cos\left( \frac{p+q}{2}\right)
+			\end{align*}
 		\subsection{Compléments}
 			\subsubsection{Limites usuelles}
-			\subsubsection{Inégalités usuelles}
+				\[ \lim\limits_{x \to 0} \frac{\sin x}{x} = 1\]
+				\[ \lim\limits_{x \to 0} \frac{1- \cos x}{\frac{x^{2}}{2}} = 1\]
+			\subsubsection{Inégalité usuelles}
+				$\forall x \in \mathbb{R}, \left|\sin x\right| \leqslant \left|x\right| $
+			
 			\subsubsection{Transformation de $a\cos + b\sin$}
 	\section{Fonction tangente}
 		\subsection{Étude de la fonction}
 			\subsubsection{Définition et domaine de définition}
+			$\tan x =  \frac{sin x}{cos x}$. tan est définie sur $\mathbb{R}-\left\lbrace \frac{\pi}{2} (\pi)\right\rbrace$
 			\subsubsection{Remarques de parités, périodicité}
+				\begin{itemize}
+					\item tan est impaire
+					\item tan est $\pi$-périodique
+					\item On étudie donc tan sur $\left[ 0;\frac{\pi}{2}\right[ $ car c'est identique à une étude sur tout son domaine de définition.
+				\end{itemize}
 			\subsubsection{Continuité}
+			tan est continue
 			\subsubsection{Dérivabilité}
+			tan est dérivable avec $\tan' x = \frac{1}{\cos^{2}x} = 1 + \tan^{2} x$
 			\subsubsection{Variations}
+			$\forall x \in \left[ 0;\frac{\pi}{2}\right[ \ \tan' x > 0$
+			\subsubsection{Branche infinie}
+			$ \lim\limits_{x \to \frac{\pi}{2}^{-}} \tan x =+\infty, \  \lim\limits_{x \to \frac{\pi}{2}^{+}} \tan x =-\infty$ 
 			\subsubsection{Graphe}
 			\subsubsection{Limite usuelle}
+			$  \lim\limits_{x \to 0} \frac{\tan x}{x} = 1$
 		\subsection{Compléments}
 			\subsubsection{Valeurs usuelles}
+			$\tan (0) = 0, \ \tan\left( \frac{\pi}{4} \right) = 1, \ \tan\left( \frac{\pi}{6} \right) =\frac{\sqrt{3}}{3}, \ \tan\left( \frac{\pi}{3} \right) = \sqrt{3} $
 			\subsubsection{Égalité}
+			\[\tan(a) = \tan(b) \Leftrightarrow a = b \ (\pi)\]
 			\subsubsection{Formules immédiates}
 			\subsubsection{Tangente d'une somme}
 			\subsubsection{Expressions de cosinus et sinus à l'aide de la tangente de l'angle moitié}
@@ -270,9 +326,9 @@
 	\section{Fonctions puissances réelles}
 		\subsection{Définition}
 			\subsubsection{Prolongement}
-			\subsubsection{Définition de la puissance rationelle}
+			\subsubsection{Définition de la puissance rationnelle}
 			
-			\subsubsection{Domaine de définition de la puissance rationelle}
+			\subsubsection{Domaine de définition de la puissance rationnelle}
 			
 		\subsection{Formules}
 		
@@ -286,6 +342,7 @@
 	\section{Relations de comparaisons  (ou croissances comparées)}
 		\section{Résultats généraux}
 		\section{Autres situations}
+		
 \chapter{Fonctions hyperboliques}
 	\section{Présentation}
 		\subsection{Définitions}
@@ -321,6 +378,7 @@
 		\subsection{Graphe}
 		\subsection{Limite usuelle}
 	\section{Petit formulaire hyperbolique}
+	
 \chapter{Fonctions convexes}
 	\section{Présentation}
 		\subsection{Définition}
@@ -431,22 +489,42 @@
 			\subsubsection{Primitives usuelles}
 		\subsection{Formules d'Intégration par parties (IPP)}
 			\subsubsection{Énoncé}
+			Soient $u$ et $v$ dérivables, à dérivées continues sur un intervalle $I$ :
+			\[\int u(x) v'(x) dx = u(x)v(x) - \int u'(x)v(x)dx\]
 			\subsubsection{Autre primitive usuelle}
+			Avec une intégration par parties :
+			\[\int \ln x \ dx = x\ln x - x \]
 		\subsection{Calcul de $\int e^{\alpha x}P(x)dx$}
 			\subsubsection{1\up{ère} méthode}
+			Par IPPs successives, en dérivant $P(x)$ et primitivant $e^{\alpha x}$, jusqu'à abaisser à 0 le degré du polynôme.
 			\subsubsection{2\up{ème} méthode}
+			En posant une forme primitive à priori $e^{\alpha x} Q(x)$ où $Q$ polynôme tel que d°$Q = $ d°$P$.
 		\subsection{Calcul de $\int e^{\alpha x}\cos(ax)dx$, $\int e^{\alpha x}\sin(ax)dx$}
 			\subsubsection{1\up{ère} méthode}
+			À l'aide de deux IPPs.
 			\subsubsection{2\up{ème} méthode}
+			En utilisant les nombres complexes.
 		\subsection{Calcul de $\int \frac{1}{(x-a_1)(x-a_2)\dots(x-a_n)}dx$}
-			\subsubsection{1\up{ère} méthode}
-			\subsubsection{2\up{ème} méthode}
+			\subsubsection{Méthode}
+			On décompose la fraction en éléments simples.
 		\subsection{Calcul de $\int \frac{1}{ax^{2}+bx+c}dx$}
 			\subsubsection{Méthode}
 			\subsubsection{Exemple}
 	\section{Présentation des équations différentielles}
+	On appelle équation différentielle d'ordre $n$ sur un intervalle $I$ toute relation entre : \begin{itemize}
+		\item une variable $x$ (ou $t$) décrivant $I$
+		\item une fonction $f$ $n$ fois dérivable en $I$
+		\item ses dérivées $f'$,$f''$,...,$f^{(n)}$
+	\end{itemize}
+	\[\mathcal{R}(x,f,f',...,f^{(n)}) = 0\]
+	
+	Intégrer l'équation différentielle, c'est : \begin{itemize}
+		\item déterminer si elle a des solutions
+		\item si oui, les trouver toutes.
+	\end{itemize}
 	\section{Équations différentielles d'ordre 1}
 		\subsection{Définition}
+		On appelle équation différentielle linéaire d'ordre 1 toute équation différentielle de la forme $y' +a(x)y = b(x)$ où $a,b$ sont deux fonctions continues sur un intervalle $I$ à valeurs dans $\mathbb{R}$ (ou $\mathbb{C}$).
 		\subsection{Résolution de l'équation différentielle homogène}
 		\subsection{Résolution de l'équation différentielle complète}
 			\subsubsection{À l'aide d'une solution particulière $y_0$}
