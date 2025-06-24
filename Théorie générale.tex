@@ -1,0 +1,366 @@
+\documentclass[12pt,a4paper,french]{book}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{multirow}
+\usepackage[frenchb]{babel}
+\usepackage{fancybox,framed}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{array}
+\title{Cours}
+\author{C. LACOUTURE}
+\date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
+\begin{document}
+	
+\maketitle
+\tableofcontents
+\part{Théorie générale}
+\chapter{Présentation des Mathématiques}
+\section{Définition}
+\begin{enumerate}
+	\item Science à caractère essentiellement déductif, construite sur le seul raisonnement
+	\item Elles portent sur les concepts d'élément, d'ensembles, de relations
+	\item Elles réalisent sur ceux-ci un raisonnement c'est à dire une suite d'opérations logiques soumises à des règles strictes définies au préalable
+	\item Elles dégagent alors des propositions c'est à dire des énoncés dont on peut affirmer sans ambiguïtés s'ils sont vrais ou faux, ainsi : un axiome est une proposition supposée vraie au départ, un théorème est une proposition vraie établie après un raisonnement (appelé démonstration)
+	\item L'expérience en est exclue, néanmoins : les objets mathématiques sont inspirés d'objets réels (point, droite, cercle...) et les Mathématiques constituent ainsi un modèle opératoire pour les autres sciences
+\end{enumerate}
+
+\section{Connecteurs logiques}
+ (éléments permettant de construire des propositions à partir d'autres)
+\subsection{Énumération}
+\subsubsection{Négation : $\bar{P}$ ou \textlnot$P$} 
+Soit $P$ une proposition. Montrer que sa négation $\bar{P}$ est vraie revient à montrer que $P$ est fausse.
+\begin{center}
+	\begin{tabular}{ |c||c| }
+		\hline
+		$P$ & $\bar{P}$\\
+		\hline
+		V&F\\
+		F&V\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{Conjonction : $\wedge$}
+Montrer que $\left(P \wedge Q\right)$ est vraie revient à montrer que $P$,$Q$ sont simultanément vraies.
+\begin{center}
+	\begin{tabular}{ |c||c||c| }
+		\hline
+		$P$ & $Q$ & $\left(P \wedge Q\right)$\\
+		\hline
+		V&V&V\\
+		V&F&F\\
+		F&V&F\\
+		F&F&F\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsubsection{Disjonction $\vee$, disjonction exclusive $\veebar$ }
+\begin{itemize}
+	\item $P \vee Q$ est vraie lorsque l'une au moins des 2 propositions $P$,$Q$ est vraie
+	\item $P \veebar Q$ est vraie lorsque l'une exactement des 2 propositions $P$,$Q$ est vraie
+\end{itemize}
+\begin{center}
+	\begin{tabular}{ |c||c||c||c| }
+		\hline
+		$P$ & $Q$ & $\left(P \vee Q\right)$ & $\left(P \veebar Q\right)$\\
+		\hline
+		V&V&V&F\\
+		V&F&V&V\\
+		F&V&V&V\\
+		F&F&F&F\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{Implication $\Rightarrow$}
+
+Définition : $\left(P \Rightarrow Q\right) = \left(\bar{P} \vee Q \right)$ 
+
+Pratique :
+\begin{center}
+	\begin{tabular}{ |c||c||c||c| }
+		\hline
+		$P$ & $Q$ & $\bar{P}$ & $\left(P \Rightarrow Q\right) = \left(\bar{P} \vee Q \right)$\\
+		\hline
+		V&V&F&F\\
+		V&F&F&F\\
+		F&V&V&V\\
+		F&F&V&V\\
+		\hline
+	\end{tabular}
+\end{center}
+Ainsi $P \Rightarrow Q$ est toujours vraie quand $P$ est fausse donc montrer que $P \Rightarrow Q$ est vraie reviens à montrer que si $P$ est vraie alors $Q$ est vraie aussi.
+\subsubsection{Équivalence $\Leftrightarrow$}
+Définition : $\left( P \Leftrightarrow Q \right)  = \left( P \Rightarrow Q \vee Q \Rightarrow P \right)$
+
+Table de vérité :
+\begin{center}
+	\begin{tabular}{ |c||c||c||c||c| }
+		\hline
+		$P$ & $Q$ & $ P \Rightarrow Q$ & $Q \Rightarrow P$ & $ P \Rightarrow Q \wedge Q \Rightarrow P$ \\
+		\hline
+		V&V&V&V&V\\
+		V&F&F&V&F\\
+		F&V&V&F&F\\
+		F&F&V&V&V\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\subsection{Propriétés}
+\subsubsection{Diverses :}
+\begin{itemize}
+	\item \textlnot\textlnot$P = P$
+	\item $P \wedge P = P$
+	\item $P \vee P = P$
+\end{itemize}
+\subsubsection{Commutativité}
+\begin{itemize}
+	\item $P \wedge Q = Q \wedge P$
+	\item $P \vee Q = Q \vee P$
+	\item $P \veebar Q = Q \veebar P$
+\end{itemize}
+\subsubsection{Associativité}
+$\left( P \wedge Q \right) \wedge R = P \wedge \left( Q \wedge R \right)$
+idem avec $\vee$, avec $\veebar$.
+\subsubsection{Distributivité}
+\begin{itemize}
+\item $P \wedge \left( Q \vee R \right) = (P \wedge Q) \vee (P \wedge R)$
+\item $P \wedge (Q \veebar R) = (P \wedge Q) \veebar (P \wedge R)$
+\item $P \vee (Q \wedge R) = (P \vee Q) \wedge (P \vee R)$
+\end{itemize}
+\subsubsection{Lois de Morgan}
+\begin{itemize}
+\item $ \overline{P \wedge Q} = \bar{P} \vee \bar{Q}$
+\item $ \overline{P \vee Q} = \bar{P} \wedge \bar{Q}$
+\end{itemize}
+
+\section{Méthodes de raisonnement}
+
+\subsection{Pour une implication $P \Rightarrow Q$} \label{1.3.A}
+
+\begin{itemize}
+	\item Par un raisonnement direct : on montre que \ovalbox{si} $P$ est vraie \ovalbox{alors} $Q$ l'est aussi.
+
+\underline{Exemple}: montrons que $p$ entier impair $\Rightarrow p^{2}-1$ divisible par 8.
+
+On a $p = 2k+1$, $k \in \mathbb{Z}$
+
+dès lors : $p^{2}-1 = (2k+1)^{2} = 4k^{2}+4k+1-1 = 4k(k+1)$
+
+puis $k$, $k+1$ sont deux entiers consécutifs donc l'un est pair donc 2 divise $k(k+1)$
+
+donc 8 divise $4k(k+1)$ donc 8 divise $p^{2}-1$.
+\item Par contraposée : montrer que $P \Rightarrow Q$ revient à montrer que $\bar{Q} \Rightarrow \bar{P}$ est vraie.
+
+en effet :
+\begin{equation}
+\begin{split} 
+	\bar{Q} \Rightarrow \bar{P} &= \bar{\bar{Q}} \vee \bar{P} \\ &= Q \vee \bar{P} \\ &= \bar{P} \vee Q \\ &= P \Rightarrow Q \end{split}
+\end{equation}
+
+\underline{Exemple}: soit $p \in \mathbb{Z}$. Montrons que $p^{2}$ pair $\Rightarrow p$ pair
+
+en effet, par contraposée, si $p$ c-à-d $p = 2k+1, k \in \mathbb{Z}$
+alors $p^{2} = (2k+1)^{2} = 4k^{2}+4k+1 = 2(2k^{2}+2k)+1$ avec $2k^{2}+2k \in \mathbb{Z}$ donc $p^{2}$ est impair.
+\end{itemize}
+
+\subsection{Pour une simple proposition}
+\begin{itemize}
+	\item Par un raisonnement direct, on montre que la proposition est vraie.
+	
+	\underline{Exemple}: montrons que $\forall x \in \mathbb{R}, x^{2}-x+1 > 0$. En effet $x^{2}-x+1$ est un polynôme de degré 2 en $x$, de discriminant $\Delta = (-1)^{2}-4\cdot1\cdot1 = -3 < 0$ donc de signe constant : celui du coefficient dominant, qui est $>0$. 
+	\item Par négation, montrer que $P$ est vraie revient à montrer que $\bar{P}$ est fausse.
+	
+	\underline{Exemple}: Montrons que $\sqrt{2} \notin \mathbb{Q}$. Par négation : si on avait  $\sqrt{2} \in \mathbb{Q}$, c-à-d si on avait $
+	\sqrt{2} = \frac{p}{q}$ avec 
+	$
+	\left\{ 
+		\begin{array}{ll}
+			p \in \mathbb{Z}, q \in \mathbb{N}^{\ast} \\ 
+			p \wedge q = 1 
+		\end{array}
+	\right. $ 
+		alors on aurait $2 = \frac{p^{2}}{q^{2}}$ donc on aurait $2q^{2} = p^{2}$ donc on aurait $p^{2}$ pair donc on aurait $p$ pair (cf précédemment) donc on aurait $p = 2k$ avec $k \in \mathbb{Z}$ donc on aurait $2q^{2} = (2k)^{2} = 4k^{2}$ donc on aurait $q^{2} = 2k^{2}$ donc on aurait $q^{2}$ pair donc $q$ pair (cf précédemment) donc $p$ et $q$ ne seraient pas premiers entre eux.
+\end{itemize}
+
+\subsection{Pour une équivalence}
+\begin{itemize}
+	\item Par un procédé direct :
+	
+	\underline{Exemple} : soient $A$,$B$,$C$ 3 ensembles et un élément $x$. Montrons que $x \in (A-B)-C \Leftrightarrow x \in A-(B \cup C)$.
+	En effet : \begin{equation}
+		\begin{split}
+			x \in (A-B)-C & \Leftrightarrow x \in (A-B) \wedge x \notin C \\ &\Leftrightarrow x \in A \wedge x \notin B \wedge x \notin C \\ &\Leftrightarrow x \in A \wedge (x \notin B \wedge x \notin C) \end{split}
+	\end{equation}
+	Par ailleurs : $
+	\left\{ 
+	\begin{array}{ll}
+		x \in B \cup C \Leftrightarrow x \in B \vee x \in C \\ 
+		x \notin B \cup C \Leftrightarrow \bar{x \in B \vee x \in C} \Leftrightarrow x \notin B \wedge x \notin C
+	\end{array}
+	\right. $ 
+	
+	Dès lors : \begin{equation} 
+		\begin{split} x \in (A-B)-C & \Leftrightarrow x \in A \wedge x \notin B \cup C \\ & \Leftrightarrow x \in A - (B\cup C) \end{split}
+		\end{equation}
+	L'équivalence est établie directement.
+	\item Par une double implication, montrer que $P \Leftrightarrow Q$ revient à montrer que $P \Rightarrow Q \wedge Q \Rightarrow P$
+	
+	\underline{Exemple} : Soit $p \in \mathbb{Z}$. Montrons que $8p^{2}+1$ divisible par 3 $\Leftrightarrow p$ n'est pas divisible par 3.
+	\begin{itemize}
+		\item \underline{Solution "rapide" avec congruences}
+		
+		$p \equiv a (3)$ où $a = 0,1$ ou $2$ donc $8p^{2}+1 \equiv 8a^{2}+1 (3)$
+		
+		donc $\left\{ 
+		\begin{array}{ll}
+			\mbox{pour }a = 0 : 8^{2}+1 \equiv 1 (3) \\ 
+			\mbox{pour }a = 1 : 8^{2}+1 \equiv 9 (3) \equiv 0 (3) \\
+			\mbox{pour }a = 2 : 8p^{2} +1 \equiv 33 (3) \equiv 0 (3)
+		\end{array}
+		\right. $
+		
+		bref $8p^{2}+1$ divisible par 3 $\Leftrightarrow 8p^{2}+1 \equiv 0 (3) \Leftrightarrow a = 1$ ou $2 \Leftrightarrow p$ n'est pas divisible par 3.
+		
+		\item \underline{Solution sans congruences avec une double implication}
+		
+		$\exists k,a \in \mathbb{Z}, p = 3k+a \mbox{ avec } a=0,1 \mbox{ ou } 2$
+		\begin{equation}
+			\begin{split}
+				8p^{2}+1 & = 8(3k+a)^{2}+1 \\ & = 8(9k^{2}+6ka + a^{2}) \\ & = 72k^{2}+48ka+8a^{2}+1 \\ & =3(24k^{2}+16ak) + 8a^{2}+1\end{split}
+		\end{equation}
+		dès lors $8p^{2}+1$ est divisible par 3 $\Leftarrow 8a^{2}+1$ est divisible par 3, puis: 
+		\begin{itemize}
+			\item \ovalbox{$\Leftarrow$} si $p$ n'est pas divisible par 3 c-à-d si $a=1$ ou $2$, alors $8a^{2}+1 = 9$ ou $33$ donc $8a^{2}+1$ est divisible par 3 donc $8p^{2}+1$ est divisible par 3
+			\item \ovalbox{$\Rightarrow$} montrons que $8p^{2}+1$ est divisible par 3 $\Rightarrow p$ non divisible par 3 par contraposée. En effet : si $p$ est divisible par 3 c-à-d si $a=0$, alors $8a^{2}+1 = 1$ n'est pas divisible par 3 donc $8p^{2}+1$ n'est pas divisible par 3.
+		\end{itemize}
+	\end{itemize}	
+\end{itemize}
+
+\subsection{Pour une disjonction}
+
+Principe :  
+	\begin{equation}
+		\begin{split}
+			(P \vee Q) & = (\bar{\bar{P}} \vee Q) \\ & = (\bar{P} \Rightarrow Q) \\ & = (Q \vee P) \\ & = (\bar{Q} \Rightarrow P) \end{split}
+	\end{equation}
+	donc pour montrer que une disjonction est vraie, on montre que : \ovalbox{si} une des deux propositions est fausse \ovalbox{alors} l'autre est vraie.
+
+\underline{Exemple} : soit $p \in \mathbb{Z}$, montrons que $p^{2}-1$ est impair \ovalbox{ou} divisible par 8. En effet : \ovalbox{si} $p^2-1$ n'est pas impair \ovalbox{alors} $p^2-1$ est pair donc $p^{2}$ est impair donc $p$ impair donc $p^{2}-1$ est divisible par 8 (cf précédemment).
+
+\subsection{Pour une existence-unicité}
+\begin{itemize}
+	\item On peut traiter existence et unicité séparément. 
+	
+	\underline{Exemple} : Division euclidienne dans $\mathbb{N}$ : soit $a \in \mathbb{N}, b \in \mathbb{N}^{\ast}$ : montrons que $\exists ! (q,r) \in \mathbb{N}\times\mathbb{N}, a = bq+r$ avec $0 \leqslant r < b$. $q$ et $r$ sont les quotient et reste de la division euclidienne de $a$ par $b$. 
+	\begin{itemize}
+		\item \underline{Unicité} : (en montrant que s'il y a 2 solutions, alors elle ne font qu'une)
+		
+		\ovalbox{si} $a = bq+r = bq'+r'$ avec $q,q',r,r'$ respectant les conditions citées précédemment, 
+		
+		\ovalbox{alors} $bq - bq' = r'-r$ c-à-d $b(q-q') = r'-r$ 
+		
+		avec : $ \left\{ 
+		\begin{array}{ll}
+			0 \leqslant r' < b  \\ 
+			-b < -r \leqslant 0 \\
+			\mbox{ donc, en additionnant ces deux inégalités,} -b < r'-r < b
+		\end{array}
+		\right. $ 
+		c-à-d $-b  < b(q-q') < b$ c-à-d $-1 < q-q' < 1$ ($b>0$)
+		or $q-q' \in \mathbb{Z}$ donc $q=0$ c-à-d $q=q'$
+		d'où $r'-r = b(q-q') = 0$ donc $r' = r$.
+		\begin{framed}
+			Attention ! on ne soustrait jamais d'inégalités, mais on écrit "l'inégalité opposée" puis on additionne.
+		\end{framed}
+		\item \underline{Existence} : 
+			\begin{itemize}
+				\item \underline{Axiome} : toute partie de $\mathbb{N}$ non vide majorée a un plus grand élément.
+				\item Soit $E = \left\lbrace k \in \mathbb{N}, bk \leqslant a \right\rbrace$. $E$ est une partie de $\mathbb{N}$, non vide ($0 \in E$), majorée (par $\frac{a}{b}$) donc $E$ a un plus grand élément : $q$. Soit alors $r$ tel que $r = a -bq$. $q$ et $r$ sont bien alors tel que :
+				\begin{itemize}
+					\item $a = bq+r$
+					\item $q \in \mathbb{N}$
+					\item $r \in \mathbb{N}$ car : $r \in \mathbb{Z}$ (car $a,b,q$ sont des entiers) avec $q \in E$ donc $qb \leqslant a$ donc $r = a-bq \geqslant 0$ donc $r \in \mathbb{N}$
+					\item $r < b$ car $q$ est le plus grand élément de $E$ donc $q+1 \notin E$ donc $b(q+1) >a$ donc $bq+b > a$ donc $b > a -bq$ donc $b >r$.
+				\end{itemize}
+			\end{itemize}
+	\end{itemize}
+	\item Par une \framebox{Analyse-Synthèse}
+	\begin{itemize}
+		\item Principe : on établit d'abord l'unicité en montrant que l'élément voulu est \underline{nécessairement} défini de manière unique (c'est l'Analyse) puis on établit ensuite l'existence en montrant \underline{réciproquement} que l'élément défini auparavant convient (c'est la Synthèse).
+		\item \underline{Exemple} : même exemple de la division euclidienne dans $\mathbb{N}$. 
+		\item \underline{Unicité} : car nécessairement,
+		\begin{itemize}
+			\item $q \in \mathbb{N}$
+			\item $r \geqslant 0$ et $a = bq+r$ donc nécessairement : $bq \leqslant a$
+			\item $r < b$ donc, nécessairement, $a = bq+r < bq+b = b(q+1)$ donc $\forall z \in \mathbb{N}, q < z : q+1 \leqslant z$ donc $a < bz$
+			\item Donc nécessairement, $q$ est le plus grand élément de l'ensemble  $E = \left\lbrace k \in \mathbb{N}, bk \leqslant a \right\rbrace$ car nécessairement $q \in \mathbb{N}$ et $bq \leqslant a$ donc $q \in E$ et tout entier $z > q$ n'est pas dans E.
+			\item Bref $q$ est nécessairement défini de manière unique en tant que plus grand élément de l'ensemble $E$.
+			\item $r$ est lui aussi défini de manière unique car $r =a-bq$. C'est l'Analyse.
+		\end{itemize}
+		\item \underline{Existence} : réciproquement, vérifions que $q$ et $r$ trouvés ci-dessus conviennent,
+		\begin{itemize}
+			\item Ci-dessus, on a $r= a-bq$ donc $a = bq+r$
+			\item On a vu que $q \in E$ donc $q \in \mathbb{N}$
+			\item On a vu que $r = a-bq$ donc $r \in \mathbb{Z}$ or $q \in E$ donc $bq < a$ donc $ r\geqslant 0$ donc $r \in \mathbb{N}$
+			\item On a vu que $q+1 \notin E$ donc $a < b(q+1)$ donc $a >bq+b$ donc $r = a-bq <b$
+			\item Bref $q$ et $r$ définis ci-dessus de manière unique conviennent bien. C'est la Synthèse.
+		\end{itemize}
+	\end{itemize}
+\end{itemize}
+\subsection{Pour une propriété à établir sur des entiers}
+
+Penser à une démonstration \underline{par récurrence} (cf Arithmétique, chapitre Récurrences, sommations)
+
+
+\chapter{Ensembles, applications relations}	
+	\section{Ensembles}
+		\subsection{Définition}
+		\subsection{Inclusion}
+		\subsection{Différences, complémentaires}
+		\subsection{Intersections, réunions, différence symétrique}
+			\subsubsection{Définitions}
+			\subsubsection{Inclusion}
+			\subsubsection{Négation}
+			\subsubsection{Propriétés}
+		\subsection{Ensemble des parties d'un ensemble}
+			\subsubsection{Notation}
+			\subsubsection{Partition d'un ensemble}
+	\section{Fonctions ou applications}
+		\subsection{Définitions}
+			\subsubsection{Énoncé}
+			\subsubsection{Notation}
+			\subsubsection{Caractérisation}
+			\subsubsection{Restriction, prolongement}
+		\subsection{Image, image réciproque}
+			\subsubsection{Définitions}
+			\subsubsection{Propriétés de l'image}
+			\subsubsection{Propriétés de l'image réciproque}
+			\subsubsection{Propriétés reliant les deux}
+		\subsection{Injection, surjection, bijection}
+			\subsubsection{Définitions}
+			\subsubsection{Contre-exemples}
+		\subsection{Composition d'applications}
+			\subsubsection{Définition}
+			\subsubsection{Premières propriétés}
+			\subsubsection{Injection, surjection, bijection}
+			\subsubsection{Composée et bijectivité}
+			\subsubsection{Autres caractérisations de la bijectivité}
+	\section{Relations}
+		\subsection{Définitions}
+			\subsubsection{Réflexive}
+			\subsubsection{Symétrique}
+			\subsubsection{Antisymétrique}
+			\subsubsection{Transitive}
+		\subsection{Relation d'équivalence}
+			\subsubsection{Définition}
+			\subsubsection{Exemples}
+			\subsubsection{Classe d'équivalence}
+		\subsection{Relations d'ordre}
+			\subsubsection{Définition générale}
+			\subsubsection{Complément de définition}
+			\subsubsection{Majorant, minorant}
+			\subsubsection{Plus grand, plus petit élément}
+		
+
+\end{document}

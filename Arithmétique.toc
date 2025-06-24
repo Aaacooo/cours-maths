@@ -1,0 +1,78 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Arithmétique}{5}{}%
+\contentsline {chapter}{\numberline {1}Récurrences, sommations}{7}{}%
+\contentsline {section}{\numberline {1.1}Récurrences}{7}{}%
+\contentsline {subsection}{\numberline {1.1.1}Principe général}{7}{}%
+\contentsline {subsubsection}{Axiome}{7}{}%
+\contentsline {subsubsection}{Énoncé}{7}{}%
+\contentsline {subsubsection}{Applications à des expressions de sommes usuelles}{7}{}%
+\contentsline {subsection}{\numberline {1.1.2}Utilisation la plus fréquente}{8}{}%
+\contentsline {subsection}{\numberline {1.1.3}Variantes}{8}{}%
+\contentsline {subsection}{\numberline {1.1.4}Originalités}{8}{}%
+\contentsline {section}{\numberline {1.2}Sommations}{8}{}%
+\contentsline {subsection}{\numberline {1.2.1}Somme simple}{8}{}%
+\contentsline {subsection}{\numberline {1.2.2}Sommes doubles}{8}{}%
+\contentsline {chapter}{\numberline {2}Coefficients binomiaux}{9}{}%
+\contentsline {section}{\numberline {2.1}Définitions}{9}{}%
+\contentsline {subsection}{\numberline {2.1.1}Factorielle}{9}{}%
+\contentsline {subsection}{\numberline {2.1.2}Coefficient binomial}{9}{}%
+\contentsline {subsubsection}{Générale}{9}{}%
+\contentsline {subsubsection}{Cas particulier}{9}{}%
+\contentsline {section}{\numberline {2.2}Formules du triangle de Pascal}{9}{}%
+\contentsline {subsection}{\numberline {2.2.1}Énoncé}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Pratique}{9}{}%
+\contentsline {subsection}{\numberline {2.2.3}Expression des coefficients binomiaux}{9}{}%
+\contentsline {section}{\numberline {2.3}Applications}{9}{}%
+\contentsline {subsection}{\numberline {2.3.1}Symétrie des coefficients binomiaux}{9}{}%
+\contentsline {subsection}{\numberline {2.3.2}Formule du binôme de Newton}{9}{}%
+\contentsline {subsection}{\numberline {2.3.3}Linéarisation}{9}{}%
+\contentsline {subsection}{\numberline {2.3.4}Inversement}{9}{}%
+\contentsline {subsection}{\numberline {2.3.5}Nombre de parties d'un ensemble}{9}{}%
+\contentsline {chapter}{\numberline {3}PGCD, PPCM, nombres premiers}{11}{}%
+\contentsline {section}{\numberline {3.1}PPCM : Plus Petit Commun Multiple}{12}{}%
+\contentsline {subsection}{\numberline {3.1.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {3.1.2}Propriétés}{12}{}%
+\contentsline {subsection}{\numberline {3.1.3}Cas particulier}{12}{}%
+\contentsline {section}{\numberline {3.2}PGCD : Plus Grand Commun Diviseur}{12}{}%
+\contentsline {subsection}{\numberline {3.2.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {3.2.2}Propriétés}{12}{}%
+\contentsline {subsection}{\numberline {3.2.3}Cas particulier}{12}{}%
+\contentsline {subsection}{\numberline {3.2.4}Pratique}{12}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
+\contentsline {subsubsection}{Algorithme}{12}{}%
+\contentsline {subsubsection}{Notations}{12}{}%
+\contentsline {subsubsection}{Concrètement}{12}{}%
+\contentsline {subsubsection}{Exemple : pgcd(56,23)}{12}{}%
+\contentsline {subsubsection}{Remarque}{12}{}%
+\contentsline {section}{\numberline {3.3}Nombres premiers entre eux}{12}{}%
+\contentsline {subsection}{\numberline {3.3.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {3.3.2}Caractérisation : théorème de Bézout}{12}{}%
+\contentsline {subsection}{\numberline {3.3.3}Propriétés}{12}{}%
+\contentsline {section}{\numberline {3.4}Généralisation}{12}{}%
+\contentsline {subsection}{\numberline {3.4.1}pgcd,ppcm de $n$ entiers}{12}{}%
+\contentsline {subsubsection}{ppcm}{12}{}%
+\contentsline {subsubsection}{pgcd}{12}{}%
+\contentsline {subsection}{\numberline {3.4.2}Pratique}{12}{}%
+\contentsline {section}{\numberline {3.5}Nombres premiers}{12}{}%
+\contentsline {subsection}{\numberline {3.5.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {3.5.2}Premières propriétés}{12}{}%
+\contentsline {subsection}{\numberline {3.5.3}Infinité}{12}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
+\contentsline {subsubsection}{Conséquence}{12}{}%
+\contentsline {subsection}{\numberline {3.5.4}Crible d'Eratosthène}{12}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
+\contentsline {subsubsection}{Principe du crible}{12}{}%
+\contentsline {subsubsection}{Exemple}{12}{}%
+\contentsline {subsection}{\numberline {3.5.5}Décomposition en facteurs premiers}{12}{}%
+\contentsline {subsubsection}{Énoncé}{12}{}%
+\contentsline {subsubsection}{Démonstration}{12}{}%
+\contentsline {section}{\numberline {3.6}Congruences}{12}{}%
+\contentsline {subsection}{\numberline {3.6.1}Définition de la relation}{12}{}%
+\contentsline {subsubsection}{$\equiv (n)$ est une relation d'équivalence}{12}{}%
+\contentsline {subsubsection}{Classes d'équivalence}{12}{}%
+\contentsline {subsection}{\numberline {3.6.2}Opérations sur $\mathbb {Z}/ n\mathbb {Z}$}{12}{}%
+\contentsline {subsubsection}{Addition}{12}{}%
+\contentsline {subsubsection}{Multiplication}{12}{}%
+\contentsline {subsubsection}{Justification de la définition}{12}{}%
+\contentsline {subsection}{\numberline {3.6.3}Structures}{12}{}%
+\contentsline {chapter}{\numberline {4}Dénombrements}{13}{}%

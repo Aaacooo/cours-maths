@@ -1,0 +1,274 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Algèbre}{7}{}%
+\contentsline {chapter}{\numberline {1}Structure de groupe}{9}{}%
+\contentsline {section}{\numberline {1.1}Présentation}{10}{}%
+\contentsline {subsection}{\numberline {1.1.1}Exemple préliminaire}{10}{}%
+\contentsline {subsection}{\numberline {1.1.2}Définition générale}{10}{}%
+\contentsline {subsection}{\numberline {1.1.3}Exemples usuels}{10}{}%
+\contentsline {subsubsection}{Ensembles de nombres}{10}{}%
+\contentsline {subsubsection}{Ensemble des bijections}{10}{}%
+\contentsline {subsubsection}{Ensemble des parties}{10}{}%
+\contentsline {subsection}{\numberline {1.1.4}Compléments}{10}{}%
+\contentsline {subsubsection}{Unicité}{10}{}%
+\contentsline {subsubsection}{Formules concernant le symétrique}{10}{}%
+\contentsline {subsubsection}{Régularité de tout élément}{10}{}%
+\contentsline {subsubsection}{Plus généralement}{10}{}%
+\contentsline {subsection}{\numberline {1.1.5}Notations}{10}{}%
+\contentsline {subsubsection}{En notation multiplicative}{10}{}%
+\contentsline {subsubsection}{En notation additive}{10}{}%
+\contentsline {subsubsection}{Propriétés}{10}{}%
+\contentsline {subsection}{\numberline {1.1.6}Autres remarques}{10}{}%
+\contentsline {section}{\numberline {1.2}Sous-groupes}{10}{}%
+\contentsline {subsection}{\numberline {1.2.1}Définition}{10}{}%
+\contentsline {subsection}{\numberline {1.2.2}Caractérisations}{10}{}%
+\contentsline {subsection}{\numberline {1.2.3}Exemples usuels}{10}{}%
+\contentsline {subsubsection}{Exemple général}{10}{}%
+\contentsline {subsubsection}{Exemples particuliers}{10}{}%
+\contentsline {subsubsection}{Sous-groupes de $(\mathbb {Z},+)$}{10}{}%
+\contentsline {subsection}{\numberline {1.2.4}Propriétés}{10}{}%
+\contentsline {subsubsection}{Intersection}{10}{}%
+\contentsline {subsubsection}{Faux pour la réunion $\cup $}{10}{}%
+\contentsline {section}{\numberline {1.3}Morphismes de groupes}{10}{}%
+\contentsline {subsection}{\numberline {1.3.1}Définition}{10}{}%
+\contentsline {subsection}{\numberline {1.3.2}Exemples usuels}{10}{}%
+\contentsline {subsection}{\numberline {1.3.3}Propriétés}{10}{}%
+\contentsline {chapter}{\numberline {2}Structure d'anneau et de corps}{11}{}%
+\contentsline {section}{\numberline {2.1}Structure d'anneau}{12}{}%
+\contentsline {subsection}{\numberline {2.1.1}Présentation}{12}{}%
+\contentsline {subsubsection}{Exemple préliminaire}{12}{}%
+\contentsline {subsubsection}{Définition générale}{12}{}%
+\contentsline {subsubsection}{Notations}{12}{}%
+\contentsline {subsubsection}{Intégrité}{12}{}%
+\contentsline {subsubsection}{Exemples usuels}{12}{}%
+\contentsline {subsection}{\numberline {2.1.2}Propriétés}{12}{}%
+\contentsline {subsubsection}{Élément absorbant}{12}{}%
+\contentsline {subsubsection}{Ensemble des inversibles}{12}{}%
+\contentsline {subsubsection}{"Opposé" d'un produit}{12}{}%
+\contentsline {subsubsection}{Loi "soustraction"}{12}{}%
+\contentsline {subsubsection}{Formule du binôme de Newton}{12}{}%
+\contentsline {subsubsection}{Formule de factorisation}{12}{}%
+\contentsline {subsection}{\numberline {2.1.3}Sous-anneau}{12}{}%
+\contentsline {subsubsection}{Caractérisation}{12}{}%
+\contentsline {subsubsection}{Exemple usuel : sous-anneau des décimaux}{12}{}%
+\contentsline {section}{\numberline {2.2}Structure de corps}{12}{}%
+\contentsline {subsection}{\numberline {2.2.1}Définition}{12}{}%
+\contentsline {subsection}{\numberline {2.2.2}Exemples usuels}{12}{}%
+\contentsline {subsection}{\numberline {2.2.3}Propriétés}{12}{}%
+\contentsline {subsubsection}{Intégrité}{12}{}%
+\contentsline {subsubsection}{Commutativité}{12}{}%
+\contentsline {subsection}{\numberline {2.2.4}Sous-corps}{12}{}%
+\contentsline {chapter}{\numberline {3}Corps des nombres réels}{13}{}%
+\contentsline {section}{\numberline {3.1}Généralités}{14}{}%
+\contentsline {section}{\numberline {3.2}Borne supérieure ou inférieure d'une partie de $\mathbb {R}$}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.2.2}Existence-unicité}{14}{}%
+\contentsline {subsubsection}{Existence}{14}{}%
+\contentsline {subsubsection}{Unicité}{14}{}%
+\contentsline {subsection}{\numberline {3.2.3}Mise en garde}{14}{}%
+\contentsline {subsection}{\numberline {3.2.4}Caractérisation}{14}{}%
+\contentsline {section}{\numberline {3.3}Valeurs approchées d'un réel à $\alpha $ près (où $\alpha \in \mathbb {Q}^{\ast +}$)}{14}{}%
+\contentsline {subsection}{\numberline {3.3.1}Résultat et définition}{14}{}%
+\contentsline {subsection}{\numberline {3.3.2}Cas où $\alpha = 1$}{14}{}%
+\contentsline {subsection}{\numberline {3.3.3}Cas où $\alpha = \frac {1}{10^{n}} (n \in \mathbb {N})$}{14}{}%
+\contentsline {subsubsection}{Énoncé}{14}{}%
+\contentsline {subsubsection}{Convergence}{14}{}%
+\contentsline {section}{\numberline {3.4}Densité}{14}{}%
+\contentsline {subsection}{\numberline {3.4.1}Définitions}{14}{}%
+\contentsline {subsubsection}{Intervalle}{14}{}%
+\contentsline {subsubsection}{Densité}{14}{}%
+\contentsline {subsection}{\numberline {3.4.2}Caractérisation}{14}{}%
+\contentsline {subsubsection}{Générale}{14}{}%
+\contentsline {subsubsection}{Plus précisément}{14}{}%
+\contentsline {subsubsection}{Remarques}{14}{}%
+\contentsline {subsubsection}{Exemple usuel}{14}{}%
+\contentsline {subsection}{\numberline {3.4.3}Compléments}{14}{}%
+\contentsline {subsubsection}{Concernant $\mathbb {Q}$}{14}{}%
+\contentsline {subsubsection}{Concernant$\bar {\mathbb {Q}}$ (complément de $\mathbb {Q}$ dans $\mathbb {R}$)}{14}{}%
+\contentsline {chapter}{\numberline {4}Corps des nombres complexes}{15}{}%
+\contentsline {section}{\numberline {4.1}Conjugaison}{16}{}%
+\contentsline {subsection}{\numberline {4.1.1}Définition}{16}{}%
+\contentsline {subsection}{\numberline {4.1.2}Propriétés}{16}{}%
+\contentsline {subsubsection}{Formules}{16}{}%
+\contentsline {subsubsection}{Caractérisation}{16}{}%
+\contentsline {subsubsection}{Pratique}{16}{}%
+\contentsline {section}{\numberline {4.2}Module}{16}{}%
+\contentsline {subsection}{\numberline {4.2.1}Définition}{16}{}%
+\contentsline {subsubsection}{Pratique}{16}{}%
+\contentsline {subsubsection}{Lien avec la valeur absolue}{16}{}%
+\contentsline {subsection}{\numberline {4.2.2}Propriétés}{16}{}%
+\contentsline {subsubsection}{Diverses}{16}{}%
+\contentsline {subsubsection}{(Double) inégalité triangulaire}{16}{}%
+\contentsline {subsection}{\numberline {4.2.3}Nombres complexes de module 1}{16}{}%
+\contentsline {subsubsection}{Description}{16}{}%
+\contentsline {subsubsection}{Remarque sur l'écriture $e^{i\theta }$}{16}{}%
+\contentsline {subsubsection}{Produit}{16}{}%
+\contentsline {subsubsection}{Formule de Moivre}{16}{}%
+\contentsline {subsubsection}{Formules à savoir}{16}{}%
+\contentsline {section}{\numberline {4.3}Forme trigonométrique}{16}{}%
+\contentsline {subsection}{\numberline {4.3.1}Définition}{16}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{16}{}%
+\contentsline {subsubsection}{Conséquence}{16}{}%
+\contentsline {subsection}{\numberline {4.3.2}Premiers exemples}{16}{}%
+\contentsline {subsubsection}{Divers}{16}{}%
+\contentsline {subsubsection}{Caractérisations}{16}{}%
+\contentsline {subsection}{\numberline {4.3.3}Relations entre forme algébrique et trigonométrique}{16}{}%
+\contentsline {subsubsection}{Sens direct}{16}{}%
+\contentsline {subsubsection}{Sens réciproque}{16}{}%
+\contentsline {subsection}{\numberline {4.3.4}Formules diverses}{16}{}%
+\contentsline {subsection}{\numberline {4.3.5}Interprétation géométrique}{16}{}%
+\contentsline {section}{\numberline {4.4}Équation $z^{n}=a$ (où $n\in \mathbb {N}^{\ast },a\in \mathbb {C}^{\ast }$)}{16}{}%
+\contentsline {subsection}{\numberline {4.4.1}Résolution}{16}{}%
+\contentsline {subsubsection}{Solutions confondues}{16}{}%
+\contentsline {subsubsection}{Plus précisément}{16}{}%
+\contentsline {subsubsection}{Ces $n$ solutions sont bien distinctes}{16}{}%
+\contentsline {subsubsection}{Conclusion}{16}{}%
+\contentsline {subsubsection}{Géométriquememnt}{16}{}%
+\contentsline {subsection}{\numberline {4.4.2}1\up {er} cas parrticulier : racines n\up {èmes} de l'unité}{16}{}%
+\contentsline {subsubsection}{Définitionn}{16}{}%
+\contentsline {subsubsection}{Description}{16}{}%
+\contentsline {subsubsection}{Propriétés}{16}{}%
+\contentsline {subsubsection}{Interprétation géométrique}{16}{}%
+\contentsline {subsubsection}{Cas $n=3$}{16}{}%
+\contentsline {subsection}{\numberline {4.4.3}Cas particulier des racines carrées d'un complexe}{16}{}%
+\contentsline {subsubsection}{Énoncé}{16}{}%
+\contentsline {subsubsection}{Obtention pratique}{16}{}%
+\contentsline {subsubsection}{Équation de d°2 dans $\mathbb {C}$}{16}{}%
+\contentsline {section}{\numberline {4.5}Traduction complexe de transformations géométriques}{16}{}%
+\contentsline {subsection}{\numberline {4.5.1}Symétries}{16}{}%
+\contentsline {subsubsection}{Par rapport à $O\overrightarrow {i}$}{16}{}%
+\contentsline {subsubsection}{Centrale par rapport à $O$}{16}{}%
+\contentsline {subsubsection}{Par rapport à $O\overrightarrow {j}$}{16}{}%
+\contentsline {subsection}{\numberline {4.5.2}Translations}{16}{}%
+\contentsline {subsection}{\numberline {4.5.3}Homothéties}{16}{}%
+\contentsline {subsubsection}{Définition}{16}{}%
+\contentsline {subsubsection}{Traduction complexe}{16}{}%
+\contentsline {subsection}{\numberline {4.5.4}Rotations}{16}{}%
+\contentsline {subsubsection}{Définition}{16}{}%
+\contentsline {subsubsection}{Traduction complexe}{16}{}%
+\contentsline {subsection}{\numberline {4.5.5}Similitudes directes}{16}{}%
+\contentsline {subsubsection}{Définition}{16}{}%
+\contentsline {subsubsection}{Traduction complexe}{16}{}%
+\contentsline {section}{\numberline {4.6}Exponentielle complexe}{16}{}%
+\contentsline {subsection}{\numberline {4.6.1}Définition}{16}{}%
+\contentsline {subsection}{\numberline {4.6.2}Propriétés}{16}{}%
+\contentsline {subsubsection}{Module - argument}{16}{}%
+\contentsline {subsubsection}{Formule fondamentale}{16}{}%
+\contentsline {subsubsection}{Résolution de l'équation $e^{z} = a$}{16}{}%
+\contentsline {subsubsection}{Égalité}{16}{}%
+\contentsline {chapter}{\numberline {5}Anneau $\mathbb {K}[X]$ des polynômes à une indéterminée à coefficients dans un corps $\mathbb {K}$}{17}{}%
+\contentsline {section}{\numberline {5.1}Présentation}{18}{}%
+\contentsline {subsection}{\numberline {5.1.1}Définitions}{18}{}%
+\contentsline {subsection}{\numberline {5.1.2}Opérations sur les polynômes}{18}{}%
+\contentsline {subsubsection}{Somme}{18}{}%
+\contentsline {subsubsection}{Multiplication par un élément de $\mathbb {K}$}{18}{}%
+\contentsline {subsubsection}{Multiplication}{18}{}%
+\contentsline {subsection}{\numberline {5.1.3}Propriétés}{18}{}%
+\contentsline {subsubsection}{Pour la multiplication}{18}{}%
+\contentsline {subsubsection}{Pour la somme}{18}{}%
+\contentsline {subsection}{\numberline {5.1.4}Structures}{18}{}%
+\contentsline {subsubsection}{Neutres}{18}{}%
+\contentsline {subsubsection}{Intégrité}{18}{}%
+\contentsline {subsubsection}{Inversibles}{18}{}%
+\contentsline {subsection}{\numberline {5.1.5}Composée}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Degré}{18}{}%
+\contentsline {section}{\numberline {5.2}Division euclidienne dans $\mathbb {K}[X]$}{18}{}%
+\contentsline {subsection}{\numberline {5.2.1}Énoncé}{18}{}%
+\contentsline {subsubsection}{Unicité}{18}{}%
+\contentsline {subsubsection}{Existence}{18}{}%
+\contentsline {subsection}{\numberline {5.2.2}Exemples}{18}{}%
+\contentsline {subsection}{\numberline {5.2.3}Divisibilité}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Divisibilité par $X-a$}{18}{}%
+\contentsline {section}{\numberline {5.3}PGCD,PPCM dans $\mathbb {K}[X]$}{18}{}%
+\contentsline {subsection}{\numberline {5.3.1}Définition pour PGCD}{18}{}%
+\contentsline {subsubsection}{Remarques préliminaires}{18}{}%
+\contentsline {subsubsection}{Algorithmique}{18}{}%
+\contentsline {subsubsection}{Définition générale}{18}{}%
+\contentsline {subsection}{\numberline {5.3.2}Propriétés}{18}{}%
+\contentsline {subsubsection}{Relation de Bézout}{18}{}%
+\contentsline {subsubsection}{Formule de factorisation}{18}{}%
+\contentsline {subsection}{\numberline {5.3.3}Polynômes premiers entre eux}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Caractérisation : théorème de Bézout}{18}{}%
+\contentsline {subsubsection}{Propriétés}{18}{}%
+\contentsline {subsection}{\numberline {5.3.4}PPCM dans $\mathbb {K}[X]$}{18}{}%
+\contentsline {subsubsection}{Données du problème}{18}{}%
+\contentsline {subsubsection}{Résolution}{18}{}%
+\contentsline {subsubsection}{Conclusion}{18}{}%
+\contentsline {section}{\numberline {5.4}Zéros (ou racines) d'un polynôme}{18}{}%
+\contentsline {subsection}{\numberline {5.4.1}Définitions}{18}{}%
+\contentsline {subsection}{\numberline {5.4.2}Relation entre les racines et le degré d'un polynôme}{18}{}%
+\contentsline {subsubsection}{Résultat}{18}{}%
+\contentsline {subsubsection}{Conséquence}{18}{}%
+\contentsline {subsection}{\numberline {5.4.3}Polynôme dérivé}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Formule de Taylor}{18}{}%
+\contentsline {subsection}{\numberline {5.4.4}Caractérisation d'un zéro d'ordre $n$}{18}{}%
+\contentsline {section}{\numberline {5.5}Polynômes irréductibles}{18}{}%
+\contentsline {subsection}{\numberline {5.5.1}Présentation}{18}{}%
+\contentsline {subsubsection}{Définitions}{18}{}%
+\contentsline {subsubsection}{Remarques}{18}{}%
+\contentsline {subsubsection}{Attention au corps considéré}{18}{}%
+\contentsline {subsection}{\numberline {5.5.2}Décomposition générale}{18}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{18}{}%
+\contentsline {subsubsection}{Existence}{18}{}%
+\contentsline {subsubsection}{Unicité}{18}{}%
+\contentsline {subsubsection}{Première application}{18}{}%
+\contentsline {subsection}{\numberline {5.5.3}Dans $\mathbb {C}[X]$}{18}{}%
+\contentsline {subsubsection}{Résultat admis}{18}{}%
+\contentsline {subsubsection}{Précision}{18}{}%
+\contentsline {subsubsection}{Décomposition en facteurs irréductibles unitaires dans $\mathbb {C}[X]$}{18}{}%
+\contentsline {subsubsection}{Conséquences}{18}{}%
+\contentsline {subsubsection}{Pratique}{18}{}%
+\contentsline {subsubsection}{Exemple usuel}{18}{}%
+\contentsline {subsection}{\numberline {5.5.4}Dans $\mathbb {R}[X]$}{18}{}%
+\contentsline {subsubsection}{Polynôme conjugué}{18}{}%
+\contentsline {subsubsection}{Conséquences}{18}{}%
+\contentsline {subsubsection}{Ainsi :}{18}{}%
+\contentsline {subsection}{\numberline {5.5.5}Pratique de la décomposition en facteurs irréductibles dans $\mathbb {R}[X]$}{18}{}%
+\contentsline {subsubsection}{Utiliser les racines}{18}{}%
+\contentsline {subsubsection}{Utiliser des identités remarquables}{18}{}%
+\contentsline {subsubsection}{Utiliser la méthode du bicarré}{18}{}%
+\contentsline {section}{\numberline {5.6}Relations coefficients-racines}{18}{}%
+\contentsline {subsection}{\numberline {5.6.1}Données du problème}{18}{}%
+\contentsline {subsubsection}{Rappel}{18}{}%
+\contentsline {subsubsection}{But : généraliser}{18}{}%
+\contentsline {subsubsection}{Définitions et notations}{18}{}%
+\contentsline {subsubsection}{But}{18}{}%
+\contentsline {subsection}{\numberline {5.6.2}Résolution}{18}{}%
+\contentsline {subsection}{\numberline {5.6.3}Appplications}{18}{}%
+\contentsline {chapter}{\numberline {6}Fractions rationnelles}{19}{}%
+\contentsline {section}{\numberline {6.1}Présentation}{20}{}%
+\contentsline {subsection}{\numberline {6.1.1}Définition}{20}{}%
+\contentsline {subsection}{\numberline {6.1.2}Opérations}{20}{}%
+\contentsline {subsubsection}{Somme}{20}{}%
+\contentsline {subsubsection}{Produit}{20}{}%
+\contentsline {subsubsection}{Structure}{20}{}%
+\contentsline {subsection}{\numberline {6.1.3}Forme irréductible}{20}{}%
+\contentsline {section}{\numberline {6.2}Décomposition en éléments simples de $F = \frac {A}{B}$ (irréductible)}{20}{}%
+\contentsline {subsection}{\numberline {6.2.1}Première étape : partie entière}{20}{}%
+\contentsline {subsubsection}{Énoncé}{20}{}%
+\contentsline {subsubsection}{Démonstration par Analyse-Synthèse}{20}{}%
+\contentsline {subsection}{\numberline {6.2.2}Deuxième étape : décomposition de $\frac {R}{B}$}{20}{}%
+\contentsline {subsubsection}{Énoncé}{20}{}%
+\contentsline {subsubsection}{Démonstration}{20}{}%
+\contentsline {subsection}{\numberline {6.2.3}Troisième étape : généralisation}{20}{}%
+\contentsline {subsection}{\numberline {6.2.4}Conséquence}{20}{}%
+\contentsline {subsection}{\numberline {6.2.5}Quatrième étape : décomposition de $\frac {R}{P^{\alpha }}$}{20}{}%
+\contentsline {subsubsection}{Résultat général}{20}{}%
+\contentsline {subsubsection}{Démonstration}{20}{}%
+\contentsline {subsection}{\numberline {6.2.6}Conclusion}{20}{}%
+\contentsline {section}{\numberline {6.3}Décomposition dans $\mathbb {C}(X)$}{20}{}%
+\contentsline {subsection}{\numberline {6.3.1}Forme a priori}{20}{}%
+\contentsline {subsection}{\numberline {6.3.2}Détermination pratique des $\lambda ,\mu $}{20}{}%
+\contentsline {subsection}{\numberline {6.3.3}Exemple usuel particulier}{20}{}%
+\contentsline {subsection}{\numberline {6.3.4}Exemple usuel général}{20}{}%
+\contentsline {section}{\numberline {6.4}Dans $\mathbb {R}(X)$}{20}{}%
+\contentsline {subsection}{\numberline {6.4.1}Forme a priori}{20}{}%
+\contentsline {subsection}{\numberline {6.4.2}Détermination pratique des $\lambda ,\alpha ,\beta $}{20}{}%
+\contentsline {subsection}{\numberline {6.4.3}Exemple usuel}{20}{}%
+\contentsline {section}{\numberline {6.5}Application principale : calculs de primitive de fonctions rationelles}{20}{}%
+\contentsline {subsection}{\numberline {6.5.1}Définition}{20}{}%
+\contentsline {subsection}{\numberline {6.5.2}Méthode pour primitiver $f(x)=\frac {P(x)}{Q(x)} \in \mathbb {R}(x)$}{21}{}%
+\contentsline {chapter}{\numberline {7}Groupe symétrique}{23}{}%
