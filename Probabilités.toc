@@ -1,0 +1,98 @@
+\babel@toc {french}{}\relax 
+\contentsline {part}{I\hspace {1em}Probabilités}{5}{}%
+\contentsline {chapter}{\numberline {1}Probabilités sur un univers fini}{7}{}%
+\contentsline {section}{\numberline {1.1}Présentation}{8}{}%
+\contentsline {subsection}{\numberline {1.1.1}Définitions}{8}{}%
+\contentsline {subsubsection}{Générale}{8}{}%
+\contentsline {subsubsection}{Définitions complémentaires}{8}{}%
+\contentsline {subsection}{\numberline {1.1.2}Propriétés simples}{8}{}%
+\contentsline {subsubsection}{Complémentaire}{8}{}%
+\contentsline {subsubsection}{Inclusion}{8}{}%
+\contentsline {subsubsection}{Réunion quelconque}{8}{}%
+\contentsline {subsubsection}{Événements incompatibles deux à deux}{8}{}%
+\contentsline {subsection}{\numberline {1.1.3}Pratique}{8}{}%
+\contentsline {subsubsection}{De manière générale}{8}{}%
+\contentsline {subsubsection}{Probabilité uniforme sur $\Omega $}{8}{}%
+\contentsline {section}{\numberline {1.2}Probabilités conditionnelles}{8}{}%
+\contentsline {subsection}{\numberline {1.2.1}Définitions}{8}{}%
+\contentsline {subsubsection}{Générale}{8}{}%
+\contentsline {subsubsection}{Vérification}{8}{}%
+\contentsline {subsection}{\numberline {1.2.2}Formules}{8}{}%
+\contentsline {subsubsection}{Formule des probabilités composées}{8}{}%
+\contentsline {subsubsection}{Formule des probabilités totales}{8}{}%
+\contentsline {subsubsection}{Formules de Bayes}{8}{}%
+\contentsline {section}{\numberline {1.3}Événements indépendants}{8}{}%
+\contentsline {subsection}{\numberline {1.3.1}Définition}{8}{}%
+\contentsline {subsection}{\numberline {1.3.2}Propriétés}{8}{}%
+\contentsline {subsection}{\numberline {1.3.3}Mutuelle indépendance}{8}{}%
+\contentsline {chapter}{\numberline {2}Variables aléatoires sur un espace probabilisé fini}{9}{}%
+\contentsline {section}{\numberline {2.1}Présentation}{10}{}%
+\contentsline {subsection}{\numberline {2.1.1}Définitions}{10}{}%
+\contentsline {subsubsection}{Générale}{10}{}%
+\contentsline {subsubsection}{Événement}{10}{}%
+\contentsline {subsubsection}{Loi de probabilité $p_X$}{10}{}%
+\contentsline {subsection}{\numberline {2.1.2}Pratique}{10}{}%
+\contentsline {subsubsection}{Événements élémentaires}{10}{}%
+\contentsline {subsubsection}{Propriété}{10}{}%
+\contentsline {subsubsection}{Conséquences}{10}{}%
+\contentsline {subsection}{\numberline {2.1.3}Composée}{10}{}%
+\contentsline {section}{\numberline {2.2}Lois classiques}{10}{}%
+\contentsline {subsection}{\numberline {2.2.1}Loi uniforme}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Conséquence}{10}{}%
+\contentsline {subsection}{\numberline {2.2.2}Loi de Bernoulli}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Exemple}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}Loi binomiale}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Exemple}{10}{}%
+\contentsline {section}{\numberline {2.3}Couples de variables aléatoires}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Définition}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Pratique}{10}{}%
+\contentsline {subsection}{\numberline {2.3.3}Variables aléatoires indépendantes}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Conséquences sur des événements quelconques}{10}{}%
+\contentsline {subsection}{\numberline {2.3.4}Mutuelle indépendance}{10}{}%
+\contentsline {subsubsection}{Définition}{10}{}%
+\contentsline {subsubsection}{Caractérisation}{10}{}%
+\contentsline {subsection}{\numberline {2.3.5}Composée}{10}{}%
+\contentsline {subsubsection}{Pour deux variables aléatoires}{10}{}%
+\contentsline {subsubsection}{Extension}{10}{}%
+\contentsline {section}{\numberline {2.4}Espérance d'une variable aléatoire}{10}{}%
+\contentsline {subsection}{\numberline {2.4.1}Définition}{10}{}%
+\contentsline {subsubsection}{Initiale}{10}{}%
+\contentsline {subsubsection}{Autre formulation}{10}{}%
+\contentsline {subsubsection}{Égalité des deux formules}{10}{}%
+\contentsline {subsection}{\numberline {2.4.2}Propriétés}{10}{}%
+\contentsline {subsubsection}{"Linéarité"}{10}{}%
+\contentsline {subsubsection}{Positivité}{10}{}%
+\contentsline {subsubsection}{Croissance}{10}{}%
+\contentsline {subsection}{\numberline {2.4.3}Espérances des lois classiques}{10}{}%
+\contentsline {subsubsection}{Variable aléatoire constante}{10}{}%
+\contentsline {subsubsection}{Loi de Bernoulli}{10}{}%
+\contentsline {subsubsection}{Loi binomiale}{10}{}%
+\contentsline {subsection}{\numberline {2.4.4}Autres formules}{10}{}%
+\contentsline {subsubsection}{Formule du théorème de transfert}{10}{}%
+\contentsline {subsubsection}{Inégalité de Markov}{10}{}%
+\contentsline {subsubsection}{Condition nécessaire d'indépendance}{10}{}%
+\contentsline {section}{\numberline {2.5}Variance}{10}{}%
+\contentsline {subsection}{\numberline {2.5.1}Définitions}{10}{}%
+\contentsline {subsubsection}{Initiale}{10}{}%
+\contentsline {subsubsection}{Autre formulation}{10}{}%
+\contentsline {subsubsection}{Calculs}{10}{}%
+\contentsline {subsubsection}{Écart type}{10}{}%
+\contentsline {subsection}{\numberline {2.5.2}Propriétés}{10}{}%
+\contentsline {subsubsection}{Formule}{10}{}%
+\contentsline {subsubsection}{Inégalité de Bienaymé-Tchebychev}{10}{}%
+\contentsline {section}{\numberline {2.6}Covariance}{10}{}%
+\contentsline {subsection}{\numberline {2.6.1}Définition}{10}{}%
+\contentsline {subsection}{\numberline {2.6.2}Propriétés}{10}{}%
+\contentsline {subsubsection}{Condition nécessaire}{10}{}%
+\contentsline {subsubsection}{Symétrie}{10}{}%
+\contentsline {subsubsection}{Bilinéarité}{10}{}%
+\contentsline {subsubsection}{Lien avec la variance}{10}{}%
+\contentsline {subsubsection}{Conséquence}{10}{}%
+\contentsline {subsection}{\numberline {2.6.3}Variances usuelles}{10}{}%
+\contentsline {subsubsection}{Variable aléatoire constante}{10}{}%
+\contentsline {subsubsection}{Loi de Bernoulli}{10}{}%
+\contentsline {subsubsection}{Loi binomiale}{10}{}%

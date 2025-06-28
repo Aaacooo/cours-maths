@@ -76,3 +76,18 @@
 \contentsline {subsubsection}{Justification de la définition}{12}{}%
 \contentsline {subsection}{\numberline {3.6.3}Structures}{12}{}%
 \contentsline {chapter}{\numberline {4}Dénombrements}{13}{}%
+\contentsline {section}{\numberline {4.1}Cardinal d'un ensemble fini}{14}{}%
+\contentsline {subsection}{\numberline {4.1.1}Définitions}{14}{}%
+\contentsline {subsection}{\numberline {4.1.2}Propriétés}{14}{}%
+\contentsline {subsubsection}{Réunion disjointe}{14}{}%
+\contentsline {subsubsection}{Sous-ensemble}{14}{}%
+\contentsline {subsubsection}{Réunion quelconque}{14}{}%
+\contentsline {subsubsection}{Produit cartésien}{14}{}%
+\contentsline {section}{\numberline {4.2}Applications entre deux ensembles finis}{14}{}%
+\contentsline {subsection}{\numberline {4.2.1}Remarque préliminaire}{14}{}%
+\contentsline {subsection}{\numberline {4.2.2}Dénombrement}{14}{}%
+\contentsline {subsection}{\numberline {4.2.3}Quand $E$ et $F$ sont de même cardinal (fini)}{14}{}%
+\contentsline {section}{\numberline {4.3}Parties d'un ensemble fini}{14}{}%
+\contentsline {subsection}{\numberline {4.3.1}$p$-liste d'éléments distincts}{14}{}%
+\contentsline {subsection}{\numberline {4.3.2}Autre démonstration de card$(\mathcal {P}(E)) = 2^{\mbox {card}(E)}$}{14}{}%
+\contentsline {subsection}{\numberline {4.3.3}Retrouvons que $\begin {pmatrix} n \\ p \end {pmatrix} = \frac {n!}{p!(n-p)!}$}{14}{}%
