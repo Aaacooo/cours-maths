@@ -6,22 +6,93 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{array}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancybox}
+\usepackage{mathrsfs}
 \title{Cours}
 \author{C. LACOUTURE}
 \date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
+
+% Gérer les espacements %
+\setlength{\parskip}{4pt}
+\titlespacing*{\chapter}{0pt}{3pt}{2pt}
+\titlespacing*{\section}{0pt}{2pt}{1pt}
+\titlespacing*{\subsection}{0pt}{3pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{2pt}{0pt}
+
 \begin{document}
 \maketitle
 \tableofcontents
-
+	
 \part{Algèbre}
 \chapter{Structure de groupe}
+	\begin{spacing}{1.0}
 	\section{Présentation}
 		\subsection{Exemple préliminaire}
+		\begin{spacing}{1.0}
+			L'ensemble \(\mathbb{Z}\) pour l'addition \(+\) est tel que:
+			\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+				\item \(\forall x, y \in \mathbb{Z}\)
+				\item \(\forall x, y, z \in \mathbb{Z}, (x + y) + z = x + (y + z)\)
+				\item \(\forall x \in \mathbb{Z}, x + 0 = 0 + x = x\)
+				\item \(\forall x \in \mathbb{Z}, x + (-x) = (-x) + x = 0\)
+				\item et de plus \(\forall x, y \in \mathbb{Z}, x + y = y + x\)
+			\end{enumerate}
+			Ainsi \((\mathbb{Z}, +)\) est un groupe abélien / groupe commutatif.
+		\end{spacing}
 		\subsection{Définition générale}
+		\begin{spacing}{1.0}
+			Soit un ensemble \( G \) muni d'une loi \( * \). Dès lors, \( (G, *) \) a une structure de groupe si et seulement si :
+			
+			\boxed{
+				\begin{minipage}{\textwidth}
+					\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+						\item \( * \) est une Loi de Composition Interne (LCI) sur \( G \). C'est-à-dire \(\forall x, y \in G, x * y \in G\).
+						
+						\item \( * \) est associative. C'est-à-dire \(\forall x, y, z \in G, (x * y) * z = x * (y * z)\).
+						
+						\item \( G \) a un élément neutre \( e \) pour \( * \). \(\exists e \in G\) tel que \(\forall x \in G, x * e = e * x = x\).
+						
+						\item Tout élément de \( G \) a un symétrique dans \( G \). \(\forall x \in G, \exists x' \in G\) tel que \(x * x' = x' * x = e\).
+					\end{enumerate}
+				\end{minipage}
+			}
+			
+			Si, de plus, \( * \) est commutative sur \( G \), c'est-à-dire \(\forall x, y \in G, x * y = y * x\), alors \( G \) est un groupe commutatif (ou abélien).
+			
+			\textbf{Remarques concernant la définition :}
+			 
+			a) attention à la place des quantificateurs : pour l'élément neutre (3.) c'est \(\exists\) puis \(\forall\) et pour le symétrique c'est \(\forall\) puis \(\exists\).
+			
+			b) attention aux 2 égalités dans la définition de l'élément neutre et des symétriques d'un élément car * ne commute pas forcément.
+		\end{spacing}
 		\subsection{Exemples usuels}
 			\subsubsection{Ensembles de nombres}
+			\((\mathbb{Z}, +), (\mathbb{Q}, +), (\mathbb{R}, +), (\mathbb{C}, +), (\mathbb{Q}^*, +), (\mathbb{R}^*_+, x), (\mathbb{R}^*, x), (\mathbb{C}^*, x)\)
+			Sont tous des groupes commutatifs.
 			\subsubsection{Ensemble des bijections}
+			\begin{spacing}{1.0}
+			Soit E un ensemble et \(\mathscr{B}(E)\) l'ensemble des bijections de E vers E.
+			\begin{center}
+				\boxed{
+					(\mathscr{B}(E), \circ) \text{ est un groupe \underline{non} commutatif.}
+					}
+			\end{center}
+			Le neutre pour \(\circ\) est  : \(\operatorname{Id}_E\) et le symétrique de f pour \(\circ\) est \(f^{-1}\)
+			\end{spacing}
 			\subsubsection{Ensemble des parties}
+			\begin{spacing}{1.0}
+				Soit E un ensemble et \(\mathscr{P}(E)\) l'ensemble des parties de E.
+				\begin{center}
+					\boxed{
+						(\mathscr{P}(E), \Delta) \text{ est un groupe commutatif.}
+					}
+				\end{center}
+				Le neutre pour \(\Delta\) est  : \(\varnothing\) car \(\forall A \subset E : A \Delta \varnothing = \varnothing \Delta A = A\)
+				Et le symétrique de A pour \(\Delta\) est A car \(A \Delta A = \varnothing\)
+			\end{spacing}
 		\subsection{Compléments}
 			\subsubsection{Unicité}
 			\subsubsection{Formules concernant le symétrique}
@@ -71,7 +142,7 @@
 			\subsubsection{Intégrité}
 			\subsubsection{Commutativité}
 		\subsection{Sous-corps}
-			
+	\end{spacing}
 \chapter{Corps des nombres réels}
 	\section{Généralités}
 	\section{Borne supérieure ou inférieure d'une partie de $\mathbb{R}$}
