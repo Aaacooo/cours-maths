@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.24)  28 JUN 2025 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.24)  28 JUN 2025 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -352,7 +352,7 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ]
 (Algèbre.toc [3]
 Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported  on input line 117.
+(babel)             Reported  on input line 120.
  [4]
 Underfull \vbox (badness 1783) has occurred while \output is active []
 
@@ -392,55 +392,66 @@ r/m/n/12 (\U/msb/m/n/12 C[]\OML/cmm/m/it/12 ; x\OT1/cmr/m/n/12 )$ Sont tous des
 
  []
 
+[12]
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+ [13]
+Overfull \hbox (6.48756pt too wide) in paragraph at lines 180--180
+|\OT1/cmr/bx/n/12 Concernant les pro-pri^^Set^^Ses des puis-sances ou des mul-t
+iples pr^^Sec^^Sedents| 
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-[13] [14
+ [14]
+Overfull \hbox (66.40646pt too wide) in paragraph at lines 228--229
+[][] 
+ []
 
-]
+
+Overfull \hbox (79.21864pt too wide) in paragraph at lines 236--237
+[][] 
+ []
+
+
+Overfull \hbox (34.02794pt too wide) in paragraph at lines 250--251
+[][] 
+ []
+
+
+Overfull \hbox (4.92361pt too wide) in paragraph at lines 261--262
+[][] 
+ []
+
+[15] [16]
 Chapitre 2.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15]
-Overfull \vbox (97.18343pt too high) has occurred while \output is active []
-
-
-[16]
-Chapitre 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17
 
 ]
-Overfull \vbox (209.93344pt too high) has occurred while \output is active []
+Overfull \vbox (97.18343pt too high) has occurred while \output is active []
 
 
 [18]
-Chapitre 4.
-
-Overfull \hbox (21.03122pt too wide) in paragraph at lines 200--200
-|[]\OT1/cmr/bx/n/14.4 Relations entre forme alg^^Sebrique et tri-go-nom^^Setriq
-ue| 
- []
-
+Chapitre 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19
 
 ]
-Overfull \vbox (1090.4395pt too high) has occurred while \output is active []
+Overfull \vbox (209.93344pt too high) has occurred while \output is active []
 
 
 [20]
-Chapitre 5.
+Chapitre 4.
 
-Overfull \hbox (33.21956pt too wide) in paragraph at lines 317--317
-|[]\OT1/cmr/bx/n/14.4 Pratique de la d^^Secomposition en fac-teurs irr^^Seducti
-bles
+Overfull \hbox (21.03122pt too wide) in paragraph at lines 372--372
+|[]\OT1/cmr/bx/n/14.4 Relations entre forme alg^^Sebrique et tri-go-nom^^Setriq
+ue| 
  []
 
 
@@ -449,21 +460,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [21
 
 ]
-Overfull \vbox (1396.98018pt too high) has occurred while \output is active []
+Overfull \vbox (1090.4395pt too high) has occurred while \output is active []
 
-
-Overfull \hbox (239.25484pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 22 \OT1/cmr/m/sl/12 CHAPITRE 5.  ANNEAU $\U/msb/m/n/12 K\OT1/cm
-r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
- []A UNE IND[]ETERMIN[]EE []A COEFFICIENTS DANS UN CORPS $\U/msb/m/n/12 K$
- []
 
 [22]
-Chapitre 6.
+Chapitre 5.
 
-Overfull \hbox (7.40347pt too wide) in paragraph at lines 338--338
-|[]\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/
-m/it/17.28 F \OT1/cmr/m/n/17.28 =
+Overfull \hbox (33.21956pt too wide) in paragraph at lines 489--489
+|[]\OT1/cmr/bx/n/14.4 Pratique de la d^^Secomposition en fac-teurs irr^^Seducti
+bles
  []
 
 
@@ -472,56 +477,81 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [23
 
 ]
-Overfull \vbox (365.19656pt too high) has occurred while \output is active []
+Overfull \vbox (1396.98018pt too high) has occurred while \output is active []
 
+
+Overfull \hbox (239.25484pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 24 \OT1/cmr/m/sl/12 CHAPITRE 5.  ANNEAU $\U/msb/m/n/12 K\OT1/cm
+r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
+ []A UNE IND[]ETERMIN[]EE []A COEFFICIENTS DANS UN CORPS $\U/msb/m/n/12 K$
+ []
 
 [24]
-Chapitre 7.
+Chapitre 6.
+
+Overfull \hbox (7.40347pt too wide) in paragraph at lines 510--510
+|[]\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/
+m/it/17.28 F \OT1/cmr/m/n/17.28 =
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25
 
 ]
+Overfull \vbox (365.19656pt too high) has occurred while \output is active []
+
+
+[26]
+Chapitre 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+]
 Overfull \vbox (77.88344pt too high) has occurred while \output is active []
 
 
-[26] (Algèbre.aux)
+[28] (Algèbre.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5705 strings out of 474486
- 93853 string characters out of 5743755
+ 5711 strings out of 474486
+ 94004 string characters out of 5743755
  1945542 words of memory out of 5000000
- 27920 multiletter control sequences out of 15000+600000
+ 27926 multiletter control sequences out of 15000+600000
  574474 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,14n,76p,240b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,14n,76p,240b,468s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\natha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
 1200.pk><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx9.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi10.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/natha/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/natha/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/natha/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/na
-tha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmr17.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsl12.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/natha/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/natha/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Users/natha/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
-Output written on Algèbre.pdf (26 pages, 211576 bytes).
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/natha/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/natha/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/natha/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/n
+atha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
+/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr12.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/natha/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/natha/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/natha/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/natha/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:
+/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsfs/rsfs10.pfb>
+Output written on Algèbre.pdf (28 pages, 240830 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
+ 187 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
