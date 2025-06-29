@@ -39,10 +39,10 @@
 \contentsline {subsubsection}{Caractérisation de l'injectivité}{16}{}%
 \contentsline {subsubsection}{Image (réciproque) d'un sous-groupe}{17}{}%
 \contentsline {chapter}{\numberline {2}Structure d'anneau et de corps}{19}{}%
-\contentsline {section}{\numberline {2.1}Structure d'anneau}{20}{}%
-\contentsline {subsection}{\numberline {2.1.1}Présentation}{20}{}%
-\contentsline {subsubsection}{Exemple préliminaire}{20}{}%
-\contentsline {subsubsection}{Définition générale}{20}{}%
+\contentsline {section}{\numberline {2.1}Structure d'anneau}{19}{}%
+\contentsline {subsection}{\numberline {2.1.1}Présentation}{19}{}%
+\contentsline {subsubsection}{Exemple préliminaire}{19}{}%
+\contentsline {subsubsection}{Définition générale}{19}{}%
 \contentsline {subsubsection}{Notations}{20}{}%
 \contentsline {subsubsection}{Intégrité}{20}{}%
 \contentsline {subsubsection}{Exemples usuels}{20}{}%

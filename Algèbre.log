@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.24)  29 JUN 2025 21:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.24)  29 JUN 2025 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -447,9 +447,6 @@ Chapitre 2.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-Overfull \vbox (97.18343pt too high) has occurred while \output is active []
-
-
 [20]
 Chapitre 3.
 
@@ -466,7 +463,7 @@ Chapitre 4.
 [23
 
 ] [24]
-Overfull \hbox (21.03122pt too wide) in paragraph at lines 476--476
+Overfull \hbox (21.03122pt too wide) in paragraph at lines 496--496
 |[]\OT1/cmr/bx/n/14.4 Relations entre forme alg^^Sebrique et tri-go-nom^^Setriq
 ue| 
  []
@@ -483,7 +480,7 @@ Overfull \hbox (45.22462pt too wide) has occurred while \output is active
 [27] [28]
 Chapitre 5.
 
-Overfull \hbox (33.21956pt too wide) in paragraph at lines 627--627
+Overfull \hbox (33.21956pt too wide) in paragraph at lines 647--647
 |[]\OT1/cmr/bx/n/14.4 Pratique de la d^^Secomposition en fac-teurs irr^^Seducti
 bles
  []
@@ -506,7 +503,7 @@ r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
 [30]
 Chapitre 6.
 
-Overfull \hbox (7.40347pt too wide) in paragraph at lines 648--648
+Overfull \hbox (7.40347pt too wide) in paragraph at lines 668--668
 |[]\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/
 m/it/17.28 F \OT1/cmr/m/n/17.28 =
  []
@@ -570,7 +567,7 @@ pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
 ymbols/msbm10.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/rsfs/rsfs10.pfb><C:/Users/natha/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/hoekwater/stmary10.pfb>
-Output written on Algèbre.pdf (34 pages, 287078 bytes).
+Output written on Algèbre.pdf (34 pages, 288210 bytes).
 PDF statistics:
  221 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
