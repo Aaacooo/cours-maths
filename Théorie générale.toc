@@ -23,50 +23,52 @@
 \contentsline {subsection}{\numberline {1.3.5}Pour une existence-unicité}{12}{}%
 \contentsline {subsection}{\numberline {1.3.6}Pour une propriété à établir sur des entiers}{14}{}%
 \contentsline {chapter}{\numberline {2}Ensembles, applications relations}{15}{}%
-\contentsline {section}{\numberline {2.1}Ensembles}{16}{}%
-\contentsline {subsection}{\numberline {2.1.1}Définition}{16}{}%
-\contentsline {subsection}{\numberline {2.1.2}Inclusion}{16}{}%
+\contentsline {section}{\numberline {2.1}Ensembles}{15}{}%
+\contentsline {subsection}{\numberline {2.1.1}Définition}{15}{}%
+\contentsline {subsection}{\numberline {2.1.2}Inclusion}{15}{}%
 \contentsline {subsection}{\numberline {2.1.3}Différences, complémentaires}{16}{}%
+\contentsline {subsubsection}{Différence}{16}{}%
+\contentsline {subsubsection}{Complémentaire}{16}{}%
 \contentsline {subsection}{\numberline {2.1.4}Intersections, réunions, différence symétrique}{16}{}%
 \contentsline {subsubsection}{Définitions}{16}{}%
-\contentsline {subsubsection}{Inclusion}{16}{}%
+\contentsline {subsubsection}{Inclusion (traduction)}{16}{}%
 \contentsline {subsubsection}{Négation}{16}{}%
 \contentsline {subsubsection}{Propriétés}{16}{}%
 \contentsline {subsection}{\numberline {2.1.5}Ensemble des parties d'un ensemble}{16}{}%
 \contentsline {subsubsection}{Notation}{16}{}%
-\contentsline {subsubsection}{Partition d'un ensemble}{16}{}%
-\contentsline {section}{\numberline {2.2}Fonctions ou applications}{16}{}%
-\contentsline {subsection}{\numberline {2.2.1}Définitions}{16}{}%
-\contentsline {subsubsection}{Énoncé}{16}{}%
-\contentsline {subsubsection}{Notation}{16}{}%
-\contentsline {subsubsection}{Caractérisation}{16}{}%
-\contentsline {subsubsection}{Restriction, prolongement}{16}{}%
-\contentsline {subsection}{\numberline {2.2.2}Image, image réciproque}{16}{}%
-\contentsline {subsubsection}{Définitions}{16}{}%
-\contentsline {subsubsection}{Propriétés de l'image}{16}{}%
-\contentsline {subsubsection}{Propriétés de l'image réciproque}{16}{}%
-\contentsline {subsubsection}{Propriétés reliant les deux}{16}{}%
-\contentsline {subsection}{\numberline {2.2.3}Injection, surjection, bijection}{16}{}%
-\contentsline {subsubsection}{Définitions}{16}{}%
-\contentsline {subsubsection}{Contre-exemples}{16}{}%
-\contentsline {subsection}{\numberline {2.2.4}Composition d'applications}{16}{}%
-\contentsline {subsubsection}{Définition}{16}{}%
-\contentsline {subsubsection}{Premières propriétés}{16}{}%
-\contentsline {subsubsection}{Injection, surjection, bijection}{16}{}%
-\contentsline {subsubsection}{Composée et bijectivité}{16}{}%
-\contentsline {subsubsection}{Autres caractérisations de la bijectivité}{16}{}%
-\contentsline {section}{\numberline {2.3}Relations}{16}{}%
-\contentsline {subsection}{\numberline {2.3.1}Définitions}{16}{}%
-\contentsline {subsubsection}{Réflexive}{16}{}%
-\contentsline {subsubsection}{Symétrique}{16}{}%
-\contentsline {subsubsection}{Antisymétrique}{16}{}%
-\contentsline {subsubsection}{Transitive}{16}{}%
-\contentsline {subsection}{\numberline {2.3.2}Relation d'équivalence}{16}{}%
-\contentsline {subsubsection}{Définition}{16}{}%
-\contentsline {subsubsection}{Exemples}{16}{}%
-\contentsline {subsubsection}{Classe d'équivalence}{16}{}%
-\contentsline {subsection}{\numberline {2.3.3}Relations d'ordre}{16}{}%
-\contentsline {subsubsection}{Définition générale}{16}{}%
-\contentsline {subsubsection}{Complément de définition}{16}{}%
-\contentsline {subsubsection}{Majorant, minorant}{16}{}%
-\contentsline {subsubsection}{Plus grand, plus petit élément}{16}{}%
+\contentsline {subsubsection}{Partition d'un ensemble}{17}{}%
+\contentsline {section}{\numberline {2.2}Fonctions ou applications}{18}{}%
+\contentsline {subsection}{\numberline {2.2.1}Définitions}{18}{}%
+\contentsline {subsubsection}{Énoncé}{18}{}%
+\contentsline {subsubsection}{Notation}{18}{}%
+\contentsline {subsubsection}{Caractérisation}{18}{}%
+\contentsline {subsubsection}{Restriction, prolongement}{18}{}%
+\contentsline {subsection}{\numberline {2.2.2}Image, image réciproque}{18}{}%
+\contentsline {subsubsection}{Définitions}{18}{}%
+\contentsline {subsubsection}{Propriétés de l'image}{18}{}%
+\contentsline {subsubsection}{Propriétés de l'image réciproque}{18}{}%
+\contentsline {subsubsection}{Propriétés reliant les deux}{18}{}%
+\contentsline {subsection}{\numberline {2.2.3}Injection, surjection, bijection}{18}{}%
+\contentsline {subsubsection}{Définitions}{18}{}%
+\contentsline {subsubsection}{Contre-exemples}{18}{}%
+\contentsline {subsection}{\numberline {2.2.4}Composition d'applications}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Premières propriétés}{18}{}%
+\contentsline {subsubsection}{Injection, surjection, bijection}{18}{}%
+\contentsline {subsubsection}{Composée et bijectivité}{18}{}%
+\contentsline {subsubsection}{Autres caractérisations de la bijectivité}{18}{}%
+\contentsline {section}{\numberline {2.3}Relations}{18}{}%
+\contentsline {subsection}{\numberline {2.3.1}Définitions}{18}{}%
+\contentsline {subsubsection}{Réflexive}{18}{}%
+\contentsline {subsubsection}{Symétrique}{18}{}%
+\contentsline {subsubsection}{Antisymétrique}{18}{}%
+\contentsline {subsubsection}{Transitive}{18}{}%
+\contentsline {subsection}{\numberline {2.3.2}Relation d'équivalence}{18}{}%
+\contentsline {subsubsection}{Définition}{18}{}%
+\contentsline {subsubsection}{Exemples}{18}{}%
+\contentsline {subsubsection}{Classe d'équivalence}{18}{}%
+\contentsline {subsection}{\numberline {2.3.3}Relations d'ordre}{18}{}%
+\contentsline {subsubsection}{Définition générale}{18}{}%
+\contentsline {subsubsection}{Complément de définition}{18}{}%
+\contentsline {subsubsection}{Majorant, minorant}{18}{}%
+\contentsline {subsubsection}{Plus grand, plus petit élément}{18}{}%

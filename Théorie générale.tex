@@ -316,16 +316,58 @@ Penser à une démonstration \underline{par récurrence} (cf Arithmétique, chap
 \chapter{Ensembles, applications relations}	
 	\section{Ensembles}
 		\subsection{Définition}
+		Un ensemble $E$ peut être défini : \begin{itemize}
+			\item en extension : quand on énumère tous ses éléments.
+			\item en compréhension : à l'aide d'une propriété caractéristique de ses éléments.
+		\end{itemize}
+		
+		Un ensemble de contenant aucun élément est l'ensemble vide : $\emptyset$.
+		
+		Un ensemble contenant un seul élément est un singleton : $\left\{a\right\}$
+		
+		Un ensemble contenant deux éléments est une paire : $\left\{a,b\right\}$
+		
+		Remarque :  il n'existe pas "d'ensemble de tous les ensembles" car la relation $E\in E $ est incorrecte.
+		
 		\subsection{Inclusion}
+			Soient $A,B$ deux ensembles. 
+			\[A \subset B \Leftrightarrow \forall x, x \in A \Rightarrow x \in B\]
+			\[A = B \Leftrightarrow A \subset B \wedge B \subset A \]
+			
 		\subsection{Différences, complémentaires}
+		
+			\subsubsection{Différence}
+			Pour $A,B$ deux ensembles quelconques, A privé de B est :
+				\[A \setminus B = A-B = \left\{x \mbox{ tel que } x \in A \wedge x \notin B\right\}\]
+			\subsubsection{Complémentaire}
+			Pour $A,B$ tel que $B \subset A$, le complémentaire de $B$ dans $A$ est :
+				\[\complement_A B = A \setminus B = \bar{B} = \left\{x \in A, x\notin B  \right\}\]
 		\subsection{Intersections, réunions, différence symétrique}
 			\subsubsection{Définitions}
-			\subsubsection{Inclusion}
+				\begin{itemize}
+					\item L'intersection de A et B est : \[A \cap B = \left\{x, \ x \in A \wedge x \in B\right\}\]
+					\item La réunion de A et B est: \[A \cup B = \left\{x,\ x \in A \vee x \in B\right\}\]
+					\item  La différence symétrique de A et B est : \[A \Delta B =\left\{x,\ x \in A \ \bar{\vee} \ x \in B\right\} \]
+					Ainsi $A \Delta B  = A \cup B - A\cap B$ 
+				\end{itemize}
+			\subsubsection{Inclusion (traduction)}
+			\[A \subset B \Leftrightarrow A \cap B = A \Leftrightarrow A \cup B = B\]
 			\subsubsection{Négation}
+			\begin{itemize}
+				\item $x \notin A \cap B \Leftrightarrow x \notin A \vee x \notin B$
+				\item  $x \notin A \cup B \Leftrightarrow x\notin A \wedge x \notin B$
+			\end{itemize}
 			\subsubsection{Propriétés}
+
 		\subsection{Ensemble des parties d'un ensemble}
 			\subsubsection{Notation}
+			L'ensemble des parties d'un ensemble $E$ est : $\mathcal{P}(E)$.
 			\subsubsection{Partition d'un ensemble}
+			Une partition de $E$ est une famille de parties de $E$ $(A_i)_{i\in \Delta}$ tel que : \begin{itemize}
+				\item $\forall i \in \Delta, A_i \neq \emptyset$
+				\item $\forall i \neq j \in \Delta, A_i \cap A_j = \emptyset$
+				\item $\cup_{i \in \Delta} A_i  = E$
+			\end{itemize}
 	\section{Fonctions ou applications}
 		\subsection{Définitions}
 			\subsubsection{Énoncé}
