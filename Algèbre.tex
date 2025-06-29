@@ -6,46 +6,284 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{array}
+\usepackage{setspace}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancybox}
+\usepackage{mathrsfs}
 \title{Cours}
 \author{C. LACOUTURE}
 \date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
+
+% Gérer les espacements %
+\setlength{\parskip}{4pt}
+\titlespacing*{\chapter}{0pt}{3pt}{2pt}
+\titlespacing*{\section}{0pt}{2pt}{1pt}
+\titlespacing*{\subsection}{0pt}{3pt}{0pt}
+\titlespacing*{\subsubsection}{0pt}{2pt}{0pt}
+
 \begin{document}
 \maketitle
 \tableofcontents
-
+	
 \part{Algèbre}
 \chapter{Structure de groupe}
+	\begin{spacing}{1.0}
 	\section{Présentation}
 		\subsection{Exemple préliminaire}
+		\begin{spacing}{1.0}
+			L'ensemble \(\mathbb{Z}\) pour l'addition \(+\) est tel que:
+			\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+				\item \(\forall x, y \in \mathbb{Z}\)
+				\item \(\forall x, y, z \in \mathbb{Z}, (x + y) + z = x + (y + z)\)
+				\item \(\forall x \in \mathbb{Z}, x + 0 = 0 + x = x\)
+				\item \(\forall x \in \mathbb{Z}, x + (-x) = (-x) + x = 0\)
+				\item et de plus \(\forall x, y \in \mathbb{Z}, x + y = y + x\)
+			\end{enumerate}
+			Ainsi \((\mathbb{Z}, +)\) est un groupe abélien / groupe commutatif.
+		\end{spacing}
 		\subsection{Définition générale}
+		\begin{spacing}{1.0}
+			Soit un ensemble \( G \) muni d'une loi \( * \). Dès lors, \( (G, *) \) a une structure de groupe si et seulement si :
+			
+			\boxed{
+				\begin{minipage}{\textwidth}
+					\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+						\item \( * \) est une Loi de Composition Interne (LCI) sur \( G \). C'est-à-dire \(\forall x, y \in G, x * y \in G\).
+						
+						\item \( * \) est associative. C'est-à-dire \(\forall x, y, z \in G, (x * y) * z = x * (y * z)\).
+						
+						\item \( G \) a un élément neutre \( e \) pour \( * \). \(\exists e \in G\) tel que \(\forall x \in G, x * e = e * x = x\).
+						
+						\item Tout élément de \( G \) a un symétrique dans \( G \). \(\forall x \in G, \exists x' \in G\) tel que \(x * x' = x' * x = e\).
+					\end{enumerate}
+				\end{minipage}
+			}
+			
+			Si, de plus, \( * \) est commutative sur \( G \), c'est-à-dire \(\forall x, y \in G, x * y = y * x\), alors \( G \) est un groupe commutatif (ou abélien).
+			
+			\textbf{Remarques concernant la définition :}
+			 
+			a) attention à la place des quantificateurs : pour l'élément neutre (3.) c'est \(\exists\) puis \(\forall\) et pour le symétrique c'est \(\forall\) puis \(\exists\).
+			
+			b) attention aux 2 égalités dans la définition de l'élément neutre et des symétriques d'un élément car * ne commute pas forcément.
+		\end{spacing}
 		\subsection{Exemples usuels}
 			\subsubsection{Ensembles de nombres}
+			\((\mathbb{Z}, +), (\mathbb{Q}, +), (\mathbb{R}, +), (\mathbb{C}, +), (\mathbb{Q}^*, +), (\mathbb{R}^*_+, x), (\mathbb{R}^*, x), (\mathbb{C}^*, x)\)
+			Sont tous des groupes commutatifs.
 			\subsubsection{Ensemble des bijections}
+			\begin{spacing}{1.0}
+			Soit E un ensemble et \(\mathscr{B}(E)\) l'ensemble des bijections de E vers E.
+			\begin{center}
+				\boxed{
+					(\mathscr{B}(E), \circ) \text{ est un groupe \underline{non} commutatif.}
+					}
+			\end{center}
+			Le neutre pour \(\circ\) est  : \(\operatorname{Id}_E\) et le symétrique de f pour \(\circ\) est \(f^{-1}\)
+			\end{spacing}
 			\subsubsection{Ensemble des parties}
+			\begin{spacing}{1.0}
+				Soit E un ensemble et \(\mathscr{P}(E)\) l'ensemble des parties de E.
+				\begin{center}
+					\boxed{
+						(\mathscr{P}(E), \Delta) \text{ est un groupe commutatif.}
+					}
+				\end{center}
+				Le neutre pour \(\Delta\) est  : \(\varnothing\) car \(\forall A \subset E : A \Delta \varnothing = \varnothing \Delta A = A\)
+				Et le symétrique de A pour \(\Delta\) est A car \(A \Delta A = \varnothing\)
+			\end{spacing}
 		\subsection{Compléments}
 			\subsubsection{Unicité}
+			Sont uniques l'élément neutre et le symétrique de tout élément.
 			\subsubsection{Formules concernant le symétrique}
+			\textbf{a) \(\forall x,y \in G\) :}
+			\((x * y)' = y' * x'\) (avec ' pour symétrique)
+			Attention à l'ordre car le groupe n'est pas forcément commutatif.
+			\textbf{b)} \(\forall x \in G (x')' = x\)
 			\subsubsection{Régularité de tout élément}
-			\subsubsection{Plus généralement}
+			\(\forall x, y, z \in G \) : \boxed{x*z = y*z \implies x = y \) et \(z*x =z*y \implies x = y}
+			
+			Ainsi on traduit que tout élément z est régulier dans le groupe (G, *) c'est à dire dans un groupe, on peut "simplifier par tout élément".
+			\subsubsection{Plus généralement : résolution d'équation}
+			\(\forall x, y, z \in G : x * y = z\)
+			
+			\(\implies x' * (x * y) = x' * z\)
+			
+			\(\implies (x' * x) * y = x' * z\) car * est associative
+			
+			\(\implies e * y = x' * z\) car x' est symétrique de x pour *
+			
+			\(\implies y = x' * z\) car e neutre pour *
+			
+			Dans un groupe : tout élément peut, dans une égalité, "passer dans l'autre membre" sous la forme de son symétrique ... en tenant compte de l'ordre car * ne commute pas forcément.
 		\subsection{Notations}
-			\subsubsection{En notation multiplicative}
+		En pratique, un groupe est noté : 
+		(G, +), même si + n'est pas l'addition classique (notation \underline{additive}) ou (G, \(\cdot\)), même si \(\cdot\) n'est pas la multiplication classique (notation \underline{multiplicative})
+		On définit alors : 
 			\subsubsection{En notation additive}
-			\subsubsection{Propriétés}
+			\(\forall x \in G, \forall n \in \mathbb{Z}\)
+			
+			\begin{center}
+				\boxed{%
+					\begin{minipage}{0.9\textwidth}
+						\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+							\item \underline{si \(n = 0\)} : \(0_x = 0_G\) neutre de \(G\) pour \(+\).
+							\item \underline{si \(n \in \mathbb{N}^*\)} : \(nx = x + x + \dots + x\) (n fois).
+							\item \underline{si \(n \in \mathbb{Z}_-^*\)} : \(nx = (-x) + \dots + (-x)\) (-n fois) où \(-x\) est le symétrique de \(x\) pour \(+\).
+						\end{enumerate}
+					\end{minipage}%
+				}
+			\end{center}
+			\subsubsection{En notation multiplicative}
+			Les puissances d'un selon : \(\forall x \in G, \forall n \in \mathbb{Z}\)
+			
+			\begin{center}
+				\boxed{
+					\begin{minipage}{0.9\textwidth}
+						\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+							\item \underline{si \(n = 0\)} : \(x^0 = 1_G\) neutre de \(G\) pour \(\cdot\).
+							\item \underline{si \(n \in \mathbb{N}^*\)} : \(x^n = x \cdot x \cdot \dots \cdot x\) (n fois).
+							\item \underline{si \(n \in \mathbb{Z}_-^*\)} : \(x^n = (x^{-1}) \cdot \dots \cdot (x^{-1})\) (-n fois) où \(x^{-1}\) est le symétrique de \(x\) pour \(\cdot\).
+						\end{enumerate}
+					\end{minipage}
+				}
+			\end{center}
+			\subsubsection{Propriétés des multiples d'un élément}
+			\(\forall x \in G, \forall m, n \in \mathbb{Z}\)
+			
+			\begin{center}
+				\boxed{%
+					\begin{minipage}{0.9\textwidth}
+						\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+							\item \((m + n) x = m x + n x\) \quad (additivité classique dans \(\mathbb{Z}\) qui devient une loi de groupe sur \(G\))
+							\item \(-(nx) = (-n)x = n(-x)\) \quad (-n est l'opposé classique dans \(\mathbb{Z}\) et (-x) symétrique de x dans G)
+							\item \(m (n x) = (m \times n) x\) \quad (\(\times\) produit classique dans \(\mathbb{Z}\) et loi de groupe sur \(G\))
+						\end{enumerate}
+					\end{minipage}
+				}
+			\end{center}
+			\subsubsection{Propriétés des puissances d'un élément}
+			\(\forall x \in G, \forall m, n \in \mathbb{Z}\)
+			\begin{center}
+				\boxed{
+					\begin{minipage}{0.9\textwidth}
+						\begin{enumerate}[itemsep=2pt, topsep=1pt, partopsep=0pt, parsep=1pt]
+							\item \(x^{m+n} = x^m \cdot x^n\)
+							\item \((x^m)^{-1} = (x^{-1})^m = x^{-m}\)
+							\item \(x^{mn} = (x^m)^n = (x^n)^m\)
+						\end{enumerate}
+					\end{minipage}
+				}
+			\end{center}
 		\subsection{Autres remarques}
+			\subsubsection{Concernant les propriétés des puissances ou des multiples précédents}
+			Parmis toute les propriétés citées, on a pas cité \((x \cdot y)^n = x^n \cdot y^n\) car c'est faux si \(\cdot\) ne commute pas forcément. 
+			\((x \cdot y)^n = (x \cdot y) \cdot (x \cdot y) \cdot\) ...(n fois) \(\cdot (x \cdot y)\)  \(\neq x^n \cdot y^n = x \cdot\) ...(n fois) \(\cdot x \cdot y \cdot\) ...(n fois) \(\cdot y \)
+			\subsubsection{Concernant les produits cartésien de groupes}
+			Soit (G, +) et (G', \(\cdot\)) 2 groupes.
+			G \(\times\) G' est un groupe pour * tel que (x, x')*(y, y') = (x + y, x' \(\cdot\) y').
+			
+			Le neutre de G \(\times\) G' pour * est : (\(0_G, 1_{G'}\)).
+			
+			Le symétrique de (x, x') dans G \(\times\) G' pour * est : \((-x, x'^{-1})\)
 	\section{Sous-groupes}
 		\subsection{Définition}
+		Soit (\(G, \cdot\)) un groupe et \(H \subset G\), H est un sous-groupe de G pour \(\cdot\) si et seulement si la restriction de \(\cdot\) avec les éléments de H est muni d'une structure de groupe
 		\subsection{Caractérisations}
+		\begin{center}
+			\boxed{%
+				\begin{minipage}{0.9\textwidth}
+					\(H\) sous-groupe de \(G\) pour \(\cdot\) : 
+					
+					\[
+					\Leftrightarrow
+					\]
+					\begin{itemize}
+						\item \(1_G \in H\)
+						\item \(\forall x, y \in H, \quad x \cdot y \in H\)
+						\item \(\forall x \in H, \quad x^{-1} \in H\)
+					\end{itemize}
+					
+					\[
+					\Leftrightarrow
+					\]
+					\begin{itemize}
+						\item \(1_G \in H\)
+						\item \(\forall x, y \in H, \quad x \cdot y^{-1} \in H\)
+					\end{itemize}
+				\end{minipage}
+			}
+		\end{center}
+		
+		\textbf{Remarque : } Dans la majorité des cas dans la suite on montrera que \((H, \cdot)\) est un groupe en montrant que c'est un sous-groupe d'un groupe usuel.
 		\subsection{Exemples usuels}
 			\subsubsection{Exemple général}
+			Les puissances d'un élément.
+			
+			\boxed{%
+				\text{Soit } (G, \cdot) \text{ un groupe et } a \in G, \quad
+				H = \{ a^z \mid z \in \mathbb{Z} \}
+				\text{ est un sous-groupe de } G \text{ pour } \cdot.
+			}
+			
+			Les multiples d'un élément.
+			
+			\boxed{%
+				\text{Soit } (G, +) \text{ un groupe et } a \in G, \quad
+				H = \{ za \mid z \in \mathbb{Z} \}
+				\text{ est un sous-groupe de } G \text{ pour } +.
+			}
 			\subsubsection{Exemples particuliers}
+			\boxed{%
+				(\mathbb{U}, \times) \text{est un groupe.}
+			}
+			Car sous-groupe de \((\mathbb{C}^*, \times)\)
+			
+			\boxed{%
+				(\mathbb{U}n, \times) \text{est un groupe.}
+			}
+			Car sous-groupe de \((\mathbb{C}^*, \times)\) 
 			\subsubsection{Sous-groupes de $(\mathbb{Z},+)$}
+			\boxed{
+				\text{Les sous-groupes de } \mathbb{Z} \text{ pour + sont les ensembles de la forme } n\mathbb{Z} = {nz \mid z \in \mathbb{Z}}
+			}
 		\subsection{Propriétés}
-			\subsubsection{Intersection}
+		\subsubsection{Intersection}
+		"Toute intersection de sous-groupes est un sous-groupe."
+		
+		\boxed{%
+			\begin{minipage}{0.95\textwidth}
+				Soit \((G, \cdot)\) un groupe.  
+				\((H_i)_{i \in \Delta}\) une famille de sous-groupes de \(G\) pour \(\cdot\).  
+				Alors \(H = \bigcap_{i \in \Delta} H_i\) est un sous-groupe de \(G\) pour \(\cdot\).
+			\end{minipage}
+		}
 			\subsubsection{Faux pour la réunion $\cup$}
+			\textbf{a) contre-exemple : dans (Z, +)}
+			
+			Soit \(H_1 = 2\mathbb{Z} = \{ 2z \mid z \in \mathbb{Z} \}\) et \(H_2 = 3\mathbb{Z} = \{ 3z \mid z \in \mathbb{Z} \}\). 
+			
+			Mais H = \(2\mathbb{Z} \cup 3\mathbb{Z}\) n'est pas un sous-groupe de \(\mathbb{2}\) pour + car :
+			
+			\(2 \in 2\mathbb{Z} \subset 2\mathbb{Z} \cup 3\mathbb{Z} = H\) et \(3 \in 3\mathbb{Z} \subset 2\mathbb{Z} \cup 3\mathbb{Z} = H\)
+			
+			Mais \(2+3 = 5 \notin H\)
+			
+			\textbf{b) "sous conditions"}
+			
+			Soit \(G_1, G_2\) sous groupes de G pour \(\cdot\).
+			
+			\boxed{
+				G_1 \cup G_2 \text{ est un sous-groupe de G pour } \cdot
+				\Leftrightarrow G_1 \subset G_2 \text{ ou } G_2 \subset G_1
+			}
 	\section{Morphismes de groupes}
+	
 		\subsection{Définition}
 		\subsection{Exemples usuels}
 		\subsection{Propriétés}
+		
 		
 \chapter{Structure d'anneau et de corps}
 	\section{Structure d'anneau}
@@ -72,7 +310,10 @@
 			\subsubsection{Intégrité}
 			\subsubsection{Commutativité}
 		\subsection{Sous-corps}
-			
+	\end{spacing}
+	
+	
+	
 \chapter{Corps des nombres réels}
 	\section{Généralités}
 	\section{Borne supérieure ou inférieure d'une partie de $\mathbb{R}$}
@@ -101,12 +342,13 @@
 			\subsubsection{Concernant $\mathbb{Q}$}
 			\subsubsection{Concernant$\bar{\mathbb{Q}}$ (complément de $\mathbb{Q}$ dans $\mathbb{R}$)}
 			
+			
 \chapter{Corps des nombres complexes}
 	\section{Conjugaison}
 		\subsection{Définition}
-		Soit $z = a+ib \in \mathbb{C}$. Son conjugué est : $\bar{z} = a - ib$
 		\subsection{Propriétés}
 			\subsubsection{Formules}
+<<<<<<< HEAD
 			$\forall z \in \mathbb{C}, \ z+ \bar{z} = 2\mbox{Re}(z), \ z - \bar{z} = 2i\mbox{Im}(z)$
 		
 			\subsubsection{Caractérisation}
@@ -115,6 +357,9 @@
 						z \in i\mathbb{R} &\Leftrightarrow z = -\bar{z}
 					\end{split}
 				\end{equation} 
+=======
+			\subsubsection{Caractérisation}
+>>>>>>> 2ba771cc9379dd5ca2e457f07871b3a07d11cc09
 			\subsubsection{Pratique}
 				Quand un nombre complexe est écrit au dénominateur, on le multiplie par son conjugué.
 	\section{Module}
@@ -194,6 +439,7 @@
 			\subsubsection{Résolution de l'équation $e^{z} = a$}
 			\subsubsection{Égalité}
 			
+		
 \chapter{Anneau $\mathbb{K}[X]$ des polynômes à une indéterminée à coefficients dans un corps $\mathbb{K}$}
 	\section{Présentation}
 		\subsection{Définitions}
