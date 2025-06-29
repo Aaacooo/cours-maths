@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  29 JUN 2025 11:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  29 JUN 2025 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -260,6 +260,12 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
 )
+(C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -268,20 +274,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (Algèbre.aux)
 \openout1 = `Algèbre.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -308,37 +314,41 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 25.
+LaTeX Info: Redefining \degres on input line 26.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 25.
+(french.ldf)             reported on input line 26.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 25.
-LaTeX Info: Redefining \up on input line 25.
+(french.ldf)             reported on input line 26.
+LaTeX Info: Redefining \up on input line 26.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 25.
+(french.ldf)                of your document; reported on input line 26.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
 
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 26
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 27
 .
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
+7.
+
+(C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
 
 
@@ -361,7 +371,7 @@ Underfull \vbox (badness 1783) has occurred while \output is active []
 ] [9] [10]
 Chapitre 1.
 
-Overfull \hbox (24.4248pt too wide) in paragraph at lines 61--62
+Overfull \hbox (24.4248pt too wide) in paragraph at lines 62--63
 [][] 
  []
 
@@ -375,7 +385,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 1264) has occurred while \output is active []
 
  [13]
-Overfull \hbox (6.48756pt too wide) in paragraph at lines 180--180
+Overfull \hbox (6.48756pt too wide) in paragraph at lines 181--181
 |\OT1/cmr/bx/n/12 Concernant les pro-pri^^Set^^Ses des puis-sances ou des mul-t
 iples pr^^Sec^^Sedents| 
  []
@@ -384,22 +394,22 @@ iples pr^^Sec^^Sedents|
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-Overfull \hbox (66.40646pt too wide) in paragraph at lines 228--229
+Overfull \hbox (66.40646pt too wide) in paragraph at lines 229--230
 [][] 
  []
 
 
-Overfull \hbox (79.21864pt too wide) in paragraph at lines 236--237
+Overfull \hbox (79.21864pt too wide) in paragraph at lines 237--238
 [][] 
  []
 
 
-Overfull \hbox (34.02794pt too wide) in paragraph at lines 250--251
+Overfull \hbox (34.02794pt too wide) in paragraph at lines 251--252
 [][] 
  []
 
 
-Overfull \hbox (4.92361pt too wide) in paragraph at lines 261--262
+Overfull \hbox (4.92361pt too wide) in paragraph at lines 262--263
 [][] 
  []
 
@@ -427,53 +437,29 @@ Overfull \vbox (209.93344pt too high) has occurred while \output is active []
 
 [20]
 Chapitre 4.
+[21
 
-Underfull \vbox (badness 4859) has occurred while \output is active []
-
- [21
-
-]
-Overfull \hbox (21.03122pt too wide) in paragraph at lines 397--397
+] [22]
+Overfull \hbox (21.03122pt too wide) in paragraph at lines 418--418
 |[]\OT1/cmr/bx/n/14.4 Relations entre forme alg^^Sebrique et tri-go-nom^^Setriq
 ue| 
  []
 
-
+[23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-Overfull \vbox (532.33946pt too high) has occurred while \output is active []
+ [24]
+Overfull \hbox (45.22462pt too wide) has occurred while \output is active
+\OT1/cmr/m/sl/12 4.5.  TRADUCTION COMPLEXE DE TRANSFORMATIONS G[]EOM[]ETRIQUES 
+\OT1/cmr/m/n/12 25
+ []
 
-
-[23] [24
-
-]
+[25] [26]
 Chapitre 5.
 
-Overfull \hbox (33.21956pt too wide) in paragraph at lines 514--514
+Overfull \hbox (33.21956pt too wide) in paragraph at lines 569--569
 |[]\OT1/cmr/bx/n/14.4 Pratique de la d^^Secomposition en fac-teurs irr^^Seducti
 bles
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
-Overfull \vbox (1396.98018pt too high) has occurred while \output is active []
-
-
-Overfull \hbox (239.25484pt too wide) has occurred while \output is active
-\OT1/cmr/m/n/12 26 \OT1/cmr/m/sl/12 CHAPITRE 5.  ANNEAU $\U/msb/m/n/12 K\OT1/cm
-r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
- []A UNE IND[]ETERMIN[]EE []A COEFFICIENTS DANS UN CORPS $\U/msb/m/n/12 K$
- []
-
-[26]
-Chapitre 6.
-
-Overfull \hbox (7.40347pt too wide) in paragraph at lines 535--535
-|[]\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/
-m/it/17.28 F \OT1/cmr/m/n/17.28 =
  []
 
 
@@ -482,32 +468,55 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [27
 
 ]
-Overfull \vbox (365.19656pt too high) has occurred while \output is active []
+Overfull \vbox (1396.98018pt too high) has occurred while \output is active []
 
+
+Overfull \hbox (239.25484pt too wide) has occurred while \output is active
+\OT1/cmr/m/n/12 28 \OT1/cmr/m/sl/12 CHAPITRE 5.  ANNEAU $\U/msb/m/n/12 K\OT1/cm
+r/m/n/12 [\OML/cmm/m/it/12 X\OT1/cmr/m/n/12 ]$ \OT1/cmr/m/sl/12 DES POLYN[]OMES
+ []A UNE IND[]ETERMIN[]EE []A COEFFICIENTS DANS UN CORPS $\U/msb/m/n/12 K$
+ []
 
 [28]
-Chapitre 7.
+Chapitre 6.
+
+Overfull \hbox (7.40347pt too wide) in paragraph at lines 590--590
+|[]\OT1/cmr/bx/n/17.28 D^^Secomposition en ^^Sel^^Sements simples de $\OML/cmm/
+m/it/17.28 F \OT1/cmr/m/n/17.28 =
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29
 
 ]
+Overfull \vbox (365.19656pt too high) has occurred while \output is active []
+
+
+[30]
+Chapitre 7.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
+
+]
 Overfull \vbox (77.88344pt too high) has occurred while \output is active []
 
 
-[30] (Algèbre.aux)
+[32] (Algèbre.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5686 strings out of 474486
- 93404 string characters out of 5743755
+ 5966 strings out of 474486
+ 96969 string characters out of 5743755
  1945542 words of memory out of 5000000
- 27901 multiletter control sequences out of 15000+600000
- 574474 words of font info for 103 fonts, out of 8000000 for 9000
+ 28169 multiletter control sequences out of 15000+600000
+ 576514 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,17n,76p,261b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\mrano\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx
@@ -524,18 +533,20 @@ rano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:
 .pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmr12.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmr17.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr8.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/mrano/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mrano/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mrano/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mrano/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:
-/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/
-msbm10.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/rsf
-s/rsfs10.pfb>
-Output written on Algèbre.pdf (30 pages, 255492 bytes).
+public/amsfonts/cm/cmr6.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/mrano/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mrano/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/mrano/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/
+mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.
+pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/s
+ymbols/msbm10.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/rsfs/rsfs10.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/hoekwater/stmary10.pfb>
+Output written on Algèbre.pdf (32 pages, 281481 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
+ 215 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

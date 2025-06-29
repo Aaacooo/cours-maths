@@ -11,6 +11,7 @@
 \usepackage{titlesec}
 \usepackage{fancybox}
 \usepackage{mathrsfs}
+\usepackage{stmaryrd}
 \title{Cours}
 \author{C. LACOUTURE}
 \date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
@@ -348,7 +349,6 @@
 		\subsection{Définition}
 		\subsection{Propriétés}
 			\subsubsection{Formules}
-<<<<<<< HEAD
 			$\forall z \in \mathbb{C}, \ z+ \bar{z} = 2\mbox{Re}(z), \ z - \bar{z} = 2i\mbox{Im}(z)$
 		
 			\subsubsection{Caractérisation}
@@ -357,9 +357,6 @@
 						z \in i\mathbb{R} &\Leftrightarrow z = -\bar{z}
 					\end{split}
 				\end{equation} 
-=======
-			\subsubsection{Caractérisation}
->>>>>>> 2ba771cc9379dd5ca2e457f07871b3a07d11cc09
 			\subsubsection{Pratique}
 				Quand un nombre complexe est écrit au dénominateur, on le multiplie par son conjugué.
 	\section{Module}
@@ -386,32 +383,84 @@
 			\subsubsection{Produit}
 			$\forall \theta, \theta', \ e^{i\theta} e^{i\theta'} = e^{i(\theta+\theta')}$
 			\subsubsection{Formule de Moivre}
+			$\forall n \in \mathbb{Z}, \theta \in \mathbb{R},\ (\cos(\theta)+i\sin(\theta))^n = \cos(n\theta)+i\sin(n\theta)$
 			\subsubsection{Formules à savoir}
+				$\forall \theta \in \mathbb{R}$ , $\left\{ \begin{array}{ll}
+				\cos(\theta) = \frac{e^{i\theta + e^{-i\theta}}}{2} \\
+				\sin(\theta) = \frac{e^{i\theta}- e^{-i \theta}}{2i}
+			\end{array} \right. $
+			
+			$\forall \theta \in \mathbb{R}$ , $\left\{ \begin{array}{ll}
+				1+e^{i \theta} = 2\cos\left(\frac{\theta}{2}\right) e^{i \frac{\theta}{2} } \\
+				1-e^{i \theta} = -2i\sin\left(\frac{\theta}{2}\right) e^{i \frac{\theta}{2} }
+			\end{array} \right. $
 	\section{Forme trigonométrique}
 		\subsection{Définition}
 			\subsubsection{Résultat préliminaire}
+			$\forall z \in \mathbb{C}^\ast, \exists! \rho > 0, \exists! u \in U \mbox{ tel que } z = \rho u$
 			\subsubsection{Conséquence}
+			$\forall z \in \mathbb{C}^\ast, \exists! \rho >0, \exists! \theta \in \mathbb{R} \setminus 2\pi \mathbb{Z} \mbox{ tel que } z = \rho e^{i\theta}$
 		\subsection{Premiers exemples}
 			\subsubsection{Divers}
+			\begin{equation*}
+				\begin{split}
+					1+i &= \sqrt{2}e^{i\frac{\pi}{4}} \\
+					1-i &= \sqrt{2}e^{-i\frac{\pi}{4}} \\
+					-1+i &= \sqrt{2}e^{i\frac{3\pi}{4}} \\
+					-1-i &= \sqrt{2}e^{-i\frac{5\pi}{4}} \\
+				\end{split}
+			\end{equation*}
 			\subsubsection{Caractérisations}
+			$\left\{\begin{array}{ll}
+				z \in \mathbb{R}^\ast \Leftrightarrow \arg{z} = 0 (\pi)\\
+				z \in i\mathbb{R}^\ast \Leftrightarrow \arg{z} = \frac{\pi}{2} (\pi)
+			\end{array}\right.$
 		\subsection{Relations entre forme algébrique et trigonométrique}
+		Soit $z \in \mathbb{C}^\ast$. $z = x + iy = \rho e^{i\theta}$.
+		
+		Quelles relations a-t-on entre $x,y,\rho,\theta$ ?
 			\subsubsection{Sens direct}
+			$\begin{array}{ll}
+				x = \rho \cos(\theta) \\
+				y = \rho \sin(\theta)
+			\end{array}$
 			\subsubsection{Sens réciproque}
+			\begin{equation*}
+				\rho = \sqrt{x^2 + y^2}
+			\end{equation*}
+			\begin{equation*}
+				\theta = \left\{ \begin{array}{ll}
+					\frac{\pi}{2} &\mbox{ si } x = 0 y > 0\\
+					-\frac{\pi}{2} &\mbox{ si } x = 0, y < 0\\
+					\arctan\left(\frac{y}{x}\right) &\mbox{ si } x > 0\\
+					\pi + \arctan\left(\frac{y}{x}\right) &\mbox{ si } x < 0
+				\end{array}\right.
+			\end{equation*}
 		\subsection{Formules diverses}
+		Soient $z_1,z_2 \in \mathbb{C}^\ast$.
+		\[\operatorname{arg}(z_1 z_2) = \operatorname{arg}(z_1)+\operatorname{arg}(z_2)\]
+		\[\operatorname{arg}\left(\frac{z_1}{z_2}\right) = \operatorname{arg}(z_1)-\operatorname{arg}(z_2)\]
 		\subsection{Interprétation géométrique}
 	\section{Équation $z^{n}=a$ (où $n\in \mathbb{N}^{\ast},a\in \mathbb{C}^{\ast}$)}
 		\subsection{Résolution}
-			\subsubsection{Solutions confondues}
-			\subsubsection{Plus précisément}
-			\subsubsection{Ces $n$ solutions sont bien distinctes}
-			\subsubsection{Conclusion}
-			\subsubsection{Géométriquememnt}
-		\subsection{1\up{er} cas parrticulier : racines n\up{èmes} de l'unité}
-			\subsubsection{Définitionn}
+		$z = \left|a\right|^{\frac{1}{n}} e^{i\left(\frac{\operatorname{arg}(a)}{n} + \frac{2k\pi}{n}\right)}$ où $k \in  \llbracket 0,n-1 \rrbracket$
+		\subsection{1\up{er} cas particulier : racines n\up{èmes} de l'unité}
+			\subsubsection{Définition}
+			Pour $n \in \mathbb{N}$, l'ensemble des racines n\up{èmes} de l'unité est :
+			\[U_n = \left\{z \in \mathbb{C}, \ z^n = 1\right\}\]
 			\subsubsection{Description}
+			\[U_n = \left\{e^{\frac{2ik\pi}{n}},\ k \in \llbracket 0,n-1 \rrbracket \right\}\]
 			\subsubsection{Propriétés}
+			\begin{itemize}
+				\item Somme : la somme des n racines n\up{èmes} de l'unité vaut 0. Ainsi, penser aux racines n\up{èmes} de l'unité quand on a l'expression $1 + x + x^2 + ... + x^{n-1}$.
+				\item Conjugaison : les racines n\up{èmes} de l'unité sont conjuguées deux à deux.
+			\end{itemize}
+			
 			\subsubsection{Interprétation géométrique}
 			\subsubsection{Cas $n=3$}
+			Les 3 racines cubiques de 1 dans $\mathbb{C}$ sont $1,\ j = -\frac{1}{2}+i\frac{\sqrt{3}}{2},\ j^2 = -\frac{1}{2}-i\frac{\sqrt{3}}{2}$
+			
+			Penser donc à $j$ quand on a l'expression $1+x+x^2$.
 		\subsection{Cas particulier des racines carrées d'un complexe}
 			\subsubsection{Énoncé}
 			\subsubsection{Obtention pratique}
@@ -433,11 +482,17 @@
 			\subsubsection{Traduction complexe}
 	\section{Exponentielle complexe}
 		\subsection{Définition}
+		Soit $z = x+iy \in \mathbb{C}.$ L'exponentielle de $z$ est :
+		\[e^{z} = e^{x}e^{iy} = e^{x}(\cos(y)+i\sin(y))\] 
 		\subsection{Propriétés}
 			\subsubsection{Module - argument}
+			L'écriture $e^{x}e^{iy}$ est une forme trigonométrique.
 			\subsubsection{Formule fondamentale}
+			$\forall z,z' \in \mathbb{C}, \ e^{z+z'} = e^{z}e^{z'}$
 			\subsubsection{Résolution de l'équation $e^{z} = a$}
+			$e^{z} = a$ a une infinité de solutions : \[z = \ln(\left|a\right|) + i(\arg(a)+2k\pi), k\in \mathbb{Z} \]
 			\subsubsection{Égalité}
+			\[\forall z,z' \in \mathbb{C}, e^{z} = e^{z'} \Leftrightarrow z-z' \in 2i\pi\mathbb{Z}\]
 			
 		
 \chapter{Anneau $\mathbb{K}[X]$ des polynômes à une indéterminée à coefficients dans un corps $\mathbb{K}$}
