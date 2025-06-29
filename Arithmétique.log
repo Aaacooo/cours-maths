@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  24 JUN 2025 15:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.6.21)  29 JUN 2025 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -232,6 +232,12 @@ Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \backup@length=\skip57
 \ar@cellbox=\box56
 )
+(C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -240,20 +246,20 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 ) (Arithmétique.aux)
 \openout1 = `Arithmétique.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -280,53 +286,57 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \degres on input line 12.
-LaTeX Info: Redefining \up on input line 12.
+LaTeX Info: Redefining \degres on input line 13.
+LaTeX Info: Redefining \up on input line 13.
 
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 12.
+(french.ldf)                of your document; reported on input line 13.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
 (C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 1
+5.
+
+(C:\Users\mrano\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\ustmry.fd)
 [1
 
 
 {C:/Users/mrano/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
 ]
-(Arithmétique.toc)
+(Arithmétique.toc [3])
 \tf@toc=\write4
 \openout4 = `Arithmétique.toc'.
 
- [3] [4
+ [4] [5
 
-] [5] [6]
+] [6]
 Chapitre 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--35
+Underfull \hbox (badness 10000) in paragraph at lines 29--36
 []\OT1/cmr/m/n/12 Soit $\OMS/cmsy/m/n/12 P\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 n\O
 T1/cmr/m/n/12 )$ une pro-pri^^Set^^Se d^^Sependante de $\OML/cmm/m/it/12 n \OMS
 /cmsy/m/n/12 2 \OML/cmm/m/it/12 N$\OT1/cmr/m/n/12 . []
  []
 
 
-Overfull \hbox (1.85735pt too wide) detected at line 51
+Overfull \hbox (1.85735pt too wide) detected at line 52
 []
  []
 
 
-Overfull \hbox (52.87445pt too wide) detected at line 51
+Overfull \hbox (52.87445pt too wide) detected at line 52
 [][]
  []
 
@@ -336,40 +346,40 @@ Overfull \hbox (52.87445pt too wide) detected at line 51
 Chapitre 2.
 [9
 
-] [10
+] [10] [11] [12
 
 ]
 Chapitre 3.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
+ [13]
 Overfull \vbox (783.30008pt too high) has occurred while \output is active []
 
 
-[12]
+[14]
 Chapitre 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13
+ [15
 
 ]
 Overfull \vbox (4.27563pt too high) has occurred while \output is active []
 
 
-[14] (Arithmétique.aux)
+[16] (Arithmétique.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4933 strings out of 474486
- 81082 string characters out of 5743755
- 1936542 words of memory out of 5000000
- 27174 multiletter control sequences out of 15000+600000
- 567790 words of font info for 73 fonts, out of 8000000 for 9000
+ 5206 strings out of 474486
+ 84561 string characters out of 5743755
+ 1938542 words of memory out of 5000000
+ 27436 multiletter control sequences out of 15000+600000
+ 569014 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,16n,65p,350b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -389,10 +399,13 @@ msfonts/cm/cmsl12.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmsy10.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mrano/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb><C:/Users/mrano/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Arithmétique.pdf (14 pages, 178394 bytes).
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users
+/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10
+.pfb><C:/Users/mrano/AppData/Local/Programs/MiKTeX/fonts/type1/public/hoekwater
+/stmary10.pfb>
+Output written on Arithmétique.pdf (16 pages, 202952 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
+ 144 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

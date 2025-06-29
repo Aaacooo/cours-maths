@@ -6,6 +6,7 @@
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{array}
+\usepackage{stmaryrd}
 \title{Cours}
 \author{C. LACOUTURE}
 \date{Année scolaire 2024-2025, MPSI2, Lycée Carnot}
@@ -62,6 +63,7 @@
 	\right.
 	\]
 \end{itemize}
+
 		\subsection{Utilisation la plus fréquente}
 		\subsection{Variantes}
 		\subsection{Originalités}
@@ -72,19 +74,52 @@
 \chapter{Coefficients binomiaux}
 	\section{Définitions}
 		\subsection{Factorielle}
+		\begin{itemize}
+			\item $\forall n \in \mathbb{N}^{\ast}, n! = n\cdot(n-1)\cdot...\cdot2\cdot1 = \prod_{k=1}^{n}k$
+			\item $0! = 1$
+		\end{itemize}
 		\subsection{Coefficient binomial}
 			\subsubsection{Générale}
+			Soient $p,n \in \mathbb{N}$ tel que $p\leqslant n$.
+			
+			$\binom{n}{p}$ (p parmi n) est le nombre de parties à $p$ éléments d'un ensemble à $n$ éléments.
 			\subsubsection{Cas particulier}
+			Si $p,n \in \mathbb{N}$ avec $p>n$, $\binom{n}{p} = 0$
 	\section{Formules du triangle de Pascal}
 		\subsection{Énoncé}
+		Soient $p,n \in \mathbb{N}$ tel que $1 \leqslant p \leqslant n-1$.
+		\[\binom{n}{p} = \binom{n-1}{p} + \binom{n-1}{p-1}\]
 		\subsection{Pratique}
+		Cette formule permet de calculer de proche en proche tous les coefficients binomiaux.
 		\subsection{Expression des coefficients binomiaux}
+		$\forall n \in \mathbb{N}, \forall p \in \llbracket 0,n \rrbracket$
+		\[\binom{n}{p} = \frac{n!}{p!(n-p)!}\]
 	\section{Applications}
 		\subsection{Symétrie des coefficients binomiaux}
+		$\forall n \in \mathbb{N}, \forall p \in \llbracket 0,n \rrbracket$
+		\[\binom{n}{p} = \binom{n}{n-p}\]
 		\subsection{Formule du binôme de Newton}
+		$\forall a,b \in \mathbb{C}, \forall n \in \mathbb{N}$
+		\[(a+b)^n = \sum_{k=0}^{n}\binom{n}{k} a^k b^{n-k}\]
 		\subsection{Linéarisation}
+			But : écrire des puissances de $\cos$ et $\sin$ comme combinaison de termes de la forme $\sin(ax)$, $\cos(bx)$.
+			
+			Principe : \begin{enumerate}
+				\item on utilise les formules d'Euler.
+				\item on développe selon le binôme de Newton.
+				\item on regroupe deux à deux les termes extrêmes.
+				\item on réutilise les formules d'Euler.
+			\end{enumerate}
 		\subsection{Inversement}
+			Comment écrire $\sin(ax)$, $\cos(bx)$ en fonction de puissances de $\cos$, $\sin$ ?
+			
+			Méthode : \begin{enumerate}
+				\item on utilise la formule de Moivre
+				\item on développe selon la formule du binôme.
+			\end{enumerate}
 		\subsection{Nombre de parties d'un ensemble}
+			Soit $E$ un ensemble à $n$ éléments. Alors $E$ a $2^n$ parties car :
+			\[\sum_{k = 0}^{n} \binom{n}{k} = \sum_{k = 0}^{n} \binom{n}{k} 1^{k} 1^{n-k} = (1+1)^{n} = 2^{n}\]
 		
 \chapter{PGCD, PPCM, nombres premiers}
 	\section{PPCM : Plus Petit Commun Multiple}

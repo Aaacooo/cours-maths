@@ -20,74 +20,74 @@
 \contentsline {subsubsection}{Cas particulier}{9}{}%
 \contentsline {section}{\numberline {2.2}Formules du triangle de Pascal}{9}{}%
 \contentsline {subsection}{\numberline {2.2.1}Énoncé}{9}{}%
-\contentsline {subsection}{\numberline {2.2.2}Pratique}{9}{}%
-\contentsline {subsection}{\numberline {2.2.3}Expression des coefficients binomiaux}{9}{}%
-\contentsline {section}{\numberline {2.3}Applications}{9}{}%
-\contentsline {subsection}{\numberline {2.3.1}Symétrie des coefficients binomiaux}{9}{}%
-\contentsline {subsection}{\numberline {2.3.2}Formule du binôme de Newton}{9}{}%
-\contentsline {subsection}{\numberline {2.3.3}Linéarisation}{9}{}%
-\contentsline {subsection}{\numberline {2.3.4}Inversement}{9}{}%
-\contentsline {subsection}{\numberline {2.3.5}Nombre de parties d'un ensemble}{9}{}%
-\contentsline {chapter}{\numberline {3}PGCD, PPCM, nombres premiers}{11}{}%
-\contentsline {section}{\numberline {3.1}PPCM : Plus Petit Commun Multiple}{12}{}%
-\contentsline {subsection}{\numberline {3.1.1}Définition}{12}{}%
-\contentsline {subsection}{\numberline {3.1.2}Propriétés}{12}{}%
-\contentsline {subsection}{\numberline {3.1.3}Cas particulier}{12}{}%
-\contentsline {section}{\numberline {3.2}PGCD : Plus Grand Commun Diviseur}{12}{}%
-\contentsline {subsection}{\numberline {3.2.1}Définition}{12}{}%
-\contentsline {subsection}{\numberline {3.2.2}Propriétés}{12}{}%
-\contentsline {subsection}{\numberline {3.2.3}Cas particulier}{12}{}%
-\contentsline {subsection}{\numberline {3.2.4}Pratique}{12}{}%
-\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
-\contentsline {subsubsection}{Algorithme}{12}{}%
-\contentsline {subsubsection}{Notations}{12}{}%
-\contentsline {subsubsection}{Concrètement}{12}{}%
-\contentsline {subsubsection}{Exemple : pgcd(56,23)}{12}{}%
-\contentsline {subsubsection}{Remarque}{12}{}%
-\contentsline {section}{\numberline {3.3}Nombres premiers entre eux}{12}{}%
-\contentsline {subsection}{\numberline {3.3.1}Définition}{12}{}%
-\contentsline {subsection}{\numberline {3.3.2}Caractérisation : théorème de Bézout}{12}{}%
-\contentsline {subsection}{\numberline {3.3.3}Propriétés}{12}{}%
-\contentsline {section}{\numberline {3.4}Généralisation}{12}{}%
-\contentsline {subsection}{\numberline {3.4.1}pgcd,ppcm de $n$ entiers}{12}{}%
-\contentsline {subsubsection}{ppcm}{12}{}%
-\contentsline {subsubsection}{pgcd}{12}{}%
-\contentsline {subsection}{\numberline {3.4.2}Pratique}{12}{}%
-\contentsline {section}{\numberline {3.5}Nombres premiers}{12}{}%
-\contentsline {subsection}{\numberline {3.5.1}Définition}{12}{}%
-\contentsline {subsection}{\numberline {3.5.2}Premières propriétés}{12}{}%
-\contentsline {subsection}{\numberline {3.5.3}Infinité}{12}{}%
-\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
-\contentsline {subsubsection}{Conséquence}{12}{}%
-\contentsline {subsection}{\numberline {3.5.4}Crible d'Eratosthène}{12}{}%
-\contentsline {subsubsection}{Résultat préliminaire}{12}{}%
-\contentsline {subsubsection}{Principe du crible}{12}{}%
-\contentsline {subsubsection}{Exemple}{12}{}%
-\contentsline {subsection}{\numberline {3.5.5}Décomposition en facteurs premiers}{12}{}%
-\contentsline {subsubsection}{Énoncé}{12}{}%
-\contentsline {subsubsection}{Démonstration}{12}{}%
-\contentsline {section}{\numberline {3.6}Congruences}{12}{}%
-\contentsline {subsection}{\numberline {3.6.1}Définition de la relation}{12}{}%
-\contentsline {subsubsection}{$\equiv (n)$ est une relation d'équivalence}{12}{}%
-\contentsline {subsubsection}{Classes d'équivalence}{12}{}%
-\contentsline {subsection}{\numberline {3.6.2}Opérations sur $\mathbb {Z}/ n\mathbb {Z}$}{12}{}%
-\contentsline {subsubsection}{Addition}{12}{}%
-\contentsline {subsubsection}{Multiplication}{12}{}%
-\contentsline {subsubsection}{Justification de la définition}{12}{}%
-\contentsline {subsection}{\numberline {3.6.3}Structures}{12}{}%
-\contentsline {chapter}{\numberline {4}Dénombrements}{13}{}%
-\contentsline {section}{\numberline {4.1}Cardinal d'un ensemble fini}{14}{}%
-\contentsline {subsection}{\numberline {4.1.1}Définitions}{14}{}%
-\contentsline {subsection}{\numberline {4.1.2}Propriétés}{14}{}%
-\contentsline {subsubsection}{Réunion disjointe}{14}{}%
-\contentsline {subsubsection}{Sous-ensemble}{14}{}%
-\contentsline {subsubsection}{Réunion quelconque}{14}{}%
-\contentsline {subsubsection}{Produit cartésien}{14}{}%
-\contentsline {section}{\numberline {4.2}Applications entre deux ensembles finis}{14}{}%
-\contentsline {subsection}{\numberline {4.2.1}Remarque préliminaire}{14}{}%
-\contentsline {subsection}{\numberline {4.2.2}Dénombrement}{14}{}%
-\contentsline {subsection}{\numberline {4.2.3}Quand $E$ et $F$ sont de même cardinal (fini)}{14}{}%
-\contentsline {section}{\numberline {4.3}Parties d'un ensemble fini}{14}{}%
-\contentsline {subsection}{\numberline {4.3.1}$p$-liste d'éléments distincts}{14}{}%
-\contentsline {subsection}{\numberline {4.3.2}Autre démonstration de card$(\mathcal {P}(E)) = 2^{\mbox {card}(E)}$}{14}{}%
-\contentsline {subsection}{\numberline {4.3.3}Retrouvons que $\begin {pmatrix} n \\ p \end {pmatrix} = \frac {n!}{p!(n-p)!}$}{14}{}%
+\contentsline {subsection}{\numberline {2.2.2}Pratique}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}Expression des coefficients binomiaux}{10}{}%
+\contentsline {section}{\numberline {2.3}Applications}{10}{}%
+\contentsline {subsection}{\numberline {2.3.1}Symétrie des coefficients binomiaux}{10}{}%
+\contentsline {subsection}{\numberline {2.3.2}Formule du binôme de Newton}{10}{}%
+\contentsline {subsection}{\numberline {2.3.3}Linéarisation}{10}{}%
+\contentsline {subsection}{\numberline {2.3.4}Inversement}{10}{}%
+\contentsline {subsection}{\numberline {2.3.5}Nombre de parties d'un ensemble}{11}{}%
+\contentsline {chapter}{\numberline {3}PGCD, PPCM, nombres premiers}{13}{}%
+\contentsline {section}{\numberline {3.1}PPCM : Plus Petit Commun Multiple}{14}{}%
+\contentsline {subsection}{\numberline {3.1.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.1.2}Propriétés}{14}{}%
+\contentsline {subsection}{\numberline {3.1.3}Cas particulier}{14}{}%
+\contentsline {section}{\numberline {3.2}PGCD : Plus Grand Commun Diviseur}{14}{}%
+\contentsline {subsection}{\numberline {3.2.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.2.2}Propriétés}{14}{}%
+\contentsline {subsection}{\numberline {3.2.3}Cas particulier}{14}{}%
+\contentsline {subsection}{\numberline {3.2.4}Pratique}{14}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{14}{}%
+\contentsline {subsubsection}{Algorithme}{14}{}%
+\contentsline {subsubsection}{Notations}{14}{}%
+\contentsline {subsubsection}{Concrètement}{14}{}%
+\contentsline {subsubsection}{Exemple : pgcd(56,23)}{14}{}%
+\contentsline {subsubsection}{Remarque}{14}{}%
+\contentsline {section}{\numberline {3.3}Nombres premiers entre eux}{14}{}%
+\contentsline {subsection}{\numberline {3.3.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.3.2}Caractérisation : théorème de Bézout}{14}{}%
+\contentsline {subsection}{\numberline {3.3.3}Propriétés}{14}{}%
+\contentsline {section}{\numberline {3.4}Généralisation}{14}{}%
+\contentsline {subsection}{\numberline {3.4.1}pgcd,ppcm de $n$ entiers}{14}{}%
+\contentsline {subsubsection}{ppcm}{14}{}%
+\contentsline {subsubsection}{pgcd}{14}{}%
+\contentsline {subsection}{\numberline {3.4.2}Pratique}{14}{}%
+\contentsline {section}{\numberline {3.5}Nombres premiers}{14}{}%
+\contentsline {subsection}{\numberline {3.5.1}Définition}{14}{}%
+\contentsline {subsection}{\numberline {3.5.2}Premières propriétés}{14}{}%
+\contentsline {subsection}{\numberline {3.5.3}Infinité}{14}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{14}{}%
+\contentsline {subsubsection}{Conséquence}{14}{}%
+\contentsline {subsection}{\numberline {3.5.4}Crible d'Eratosthène}{14}{}%
+\contentsline {subsubsection}{Résultat préliminaire}{14}{}%
+\contentsline {subsubsection}{Principe du crible}{14}{}%
+\contentsline {subsubsection}{Exemple}{14}{}%
+\contentsline {subsection}{\numberline {3.5.5}Décomposition en facteurs premiers}{14}{}%
+\contentsline {subsubsection}{Énoncé}{14}{}%
+\contentsline {subsubsection}{Démonstration}{14}{}%
+\contentsline {section}{\numberline {3.6}Congruences}{14}{}%
+\contentsline {subsection}{\numberline {3.6.1}Définition de la relation}{14}{}%
+\contentsline {subsubsection}{$\equiv (n)$ est une relation d'équivalence}{14}{}%
+\contentsline {subsubsection}{Classes d'équivalence}{14}{}%
+\contentsline {subsection}{\numberline {3.6.2}Opérations sur $\mathbb {Z}/ n\mathbb {Z}$}{14}{}%
+\contentsline {subsubsection}{Addition}{14}{}%
+\contentsline {subsubsection}{Multiplication}{14}{}%
+\contentsline {subsubsection}{Justification de la définition}{14}{}%
+\contentsline {subsection}{\numberline {3.6.3}Structures}{14}{}%
+\contentsline {chapter}{\numberline {4}Dénombrements}{15}{}%
+\contentsline {section}{\numberline {4.1}Cardinal d'un ensemble fini}{16}{}%
+\contentsline {subsection}{\numberline {4.1.1}Définitions}{16}{}%
+\contentsline {subsection}{\numberline {4.1.2}Propriétés}{16}{}%
+\contentsline {subsubsection}{Réunion disjointe}{16}{}%
+\contentsline {subsubsection}{Sous-ensemble}{16}{}%
+\contentsline {subsubsection}{Réunion quelconque}{16}{}%
+\contentsline {subsubsection}{Produit cartésien}{16}{}%
+\contentsline {section}{\numberline {4.2}Applications entre deux ensembles finis}{16}{}%
+\contentsline {subsection}{\numberline {4.2.1}Remarque préliminaire}{16}{}%
+\contentsline {subsection}{\numberline {4.2.2}Dénombrement}{16}{}%
+\contentsline {subsection}{\numberline {4.2.3}Quand $E$ et $F$ sont de même cardinal (fini)}{16}{}%
+\contentsline {section}{\numberline {4.3}Parties d'un ensemble fini}{16}{}%
+\contentsline {subsection}{\numberline {4.3.1}$p$-liste d'éléments distincts}{16}{}%
+\contentsline {subsection}{\numberline {4.3.2}Autre démonstration de card$(\mathcal {P}(E)) = 2^{\mbox {card}(E)}$}{16}{}%
+\contentsline {subsection}{\numberline {4.3.3}Retrouvons que $\begin {pmatrix} n \\ p \end {pmatrix} = \frac {n!}{p!(n-p)!}$}{16}{}%
