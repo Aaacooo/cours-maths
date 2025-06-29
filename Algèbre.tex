@@ -280,11 +280,69 @@
 				\Leftrightarrow G_1 \subset G_2 \text{ ou } G_2 \subset G_1
 			}
 	\section{Morphismes de groupes}
-	
 		\subsection{Définition}
-		\subsection{Exemples usuels}
-		\subsection{Propriétés}
+		Soit (G, +) et (G', $\cdot$) 2 groupes, soit f : G $\rightarrow$ G'.
 		
+		\boxed{
+			\text{f est un } \underline{morphisme} \text{ de groupes si et seulement si } \forall x,y \in G  : f(x+y) = f(x) \cdot f(y) 
+		}
+		
+		De plus :
+		
+		\textbf{a)} si G = G' et + = $\cdot$ : f est un endomorphisme
+		
+		\textbf{b)} si f est bijective : f est un isomorphisme
+		
+		\textbf{b)} si G = G' et + = $\cdot$ et f bijective : f est un automorphisme
+		
+		\subsection{Exemples usuels}
+		exp est un isomorphisme de ($\mathbb{R}$, +) vers ($\mathbb{R}^*_+$, +)
+		
+		ln est un isomorphisme de ($\mathbb{R}^*_+$, +) vers ($\mathbb{R}$, +)
+		
+		exp est un morphisme de ($\mathbb{C}$, +) vers ($\mathbb{C}^* $, $\times$) car exp n'est pas injective sur $\mathbb{C}$
+		\subsection{Propriétés}
+		Soit $f : (G, +) \rightarrow (G', \cdot)$ un morphisme
+		
+		\subsubsection{Images du neutre et du symétrique de tout élément}
+		\textbf{a)} \boxed{f(0_G) = 1_{G'}}
+		
+		\textbf{b)} \boxed{\forall x \in G : f(-x) = (f(x))^{-1}}
+		Ainsi on retrouve : $e^{-x} = \frac{1}{e^x}$
+		
+		\subsubsection{Caractérisation de l'injectivité}
+		\textbf{a) notations}
+		
+			\underline{le noyau de f est :} \boxed{Ker(f) = {x \in G \mid f(x) = 1_{G'}}}
+			
+			\underline{l'image de f est :} \boxed{Im(f) = {f(x) \mid x \in G}}
+			
+		\textbf{b) caractérisation}
+		
+			\boxed{\text{f est injectivite} \Leftrightarrow Ker(f) = \{0_G\}}
+		
+		\subsubsection{Image (réciproque) d'un sous-groupe}
+		\textbf{a) image :}
+		
+		\boxed{
+			\text{Soit H un sous-groupe de G pour + alors f(H) est un sous-groupe de G' pour } \cdot
+		} 
+		
+		\textbf{b) image réciproque:}
+		
+		\boxed{
+			\text{Soit H un sous-groupe de G' pour } \cdot \text{alors f(H) est un sous-groupe de G' pour + }
+		} 
+		
+		\underline{c) conséquences :}
+		
+		\boxed{
+			Im(f) = f(G) \text{ est un sous-groupe de G' pour } \cdot
+		}
+		
+		\boxed{
+			Ker(f) = f_{rec}(\{1_{G'}\} ) \text{ est un sous groupe de G pour +}
+		}
 		
 \chapter{Structure d'anneau et de corps}
 	\section{Structure d'anneau}
