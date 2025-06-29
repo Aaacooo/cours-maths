@@ -107,24 +107,39 @@
 		Soit $z = a+ib \in \mathbb{C}$. Son conjugué est : $\bar{z} = a - ib$
 		\subsection{Propriétés}
 			\subsubsection{Formules}
-			$\forall z \in \mathbb{C}, \ z+ \bar{z} = 2\mbox{Re}(z), \ z - \bar{z} = 2i\mbox{Im}(z\begin{\begin{}
-			\end{}})$
+			$\forall z \in \mathbb{C}, \ z+ \bar{z} = 2\mbox{Re}(z), \ z - \bar{z} = 2i\mbox{Im}(z)$
+		
 			\subsubsection{Caractérisation}
-				\begin{equation} \right( \left)
+				\begin{equation} \begin{split}
+						z \in \mathbb{R} &\Leftrightarrow z = \bar{z} \\
+						z \in i\mathbb{R} &\Leftrightarrow z = -\bar{z}
+					\end{split}
 				\end{equation} 
-			
 			\subsubsection{Pratique}
+				Quand un nombre complexe est écrit au dénominateur, on le multiplie par son conjugué.
 	\section{Module}
 		\subsection{Définition}
+			$\forall z \in \mathbb{C}$, le module de z est $\left| z\right| = \sqrt{z \bar{z}}$
 			\subsubsection{Pratique}
+			Pour $z=a+ib$, on a $\left| z\right| = \sqrt{a^2 + b^2}$
 			\subsubsection{Lien avec la valeur absolue}
+			Le module dans $\mathbb{C}$ prolonge la valeur absolue dans $\mathbb{R}$.
 		\subsection{Propriétés}
 			\subsubsection{Diverses}
+			\[\begin{split}
+				\forall z \in \mathbb{C},\left| z\right| \geqslant 0 &\mbox{ et } \left| z\right| = 0 \Leftrightarrow z= 0 \\
+				\left| z \right| &= \left| \bar{z} \right| \\
+				\forall z,z' \in \mathbb{C},\left| zz' \right|& = \left| z \right| \left| z' \right| 
+			\end{split} \]
 			\subsubsection{(Double) inégalité triangulaire}
+			\[\forall z,z' \in \mathbb{C},\ \left|\left|z\right|-\left|z'\right|\right|\leqslant\left|z+z'\right| \leqslant \left|z\right| + \left|z'\right|\]
 		\subsection{Nombres complexes de module 1}
 			\subsubsection{Description}
+			$U = \left\{z \in \mathbb{C}, \ \left|z\right| = 1\right\}$. Les complexes de module 1 s'écrivent $z = \cos(\theta)+i\sin(\theta)$, ce qu'on note : $ e^{i\theta}$ où $\theta \in \mathbb{R} \cdot\setminus 2\pi \mathbb{Z}$
 			\subsubsection{Remarque sur l'écriture $e^{i\theta}$}
+			$\forall \theta, \ e^{-i\theta} = \bar{e^{i\theta}} = \frac{1}{e^{i\theta}} $
 			\subsubsection{Produit}
+			$\forall \theta, \theta', \ e^{i\theta} e^{i\theta'} = e^{i(\theta+\theta')}$
 			\subsubsection{Formule de Moivre}
 			\subsubsection{Formules à savoir}
 	\section{Forme trigonométrique}
